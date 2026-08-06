@@ -11,11 +11,8 @@
 <link rel="icon" href="/assets/images/favicon.jpg" sizes="32x32">
 <link rel="apple-touch-icon" href="/assets/images/favicon-180.jpg">
 
-<link rel="stylesheet" href="/assets/css/main.css">
-<link rel="stylesheet" href="/assets/css/header.css">
-<link rel="stylesheet" href="/assets/css/footer.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-<link rel="stylesheet" href="/assets/css/home.css">
+<link rel="stylesheet" href="/assets/css/site.css">
 
 <?= $seo->renderMeta() ?>
 <?= $seo->organizationJsonLd() ?>
