@@ -158,7 +158,7 @@ $seoConfig = require dirname(__DIR__, 3) . '/config/seo.php';
 </header>
 </div>
 
-<div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+<div class="mobile-nav" id="mobile-nav" aria-hidden="true" inert>
   <button type="button" class="mobile-nav__close" aria-label="Close menu">&times;</button>
   <ul class="mobile-nav__list">
     <li><a href="/">Home</a></li>

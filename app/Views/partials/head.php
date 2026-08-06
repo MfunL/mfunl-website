@@ -12,7 +12,7 @@
 <link rel="apple-touch-icon" href="/assets/images/favicon-180.jpg">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-<link rel="stylesheet" href="/assets/css/site.css">
+<link rel="stylesheet" href="/assets/css/site.css?v=<?= @filemtime(dirname(__DIR__, 3) . '/public/assets/css/site.css') ?: '1' ?>">
 
 <?= $seo->renderMeta() ?>
 <?= $seo->organizationJsonLd() ?>

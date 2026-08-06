@@ -355,11 +355,15 @@ button { font-family: inherit; cursor: pointer; }
 .mega-menu ul { display: flex; flex-direction: column; gap: 8px; }
 .mega-menu .mega-menu__group > a,
 .mega-menu .mega-menu__group > span {
-  font-weight: 700;
-  color: #111;
+  color: #555;
   font-size: .95rem;
   margin-bottom: 5px;
   display: block;
+}
+.mega-menu--wide .mega-menu__group > a,
+.mega-menu--wide .mega-menu__group > span {
+  color: #111;
+  font-weight: 700;
 }
 .mega-menu__group ul { margin-top: 5px; padding-left: 0; }
 .mega-menu__scrollable {

@@ -9,6 +9,7 @@
     backdrop?.classList.remove('is-open');
     toggle?.setAttribute('aria-expanded', 'false');
     nav?.setAttribute('aria-hidden', 'true');
+    nav?.setAttribute('inert', '');
     toggleIcon?.classList.remove('fa-xmark');
     toggleIcon?.classList.add('fa-bars');
   };
@@ -18,6 +19,11 @@
     backdrop?.classList.toggle('is-open', isOpen);
     toggle.setAttribute('aria-expanded', String(Boolean(isOpen)));
     nav?.setAttribute('aria-hidden', String(!isOpen));
+    if (isOpen) {
+      nav?.removeAttribute('inert');
+    } else {
+      nav?.setAttribute('inert', '');
+    }
     toggleIcon?.classList.toggle('fa-bars', !isOpen);
     toggleIcon?.classList.toggle('fa-xmark', isOpen);
   });
