@@ -17,7 +17,7 @@ final class Seo
         private readonly string $title,
         private readonly string $description,
         private readonly string $path,
-        private readonly bool $noindex = false,
+        private readonly bool $noindex = true,
         private readonly ?string $ogImage = null
     ) {
         $this->org = require dirname(__DIR__, 2) . '/config/seo.php';
