@@ -219,7 +219,7 @@ section>.wrap>h2,
 
 .client-marquee__track {
   display: flex;
-  gap: 64px;
+  gap: 30px;
   width: max-content;
   align-items: center;
   animation: marquee 44s linear infinite;
@@ -234,16 +234,16 @@ section>.wrap>h2,
   width: auto;
   max-width: 140px;
   object-fit: contain;
-  filter: grayscale(1);
+  /*filter: grayscale(1);*/
   opacity: .6;
   transition: opacity .18s ease, filter .18s ease;
   flex-shrink: 0;
 }
-
+/*
 .client-marquee__track img:hover {
   opacity: 1;
   filter: grayscale(0);
-}
+}*/
 
 @keyframes marquee {
   from {

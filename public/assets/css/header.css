@@ -28,7 +28,7 @@
 }
 
 .top-bar__btn-dm {
-  background: #0b4e7a;
+  background: linear-gradient(135deg, #03c9fd, #0b4e7a);
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -37,10 +37,17 @@
   text-decoration: none;
   font-size: 0.9rem;
   line-height: normal;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
+  animation: btn-dm-glow 2s ease-in-out infinite;
+}
+
+@keyframes btn-dm-glow {
+  0%, 100% { box-shadow: 0 0 3px 0 rgba(3, 201, 253, .8); }
+  33% { box-shadow: 0 0 3px 1px rgba(3, 201, 253, 1); }
+  66% { box-shadow: 0 0 3px 1px rgba(0, 0, 0, .8); }
 }
 .top-bar__btn-dm:hover {
-  background: #063a5e;
+  background: linear-gradient(135deg, #02b3e0, #063a5e);
 }
 
 .top-bar__btn-book {
