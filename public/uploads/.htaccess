@@ -1,0 +1,4 @@
+# Uploaded CVs must never execute as PHP.
+<FilesMatch "\.(php|php\d|phtml|pl|py|cgi|asp|sh)$">
+    Require all denied
+</FilesMatch>

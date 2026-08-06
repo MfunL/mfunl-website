@@ -1,0 +1,107 @@
+/* ================================================================
+   FOOTER — Live Site Match
+   ================================================================ */
+.site-footer {
+  background: #0d1525;
+  color: #c0cdd8;
+  margin-top: 0;
+}
+
+.site-footer__top {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 56px;
+  padding: 64px 24px 56px;
+}
+
+.site-footer__brand img {
+  margin-bottom: 18px;
+  filter: grayscale(1) brightness(0) invert(1);
+}
+.site-footer__brand p {
+  font-size: .95rem;
+  line-height: 1.7;
+  color: #c0cdd8;
+  max-width: 34ch;
+}
+
+/* ---- Social Links ---- */
+.social-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+.social-link {
+  width: 40px; height: 40px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  background: #1a2436;
+  color: #fff;
+  transition: background .2s ease;
+  text-decoration: none;
+}
+.social-link:hover { 
+  background: #03c9fd;
+  color: #fff;
+}
+
+/* ---- Footer Links ---- */
+.site-footer__links h4 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 12px;
+}
+.site-footer__links h4::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 30px;
+  height: 2px;
+  background: #03c9fd;
+}
+.site-footer__links h4 + h4 { margin-top: 40px; }
+
+.footer-link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+  font-size: .9rem;
+  margin-bottom: 24px;
+  color: #c0cdd8;
+}
+.footer-link-row a {
+  color: #c0cdd8;
+  transition: color .2s ease;
+  line-height: 1.8;
+  text-decoration: none;
+}
+.footer-link-row a:hover { color: #03c9fd; }
+
+/* ---- Footer Bottom ---- */
+.site-footer__bottom {
+  border-top: 1px solid rgba(255,255,255,.05);
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: .9rem;
+  color: #a0b8cc;
+  background: #080d17;
+}
+.site-footer__bottom a { color: #a0b8cc; transition: color .2s ease; text-decoration: none; }
+.site-footer__bottom a:hover { color: #03c9fd; }
+
+@media (max-width: 768px) {
+  .site-footer__top { grid-template-columns: 1fr; gap: 40px; padding: 48px 24px; }
+  .site-footer__brand p { max-width: 100%; }
+}
