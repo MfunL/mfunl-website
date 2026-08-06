@@ -6,23 +6,19 @@ namespace App\Core;
 
 /**
  * Exact-match + {param} route matching against config/routes.php.
- * Handles canonical host/https redirect, forced trailing slash, and 404s.
+ * Handles forced trailing slash and 404s.
  */
 final class Router
 {
     private array $routes;
-    private array $app;
 
     public function __construct(private readonly Request $request)
     {
         $this->routes = require dirname(__DIR__, 2) . '/config/routes.php';
-        $this->app = require dirname(__DIR__, 2) . '/config/app.php';
     }
 
     public function dispatch(): void
     {
-        $this->enforceCanonical();
-
         $path = $this->request->path;
 
         if ($path !== '/' && !str_ends_with($path, '/') && !str_contains(basename($path), '.')) {
@@ -70,23 +66,6 @@ final class Router
         }
 
         return [null, []];
-    }
-
-    private function enforceCanonical(): void
-    {
-        if ($this->app['env'] !== 'production') {
-            return;
-        }
-
-        $host = $_SERVER['HTTP_HOST'] ?? '';
-        $canonicalHost = $this->app['canonical_host'];
-        $wantsHttps = !$this->request->isHttps();
-        $wantsHost = $host !== $canonicalHost && $host !== '';
-
-        if ($wantsHttps || $wantsHost) {
-            $target = 'https://' . $canonicalHost . $_SERVER['REQUEST_URI'];
-            Response::redirect($target, 301);
-        }
     }
 
     private function queryString(): string

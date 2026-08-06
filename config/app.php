@@ -11,6 +11,4 @@ return [
     'url' => rtrim((string) Env::get('APP_URL', 'https://mfunl.com'), '/'),
     'timezone' => Env::get('APP_TIMEZONE', 'Asia/Kolkata'),
     'key' => Env::get('APP_KEY', ''),
-    'force_https' => Env::get('APP_ENV') === 'production',
-    'canonical_host' => 'mfunl.com',
 ];
