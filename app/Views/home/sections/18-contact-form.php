@@ -6,7 +6,7 @@
 
     <div class="contact-form-section__inner">
       <div class="contact-form-section__media">
-        <img src="/assets/images/ceo-image.webp" alt="CEO of MfunL" title="CEO of MfunL" loading="lazy">
+        <img src="/assets/images/ceo-Image.webp" alt="CEO of MfunL" title="CEO of MfunL" loading="lazy">
       </div>
 
       <form action="/contact/submit/" method="post" class="lead-form lead-form--grid contact-form-section__form">
