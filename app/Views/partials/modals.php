@@ -135,7 +135,7 @@ $csrfField = \App\Core\Csrf::field();
   <div class="modal__backdrop" data-close-lightbox></div>
   <div class="lightbox__panel">
     <button type="button" class="modal__close" data-close-lightbox aria-label="Close">&times;</button>
-    <img alt="" id="media-lightbox-image">
+    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt="" id="media-lightbox-image">
   </div>
 </div>
 

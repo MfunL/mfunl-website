@@ -26,9 +26,9 @@
 
     <div class="welcome__visual">
       <div class="welcome__visual-top">
-        <img class="welcome__shape" src="/assets/images/shape.webp" alt="" aria-hidden="true" loading="lazy">
+        <img class="welcome__shape" src="/assets/images/shape.webp" alt="Shape" title="Shape" aria-hidden="true" loading="lazy">
         <span class="welcome__rotation-wrap">
-          <img class="welcome__rotation" src="/assets/images/rotation.webp" alt="Growing healthcare practices with digital strategy" loading="lazy">
+          <img class="welcome__rotation" src="/assets/images/rotation.webp" alt="Growing healthcare practices with digital strategy" title="Growing healthcare practices with digital strategy" loading="lazy">
         </span>
       </div>
       <div class="welcome__team-frame">
