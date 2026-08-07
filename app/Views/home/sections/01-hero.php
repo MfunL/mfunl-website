@@ -13,10 +13,10 @@
       <ul class="hero__badges">
         <li><a href="https://www.google.com/partners/agency?id=7309726992" target="_blank" rel="noopener"><img src="/assets/images/google-partner-A1.jpg" alt="Google Partner" title="Google Partner" width="120" height="60" loading="eager" fetchpriority="high"></a></li>
         <li><a href="https://www.google.com/maps/place/MfunL+%7C+Healthcare+Digital+Marketing/@22.5142533,88.3563339,17z" target="_blank" rel="noopener"><img src="/assets/images/google-rev.jpg" alt="Google Reviews" title="Google Reviews" width="120" height="60" loading="eager"></a></li>
-        <li><button type="button" class="badge-btn" data-open-lightbox="/assets/images/mfunl-Exp.webp" aria-label="View experience certificate"><img src="/assets/images/mfunl-Exp.webp" alt="4+ Years Experience" title="4+ Years Experience" width="120" height="60" loading="eager"></button></li>
+        <li><img src="/assets/images/mfunl-Exp.webp" alt="4+ Years Experience" title="4+ Years Experience" width="120" height="60" loading="eager"></li>
         <li><a href="https://skillshop.credential.net/852519f7-6aaf-474c-83eb-ac2e03734f05" target="_blank" rel="noopener"><img src="/assets/images/Google-ads.jpg" alt="Google Ads Certified" title="Google Ads Certified" width="120" height="60" loading="eager"></a></li>
-        <li><button type="button" class="badge-btn" data-open-lightbox="/assets/images/mfunl-cert.webp" aria-label="View Pharma Outlook certificate"><img src="/assets/images/mfunl-cert.webp" alt="India Pharma Outlook Award" title="India Pharma Outlook Award" width="90" height="90" loading="eager"></button></li>
-        <li><button type="button" class="badge-btn" data-open-lightbox="/assets/images/Ai-logo.png" aria-label="View AI certification"><img src="/assets/images/Ai-logo.png" alt="AI Certified" title="AI Certified" width="90" height="90" loading="eager"></button></li>
+        <li><button type="button" class="badge-btn" data-open-lightbox="/assets/images/pharma-image.webp" aria-label="View Pharma Outlook certificate"><img src="/assets/images/mfunl-cert.webp" alt="India Pharma Outlook Award" title="India Pharma Outlook Award" width="90" height="90" loading="eager"></button></li>
+        <li><button type="button" class="badge-btn" data-open-lightbox="/assets/images/ai-image.webp" aria-label="View AI certification"><img src="/assets/images/Ai-logo.png" alt="AI Certified" title="AI Certified" width="90" height="90" loading="eager"></button></li>
       </ul>
     </div>
 

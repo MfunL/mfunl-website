@@ -18,7 +18,7 @@ $year = date('Y');
     </div>
 
     <div class="site-footer__links">
-      <h4>What We Do</h4>
+      <h3>What We Do</h3>
       <nav class="footer-link-row" aria-label="What We Do">
         <a href="/healthcare-website-design/">Healthcare Website Design</a>
         <a href="/patient-conversion-management/">Patient Conversion Management</a>
@@ -30,7 +30,7 @@ $year = date('Y');
         <a href="/healthcare-meta-ads/">Healthcare Meta Ads</a>
       </nav>
 
-      <h4>Who We Serve</h4>
+      <h3>Who We Serve</h3>
       <nav class="footer-link-row" aria-label="Who We Serve">
         <a href="/digital-marketing-for-general-hospitals/">General Hospital</a>
         <a href="/digital-marketing-for-multispecialty-hospitals/">Multispecialty Hospital</a>
