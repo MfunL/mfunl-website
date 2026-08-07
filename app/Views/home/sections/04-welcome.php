@@ -21,7 +21,7 @@
     </div>
 
     <div class="welcome__portrait">
-      <img src="/assets/images/Kuntal-Sir-CEO-of-MfunL-img.webp" alt="Kuntal Chatterjee, CEO of MfunL" title="Kuntal Chatterjee, CEO of MfunL" loading="lazy">
+      <img src="/assets/images/Kuntal-Sir-CEO-of-MfunL-img.webp" alt="Kuntal Chatterjee, CEO of MfunL" title="Kuntal Chatterjee, CEO of MfunL" width="330" height="475" loading="lazy">
     </div>
 
     <div class="welcome__visual">

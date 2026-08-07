@@ -106,7 +106,7 @@ $seoConfig = require dirname(__DIR__, 3) . '/config/seo.php';
                 <a href="/digital-marketing-for-diagnostic-centres/">Diagnostic Center</a>
                 <div class="mega-menu__feature-image">
                   <!-- TODO: replace with a real image -->
-                  <img src="/assets/images/nav-image.webp" width="100%" alt="Digital marketing for diagnostic centres" title="Digital marketing for diagnostic centres">
+                  <img src="/assets/images/nav-image.webp" width="600" height="400" alt="Digital marketing for diagnostic centres" title="Digital marketing for diagnostic centres">
                 </div>
               </li>
             </ul>

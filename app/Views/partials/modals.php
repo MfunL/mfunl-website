@@ -118,7 +118,7 @@ $csrfField = \App\Core\Csrf::field();
   <div class="modal__backdrop" data-close-modal></div>
   <div class="modal__panel">
     <button type="button" class="modal__close" data-close-modal aria-label="Close">&times;</button>
-    <img src="/assets/images/Kuntal-Sir-CEO-of-MfunL-img.webp" alt="Kuntal Chatterjee, CEO of MfunL" title="Kuntal Chatterjee, CEO of MfunL" width="120" height="120" loading="lazy">
+    <img src="/assets/images/Kuntal-Sir-CEO-of-MfunL-img.webp" alt="Kuntal Chatterjee, CEO of MfunL" title="Kuntal Chatterjee, CEO of MfunL" width="330" height="475" loading="lazy">
     <h3 id="exit-modal-title">This is your first step to increasing your OPD</h3>
     <form action="/contact/submit/" method="post" class="lead-form">
       <?= $csrfField ?>
