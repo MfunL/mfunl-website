@@ -858,6 +858,13 @@ section>.wrap>h2,
   border: 1px solid rgba(3, 201, 253, .25);
 }
 
+@media(max-width: 768px) {
+  .eyebrow {
+  display: block;
+  text-align: center;
+  }
+}
+
 .eyebrow__num {
   font-size: 1.1em;
   font-weight: 800;
@@ -873,6 +880,7 @@ section>.wrap>h2,
 @media(max-width: 640px) {
   .hero h1 {
     font-size: 36px;
+    text-align: center;
   }
 }
 
@@ -882,6 +890,7 @@ section>.wrap>h2,
 
 .hero__sub {
   font-size: 1.08rem;
+  text-align: center;
   color: var(--color-text-muted);
   max-width: 48ch;
   line-height: 1.65;
@@ -1742,6 +1751,11 @@ section>.wrap>h2,
   position: relative;
 }
 
+@media(max-width:768px) {
+  .audit-band .section-heading {
+    width: 100%;
+  }
+}
 
 
 .audit-band .section-heading .accent {
@@ -1880,13 +1894,6 @@ section>.wrap>h2,
   .audit-band h2 {
 
     font-size: 32px;
-
-  }
-
-
-  .audit-band p {
-
-    font-size: 20px;
 
   }
 
