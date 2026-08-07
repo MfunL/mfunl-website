@@ -975,7 +975,7 @@ section>.wrap>h2,
   width: auto;
   max-width: 140px;
   object-fit: contain;
-  /*filter: grayscale(1);*/
+  /*filter: grayscale(1); */
   opacity: .6;
   transition: opacity .18s ease, filter .18s ease;
   flex-shrink: 0;
@@ -3758,7 +3758,7 @@ section>.wrap>h2,
   }
 
   .hero {
-    padding: 48px 0 64px;
+    padding: 48px 0 0px;
   }
 
   .comparison__col {
