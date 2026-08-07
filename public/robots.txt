@@ -1,5 +1,2 @@
 User-agent: *
-Disallow: /admin/
-Allow: /
-
-Sitemap: https://mfunl.com/sitemap.xml
+Disallow: /

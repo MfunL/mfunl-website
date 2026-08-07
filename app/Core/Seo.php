@@ -49,7 +49,6 @@ final class Seo
         return <<<HTML
         <title>{$title}</title>
         <meta name="description" content="{$description}">
-        <link rel="canonical" href="{$canonical}">
         <meta name="robots" content="{$this->robots()}">
         <meta property="og:type" content="website">
         <meta property="og:title" content="{$title}">
