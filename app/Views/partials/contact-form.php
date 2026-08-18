@@ -1,4 +1,7 @@
-<?php $csrfField = \App\Core\Csrf::field(); ?>
+<?php
+$csrfField = \App\Core\Csrf::field();
+$currentPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
+?>
 <section class="contact-form-section" id="contact">
   <div class="wrap">
     <h2 class="section-eyebrow">Get In Touch</h2>
@@ -13,7 +16,7 @@
         <?= $csrfField ?>
         <input type="text" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
         <input type="hidden" name="form_type" value="contact">
-        <input type="hidden" name="page_url" value="/">
+        <input type="hidden" name="page_url" value="<?= htmlspecialchars($currentPath, ENT_QUOTES, 'UTF-8') ?>">
 
         <label><span class="field-label">Name of Organization<span class="required-mark">*</span></span>
           <input type="text" name="organisation" required>

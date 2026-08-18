@@ -16,6 +16,7 @@
 <?= $content ?>
 </main>
 
+<?= \App\Core\View::partial('contact-form') ?>
 <?= \App\Core\View::partial('footer') ?>
 <?= \App\Core\View::partial('floating-buttons') ?>
 <?= \App\Core\View::partial('modals') ?>

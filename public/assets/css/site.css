@@ -3866,6 +3866,12 @@ section>.wrap>h2,
   font-weight: 800;
 }
 
+@media(max-width: 768px){
+  .h-2{
+    font-size: 30px;
+  }
+}
+
 .h-3{
   font-size: 20px;
   font-weight: 700;
@@ -3884,6 +3890,8 @@ section>.wrap>h2,
   text-align: center;
 }
 
+/*we serve*/
+
 .we-serve {
   display: grid;
   padding-top: 20px;
@@ -3894,7 +3902,7 @@ section>.wrap>h2,
 }
 
 .we-serve .serve-card {
-  background: #ffffff;
+  background: #f3f6fb;
   border: 1px solid #e2e2e2;
   border-radius: 14px;
   padding: 28px 20px;
@@ -3920,8 +3928,8 @@ section>.wrap>h2,
 }
 
 .we-serve .serve-icon svg {
-  width: 28px;
-  height: 28px;
+  width: 40px;
+  height: 40px;
   stroke: currentColor;
 }
 
@@ -3954,3 +3962,511 @@ section>.wrap>h2,
   }
 }
 
+/*End*/
+
+/*Mission vision*/
+.our-mission {
+  display: flex;
+  width: 100%;
+}
+
+.our-mission .mission-box,
+.our-mission .vision-box {
+  flex: 1;
+  padding: 32px 30px;
+}
+
+.our-mission .mission-box {
+  background: #008dd3;
+  color: #ffffff;
+}
+
+.our-mission .vision-box {
+  background: #fed403;
+  color: #111111;
+}
+
+.our-mission h3 {
+  margin: 0 0 8px;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.our-mission h4 {
+  margin: 0 0 18px;
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.our-mission p {
+  margin: 0 0 16px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.our-mission p:last-child {
+  margin-bottom: 0;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .our-mission {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .our-mission .mission-box,
+  .our-mission .vision-box {
+    padding: 24px 20px;
+  }
+
+  .our-mission h3 {
+    font-size: 22px;
+  }
+
+  .our-mission h4 {
+    font-size: 18px;
+  }
+}
+/*End*/
+
+.section-width p:last-child {
+  margin-bottom: 0;
+}
+
+/*info stat*/
+.member-stat {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+  align-items: start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.member-stat .stat-col {
+  min-width: 0;
+}
+
+.member-stat .stat-title {
+  margin: 0 0 55px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.3;
+  font-weight: 500;
+  color: #111;
+}
+
+
+/* =========================
+   Gender Ratio
+========================= */
+
+.member-stat .gender-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.member-stat .gender-circle {
+  width: 138px;
+  height: 138px;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.member-stat .gender-circle.female {
+  color: #ffc400;
+}
+
+.member-stat .gender-circle.male {
+  color: #0097d7;
+}
+
+.member-stat .gender-icon {
+  width: 82px;
+  height: 100px;
+  fill: currentColor;
+}
+
+.member-stat .gender-label {
+  position: absolute;
+  left: 50%;
+  bottom: 22px;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #111;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.member-stat .gender-label strong {
+  display: block;
+  font-size: 14px;
+}
+
+
+/* =========================
+   Common Chart Layout
+========================= */
+
+.member-stat .chart-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 38px;
+}
+
+.member-stat .stat-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.member-stat .legend-item {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font-size: 15px;
+  line-height: 1.35;
+  font-weight: 500;
+  color: #111;
+  white-space: nowrap;
+}
+
+.member-stat .legend-dot {
+  width: 12px;
+  height: 12px;
+  flex: 0 0 12px;
+  border-radius: 50%;
+}
+
+.member-stat .legend-dot.blue {
+  background: #3869cf;
+}
+
+.member-stat .legend-dot.orange {
+  background: #ff9300;
+}
+
+.member-stat .legend-dot.purple {
+  background: #b428a1;
+}
+
+
+/* =========================
+   Age Bracket Ratio
+========================= */
+
+.member-stat .age-pie-chart {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  flex: 0 0 140px;
+  border-radius: 50%;
+
+  background: conic-gradient(
+    from 90deg,
+    #b428a1 0% 11.54%,
+    #ff9300 11.54% 31.73%,
+    #3869cf 31.73% 100%
+  );
+}
+
+.member-stat .pie-center {
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #fff;
+  transform: translate(-50%, -50%);
+}
+
+.member-stat .age-value {
+  position: absolute;
+  z-index: 4;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.member-stat .age-value-blue {
+  top: 31px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.member-stat .age-value-orange {
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.member-stat .age-value-purple {
+  top: 81px;
+  right: 13px;
+}
+
+
+/* =========================
+   Education Ratio
+========================= */
+
+.member-stat .education-pie-chart {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  flex: 0 0 140px;
+  border-radius: 50%;
+
+  background: conic-gradient(
+    #ff9300 0deg 90deg,
+    #3869cf 90deg 360deg
+  );
+}
+
+.member-stat .education-value {
+  position: absolute;
+  z-index: 4;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.member-stat .edu-value-blue {
+  bottom: 21px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.member-stat .edu-value-orange {
+  top: 31px;
+  right: 26px;
+}
+
+
+/* =========================
+   Tablet
+========================= */
+
+@media (max-width: 991px) {
+  .member-stat {
+    grid-template-columns: 1fr;
+    gap: 55px;
+  }
+
+  .member-stat .stat-title {
+    margin-bottom: 30px;
+  }
+}
+
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width: 575px) {
+  .member-stat {
+    gap: 45px;
+  }
+
+  .member-stat .stat-title {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  .member-stat .gender-wrap {
+    gap: 10px;
+  }
+
+  .member-stat .gender-circle {
+    width: 125px;
+    height: 125px;
+  }
+
+  .member-stat .gender-icon {
+    width: 72px;
+    height: 90px;
+  }
+
+  .member-stat .chart-layout {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .member-stat .stat-legend {
+    width: max-content;
+    max-width: 100%;
+  }
+
+  .member-stat .legend-item {
+    white-space: normal;
+  }
+}
+/*End*/
+
+/*Meet our heads*/
+.force{
+  background: #f3f6fb;
+  margin-top: 40px;
+  padding: 40px 0;
+}
+.directors {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* Card */
+.directors .director-card {
+  position: relative;
+  overflow: hidden;
+  background: #000;
+  border-radius: 12px;
+}
+
+/* Image area */
+.directors .director-image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 4.7;
+  overflow: hidden;
+  background: #000;
+}
+
+/* Both images */
+.directors .director-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition:
+    opacity 0.45s ease,
+    transform 0.6s ease;
+}
+
+/* Default image */
+.directors .default-img {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* Hover image */
+.directors .hover-img {
+  opacity: 0;
+  z-index: 2;
+  transform: scale(1.04);
+}
+
+/* Hover effect */
+.directors .director-card:hover .default-img {
+  opacity: 0;
+  transform: scale(1.03);
+}
+
+.directors .director-card:hover .hover-img {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Name + role, pinned over the bottom of the photo */
+.directors .director-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  padding: 40px 15px 18px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .75) 55%, rgba(0, 0, 0, .92) 100%);
+  text-align: center;
+}
+
+.directors .director-caption h3 {
+  margin: 0 0 2px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.directors .director-caption p {
+  margin: 0;
+  color: rgba(255, 255, 255, .8);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .directors {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 575px) {
+  .directors {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .directors .director-caption h3 {
+    font-size: 20px;
+  }
+}
+/*End*/
+
+.mt{
+  margin-top: 40px;
+}
+
+/*Our Value*/
+.value-row{
+  display:flex;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.value-row .value-col{
+  width: 50%;
+}
+
+@media(max-width: 767px){
+  .value-row{
+    flex-direction: column;
+  }
+  .value-row .value-col{
+    width: 100%;
+  }
+  .value-row .value-col:first-child{
+    text-align: center;
+  }
+}
+
+.value-row img{
+  border-radius: 20px;
+}
+/*End*/
