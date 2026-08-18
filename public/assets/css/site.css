@@ -104,7 +104,7 @@ button { font-family: inherit; cursor: pointer; }
 
 /* ---- Breadcrumbs ---- */
 .breadcrumbs { padding: 16px 0; font-size: .9rem; color: var(--color-text-muted); }
-.breadcrumbs ol { display: flex; gap: 6px; flex-wrap: wrap; }
+.breadcrumbs ol { display: flex; gap: 6px; flex-wrap: wrap; margin: 0; padding: 0; list-style: none; }
 .breadcrumbs li:not(:last-child)::after { content: '/'; margin-left: 6px; }
 
 /* ---- CTA band ---- */
@@ -197,6 +197,48 @@ button { font-family: inherit; cursor: pointer; }
 
 .placeholder-page, .error-page { padding: 96px 0; text-align: center; }
 .error-page h1 { font-size: 2.2rem; }
+
+/* ================================================================
+   PAGE HERO — reusable image banner for inner pages (About, Services,
+   etc.). Each page just swaps .page-hero__bg's src.
+   ================================================================ */
+.page-hero {
+  position: relative;
+  padding: 200px 0 72px;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+.page-hero__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -2;
+}
+
+.page-hero__overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  /*background: linear-gradient(180deg, rgba(3, 15, 30, .8) 0%, rgba(3, 25, 46, .58) 45%, rgba(3, 15, 30, .85) 100%);*/
+}
+
+.page-hero__inner { display: flex; flex-direction: column; align-items: center; }
+
+.page-hero h1 { font-size: 56px; color: #fff; margin-bottom: 8px; letter-spacing: -.02em; }
+
+.page-hero .breadcrumbs { color: rgba(255, 255, 255, .75); margin: 0; padding: 0; }
+.page-hero .breadcrumbs a { color: #fff; }
+.page-hero .breadcrumbs a:hover { color: var(--color-accent); }
+
+@media (max-width: 640px) {
+  .page-hero { padding: 130px 0 56px; }
+  .page-hero h1 { font-size: 34px; }
+}
 
 @media (max-width: 768px) {
   .cta-band__inner { flex-direction: column; text-align: center; }
@@ -3817,3 +3859,98 @@ section>.wrap>h2,
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+.h-2{
+  font-size: 36px;
+  color: var(--color-accent-dark);
+  font-weight: 800;
+}
+
+.h-3{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.section-gap{
+  padding-top: 40px;
+}
+
+.section-width{
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.we-serve {
+  display: grid;
+  padding-top: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.we-serve .serve-card {
+  background: #ffffff;
+  border: 1px solid #e2e2e2;
+  border-radius: 14px;
+  padding: 28px 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.we-serve .serve-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.we-serve .serve-icon {
+  width: 58px;
+  height: 58px;
+  margin: 0 auto 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #f2f6f5;
+  color: #2e7d63;
+}
+
+.we-serve .serve-icon svg {
+  width: 28px;
+  height: 28px;
+  stroke: currentColor;
+}
+
+.we-serve h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #16302e;
+}
+
+
+/* Tablet */
+@media (max-width: 991px) {
+  .we-serve {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+/* Mobile */
+@media (max-width: 575px) {
+  .we-serve {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  .we-serve .serve-card {
+    padding: 22px 18px;
+  }
+}
+
