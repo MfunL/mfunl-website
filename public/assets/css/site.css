@@ -3518,7 +3518,7 @@ section>.wrap>h2,
 
 .faq__accordion {
   max-width: 820px;
-  margin: 40px auto;
+  margin: 40px 0;
 }
 
 .faq-item {
@@ -4778,3 +4778,204 @@ section>.wrap>h2,
   }
 }
 /*End*/
+
+/* ================================================================
+   CONTENT TABS — sticky left nav + switchable right panels.
+   Used on Medical Content Creation; generic enough to reuse on other
+   service pages later.
+   ================================================================ */
+.content-tabs__inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.content-tabs__nav {
+  position: sticky;
+  top: calc(var(--header-height) + 24px);
+  flex: 0 0 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.content-tabs__nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content-tabs__nav-item {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.02rem;
+  text-align: left;
+  color: var(--color-text);
+  transition: background-color .2s ease, color .2s ease, border-color .2s ease, transform .2s ease;
+}
+
+.content-tabs__nav-item:hover {
+  border-color: rgba(3, 201, 253, .4);
+  transform: translateX(4px);
+}
+
+.content-tabs__nav-item.is-active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-dark);
+  transform: translateX(4px);
+}
+
+.content-tabs__panels {
+  flex: 1;
+  min-width: 0;
+}
+
+.content-tabs__panel h2 {
+  scroll-margin-top: calc(var(--header-height) + 150px);
+}
+
+.content-tabs__list {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.content-tabs__list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+.content-tabs__list li i {
+  color: var(--color-accent-dark);
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+.content-tabs__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin: 28px 0;
+}
+
+.content-tabs__grid-item img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  margin-bottom: 12px;
+}
+
+.content-tabs__grid-item p {
+  margin: 0;
+  font-size: .95rem;
+  color: var(--color-text-muted);
+  line-height: 1.55;
+}
+
+@media (max-width: 900px) {
+  .content-tabs__inner {
+    flex-direction: column;
+  }
+
+  .content-tabs__nav {
+    position: static;
+    width: 100%;
+  }
+
+  .content-tabs__nav-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .content-tabs__nav-item {
+    flex: 1 1 auto;
+  }
+
+  .content-tabs__nav-item:hover,
+  .content-tabs__nav-item.is-active {
+    transform: none;
+  }
+
+  .content-tabs__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .content-tabs__grid {
+    grid-template-columns: 1fr;
+  }
+}
+/*End*/
+
+/* ================================================================
+   SIDE CONTACT — global, reusable dark contact card (address, phones,
+   email). Drop into any sticky sidebar via partial('side-contact').
+   ================================================================ */
+.side-contact {
+  background: var(--color-dark);
+  color: #fff;
+  border-radius: var(--radius-md);
+  padding: 24px 22px;
+}
+
+.side-contact h3 {
+  margin: 0 0 16px;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.side-contact p {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 0 0 14px;
+  font-size: .92rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, .82);
+}
+
+.side-contact p:last-child {
+  margin-bottom: 0;
+}
+
+.side-contact p a {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: rgba(255, 255, 255, .92);
+  transition: color .15s ease;
+}
+
+.side-contact p a:hover {
+  color: var(--color-accent);
+}
+
+.side-contact i {
+  color: var(--color-accent);
+  margin-top: 3px;
+  flex-shrink: 0;
+  width: 16px;
+  text-align: center;
+}
+/*End*/
+
+.content-tabs__panel-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  margin-top: 28px;
+}
