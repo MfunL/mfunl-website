@@ -204,7 +204,7 @@ button { font-family: inherit; cursor: pointer; }
    ================================================================ */
 .page-hero {
   position: relative;
-  padding: 200px 0 72px;
+  padding: 125px 0;
   text-align: center;
   color: #fff;
   overflow: hidden;
@@ -224,12 +224,21 @@ button { font-family: inherit; cursor: pointer; }
   position: absolute;
   inset: 0;
   z-index: -1;
-  /*background: linear-gradient(180deg, rgba(3, 15, 30, .8) 0%, rgba(3, 25, 46, .58) 45%, rgba(3, 15, 30, .85) 100%);*/
+}
+
+/* Bright/untinted source photos — each needs its own dark scrim for
+   the white heading text. Other page-heroes' images already carry a
+   built-in tint, so this stays local to the pages that need it. */
+.page-what-we-do .page-hero__overlay,
+.page-service-build-your-brand .page-hero__overlay {
+  background: linear-gradient(180deg, rgba(3, 15, 30, .8) 0%, rgba(3, 25, 46, .58) 45%, rgba(3, 15, 30, .85) 100%);
 }
 
 .page-hero__inner { display: flex; flex-direction: column; align-items: center; }
 
 .page-hero h1 { font-size: 56px; color: #fff; margin-bottom: 8px; letter-spacing: -.02em; }
+
+.page-hero__sub { max-width: 60ch; margin: 0 0 18px; font-size: 1.1rem; line-height: 1.6; color: rgba(255, 255, 255, .85); }
 
 .page-hero .breadcrumbs { color: rgba(255, 255, 255, .75); margin: 0; padding: 0; }
 .page-hero .breadcrumbs a { color: #fff; }
@@ -238,6 +247,7 @@ button { font-family: inherit; cursor: pointer; }
 @media (max-width: 640px) {
   .page-hero { padding: 130px 0 56px; }
   .page-hero h1 { font-size: 34px; }
+  .page-hero__sub { font-size: 1rem; }
 }
 
 @media (max-width: 768px) {
@@ -3887,9 +3897,17 @@ section>.wrap>h2,
   padding-top: 40px;
 }
 
+.section-gap-both{
+  padding: 40px 0;
+}
+
 .section-width{
   max-width: 95%;
   margin: 0 auto;
+}
+
+.b-rad{
+  border-radius: 20px;
 }
 
 .text-center{
@@ -4584,6 +4602,179 @@ section>.wrap>h2,
 
   .team-work {
     padding: 25px;
+  }
+}
+/*End*/
+
+/* ================================================================
+   WHAT WE DO — service card row. Flexbox (not grid) so an incomplete
+   last row centers itself instead of stretching or hugging the left.
+   ================================================================ */
+.what-we-do-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.what-we-do-card {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 calc(33.333% - 22px);
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform .35s ease, box-shadow .35s ease, border-color .35s ease;
+}
+
+.what-we-do-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(3, 201, 253, .35);
+}
+
+.what-we-do-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  transition: transform .6s ease;
+}
+
+.what-we-do-card:hover img {
+  transform: scale(1.07);
+}
+
+.what-we-do-card p {
+  position: relative;
+  margin: 0;
+  padding: 22px 20px 26px;
+  text-align: center;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--color-text);
+}
+
+.what-we-do-card p::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  width: 32px;
+  height: 3px;
+  border-radius: 999px;
+  background: var(--color-accent);
+  transform: translateX(-50%) scaleX(.6);
+  transition: transform .35s ease;
+}
+
+.what-we-do-card:hover p::after {
+  transform: translateX(-50%) scaleX(1);
+}
+
+@media (max-width: 900px) {
+  .what-we-do-card {
+    flex: 0 1 calc(50% - 16px);
+  }
+}
+
+@media (max-width: 560px) {
+  .what-we-do-row {
+    gap: 24px;
+  }
+
+  .what-we-do-card {
+    flex: 0 1 100%;
+  }
+}
+/*End*/
+
+/* ================================================================
+   BUILD YOUR BRAND — related-service row. Same card treatment as
+   .what-we-do-row/.what-we-do-card, just scoped to this page.
+   ================================================================ */
+.build-your-brand-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.build-your-brand-card {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 calc(33.333% - 22px);
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform .35s ease, box-shadow .35s ease, border-color .35s ease;
+}
+
+.build-your-brand-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(3, 201, 253, .35);
+}
+
+.build-your-brand-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  transition: transform .6s ease;
+}
+
+.build-your-brand-card:hover img {
+  transform: scale(1.07);
+}
+
+.build-your-brand-card p {
+  position: relative;
+  margin: 0;
+  padding: 22px 20px 26px;
+  text-align: center;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--color-text);
+}
+
+.build-your-brand-card p::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  width: 32px;
+  height: 3px;
+  border-radius: 999px;
+  background: var(--color-accent);
+  transform: translateX(-50%) scaleX(.6);
+  transition: transform .35s ease;
+}
+
+.build-your-brand-card:hover p::after {
+  transform: translateX(-50%) scaleX(1);
+}
+
+@media (max-width: 900px) {
+  .build-your-brand-card {
+    flex: 0 1 calc(50% - 16px);
+  }
+}
+
+@media (max-width: 560px) {
+  .build-your-brand-row {
+    gap: 24px;
+  }
+
+  .build-your-brand-card {
+    flex: 0 1 100%;
   }
 }
 /*End*/

@@ -484,7 +484,9 @@
       </div>
     </div>
 
-    <div class="team-work">
+    <img src="/assets/images/team-collage.webp" class="b-rad" alt="Our Team" title="Our Team" width="100%" height="auto" loading="lazy">
+
+    <div class="team-work mt">
       <h3 class="h-3">Below are the key aspects of our work culture that have brought success to us:</h3>
 
       <div class="team-points">
