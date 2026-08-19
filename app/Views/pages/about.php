@@ -354,7 +354,7 @@
     </div>
 
     <div class="director-caption">
-      <h3>Anurag Chirimar</h3>
+      <h4>Anurag Chirimar</h4>
       <p>Director</p>
     </div>
   </div>
@@ -380,7 +380,7 @@
     </div>
 
     <div class="director-caption">
-      <h3>Subrata Roy</h3>
+      <h4>Subrata Roy</h4>
       <p>Director</p>
     </div>
   </div>
@@ -405,7 +405,7 @@
     </div>
 
     <div class="director-caption">
-      <h3>Kuntal Chatterjee</h3>
+      <h4>Kuntal Chatterjee</h4>
       <p>CEO</p>
     </div>
   </div>
@@ -442,5 +442,106 @@
     </div>
 </section>
 
+<section class="section-width team mt">
+    <h2 class="h-2 text-center">As a team</h2>
+    <h3 class="h-3 text-center">We are a focused team of specialists working together to help healthcare brands grow and succeed:</h3>
+  <div class="team-container">
 
+    <div class="team-grid">
+      <div class="team-card">
+        <i class="fa-solid fa-chart-line"></i>
+        <h4>Seo Strategists</h4>
+      </div>
 
+      <div class="team-card">
+        <i class="fa-solid fa-bullseye"></i>
+        <h4>Performance Marketers</h4>
+      </div>
+
+      <div class="team-card">
+        <i class="fa-solid fa-code"></i>
+        <h4>Website Designers and Developers</h4>
+      </div>
+
+      <div class="team-card">
+        <i class="fa-solid fa-pen-nib"></i>
+        <h4>Content Writers</h4>
+      </div>
+
+      <div class="team-card">
+        <i class="fa-solid fa-film"></i>
+        <h4>Motion Graphic Designers</h4>
+      </div>
+
+      <div class="team-card">
+        <i class="fa-solid fa-users"></i>
+        <h4>Social Media Experts</h4>
+      </div>
+
+      <div class="team-card">
+        <i class="fa-solid fa-handshake"></i>
+        <h4>Sales & Marketing Experts</h4>
+      </div>
+    </div>
+
+    <div class="team-work">
+      <h3 class="h-3">Below are the key aspects of our work culture that have brought success to us:</h3>
+
+      <div class="team-points">
+
+        <div class="team-point">
+          <i class="fa-solid fa-gears"></i>
+          <p>Our team operates in a streamlined manner to produce the best results.</p>
+        </div>
+
+        <div class="team-point">
+          <i class="fa-solid fa-lightbulb"></i>
+          <p>We believe in constant innovation, strategic planning, careful preparation, effective execution, and delivering results.</p>
+        </div>
+
+        <div class="team-point">
+          <i class="fa-solid fa-arrow-trend-up"></i>
+          <p>We stay up-to-date with the latest healthcare marketing trends.</p>
+        </div>
+
+        <div class="team-point">
+          <i class="fa-solid fa-user-check"></i>
+          <p>Our digital marketing team is capable of meeting the expectations of clients in the most effective ways.</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<?php
+$aboutFaqs = [
+    ['question' => 'What services does MfunL offer?', 'answer' => 'MfunL offers a full range of digital marketing services for the healthcare industry. This includes SEO (search engine optimisation), Google Ads (PPC), content marketing, social media management, lead generation, website design, and training on converting online leads into patients.'],
+    ['question' => 'How is MfunL different from other digital marketing agencies?', 'answer' => 'MfunL does not stop at just giving you leads. We follow up with you and your team and train you on how to convert those leads. We believe that your growth is our success, so we focus on building long-term relationships and always support you, even after delivering results.'],
+    ['question' => 'Who are our clients?', 'answer' => 'We primarily work with clinics, hospitals, medical startups and other healthcare brands seeking to expand their online presence and attract more patients through digital channels.'],
+    ['question' => 'Is MfunL only for established hospitals, or do you also help clinics and start-ups?', 'answer' => 'We help both established hospitals and new clinics or start-ups. Regardless of where you are in your growth journey, we offer customized solutions to fit your unique needs and goals.'],
+    ['question' => 'How do we help with lead generation in healthcare?', 'answer' => 'Our team utilises proven digital marketing strategies, including targeted ads, search engine optimization, and engaging social media campaigns, to attract more patient inquiries for you.'],
+    ['question' => "What makes MfunL's approach to healthcare marketing special?", 'answer' => 'Our strategies are personalised for each client. We focus on transparency, honest communication, regular updates, and creative solutions that deliver tangible results in the healthcare space.'],
+    ['question' => 'Does MfunL offer training or support to our staff?', 'answer' => 'Yes, after helping you generate leads, we also train your team on how to convert these leads into patient appointments. Our support continues even after delivering your marketing campaigns.'],
+];
+?>
+<section class="section-gap section-width">
+  <h2 class="h-2 text-center">You May Want to Know</h2>
+  <h3 class="h-3 text-center">Know Us. Grow With Us.</h3>
+  <div class="faq__accordion">
+    <?php foreach ($aboutFaqs as $i => $faq): ?>
+      <div class="faq-item">
+        <h4>
+          <button type="button" class="faq-item__question" aria-expanded="<?= $i === 0 ? 'true' : 'false' ?>" aria-controls="about-faq-answer-<?= $i ?>">
+            <?= htmlspecialchars($faq['question'], ENT_QUOTES, 'UTF-8') ?>
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </button>
+        </h4>
+        <div class="faq-item__answer" id="about-faq-answer-<?= $i ?>" <?= $i === 0 ? '' : 'hidden' ?>>
+          <p><?= htmlspecialchars($faq['answer'], ENT_QUOTES, 'UTF-8') ?></p>
+        </div>
+      </div>
+    <?php endforeach; ?>
+  </div>
+</section>
