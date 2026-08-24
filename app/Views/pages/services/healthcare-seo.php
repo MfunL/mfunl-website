@@ -16,24 +16,14 @@
 <section class="section-gap-both section-width content-tabs">
   <div class="content-tabs__inner">
     <div class="content-tabs__nav">
-      <nav class="content-tabs__nav-list" role="tablist" aria-label="Healthcare SEO sections">
-        <button type="button" class="content-tabs__nav-item is-active" role="tab" id="seo-tab-invisible-btn" data-tab-target="seo-tab-invisible" aria-selected="true" aria-controls="seo-tab-invisible">Invisible in AI Answers?</button>
-        <button type="button" class="content-tabs__nav-item" role="tab" id="seo-tab-difference-btn" data-tab-target="seo-tab-difference" aria-selected="false" aria-controls="seo-tab-difference">SEO, AEO &amp; GEO: What&rsquo;s the Difference?</button>
-        <button type="button" class="content-tabs__nav-item" role="tab" id="seo-tab-different-btn" data-tab-target="seo-tab-different" aria-selected="false" aria-controls="seo-tab-different">Why Healthcare Is Different</button>
-        <button type="button" class="content-tabs__nav-item" role="tab" id="seo-tab-what-we-do-btn" data-tab-target="seo-tab-what-we-do" aria-selected="false" aria-controls="seo-tab-what-we-do">What We Do</button>
-        <button type="button" class="content-tabs__nav-item" role="tab" id="seo-tab-how-we-work-btn" data-tab-target="seo-tab-how-we-work" aria-selected="false" aria-controls="seo-tab-how-we-work">How We Work</button>
-        <button type="button" class="content-tabs__nav-item" role="tab" id="seo-tab-who-we-serve-btn" data-tab-target="seo-tab-who-we-serve" aria-selected="false" aria-controls="seo-tab-who-we-serve">Who We Serve</button>
-        <button type="button" class="content-tabs__nav-item" role="tab" id="seo-tab-boosts-btn" data-tab-target="seo-tab-boosts" aria-selected="false" aria-controls="seo-tab-boosts">Boosts That Bring Bookings</button>
-        <button type="button" class="content-tabs__nav-item" role="tab" id="seo-tab-why-us-btn" data-tab-target="seo-tab-why-us" aria-selected="false" aria-controls="seo-tab-why-us">Why Choose Us?</button>
-        <button type="button" class="content-tabs__nav-item" role="tab" id="seo-tab-faq-btn" data-tab-target="seo-tab-faq" aria-selected="false" aria-controls="seo-tab-faq">FAQs</button>
-      </nav>
+      <?= \App\Core\View::partial('service-nav', ['current' => 'healthcare-seo']) ?>
 
       <?= \App\Core\View::partial('side-contact') ?>
     </div>
 
     <div class="content-tabs__panels">
 
-      <div class="content-tabs__panel is-active" id="seo-tab-invisible" role="tabpanel" aria-labelledby="seo-tab-invisible-btn">
+      <div class="content-tabs__panel" id="seo-tab-invisible">
         <h2 class="h-2">Ranking #1 Is No Longer the Same as Being Found</h2>
         <h3 class="h-3">MfunL builds visibility across all three layers at once: classic search rankings, direct answers, and AI citations.</h3>
         <p>Your website can hold the top organic position and still lose the patient. Here&rsquo;s what changed.</p>
@@ -42,7 +32,7 @@
         <img class="content-tabs__panel-image b-rad" src="/assets/images/Showing-Up-on-Google.webp" alt="Ranking #1 Is No Longer the Same as Being Found" loading="lazy">
       </div>
 
-      <div class="content-tabs__panel" id="seo-tab-difference" role="tabpanel" aria-labelledby="seo-tab-difference-btn" hidden>
+      <div class="content-tabs__panel" id="seo-tab-difference">
         <h2 class="h-2">Three Disciplines, One Outcome &mdash; More Patients</h2>
         <h3 class="h-3">It&rsquo;s how patients find you before they find someone else.</h3>
         <p>Healthcare SEO improves where your website ranks in search results. Healthcare AEO (Answer Engine Optimization) structures your content so search engines and voice assistants can lift a direct, complete answer from your page. Healthcare GEO (Generative Engine Optimization) builds the authority, structure and entity signals that make AI assistants like ChatGPT, Gemini, Perplexity and Google AI Overviews cite and recommend your practice by name.</p>
@@ -110,7 +100,7 @@
         <img class="content-tabs__panel-image b-rad" src="/assets/images/What-is-Healthcare-SEO.webp" alt="SEO, AEO &amp; GEO: What&rsquo;s the Difference?" loading="lazy">
       </div>
 
-      <div class="content-tabs__panel" id="seo-tab-different" role="tabpanel" aria-labelledby="seo-tab-different-btn" hidden>
+      <div class="content-tabs__panel" id="seo-tab-different">
         <h2 class="h-2">Health Content Is Held to a Higher Standard Than Any Other Category</h2>
         <h3 class="h-3">It is the strategy that puts your healthcare practice on the digital map.</h3>
         <p>Search engines and AI platforms treat health as a &ldquo;your money or your life&rdquo; topic. That means the bar for what gets shown, quoted and recommended is deliberately higher &mdash; and it moves.</p>
@@ -124,7 +114,7 @@
         <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-is-Healthcare-SEO-Necessary.webp" alt="Why Healthcare Is Different" loading="lazy">
       </div>
 
-      <div class="content-tabs__panel" id="seo-tab-what-we-do" role="tabpanel" aria-labelledby="seo-tab-what-we-do-btn" hidden>
+      <div class="content-tabs__panel" id="seo-tab-what-we-do">
         <h2 class="h-2">A Complete Visibility Stack for Hospitals, Clinics and Practitioners</h2>
 
         <h4>Foundation: Healthcare SEO</h4>
@@ -172,7 +162,7 @@
         <p><strong>Want to know where you currently stand in AI answers? Get a Free AI Visibility Audit or Call <a href="tel:+918336920676">+91 8336920676</a></strong></p>
       </div>
 
-      <div class="content-tabs__panel" id="seo-tab-how-we-work" role="tabpanel" aria-labelledby="seo-tab-how-we-work-btn" hidden>
+      <div class="content-tabs__panel" id="seo-tab-how-we-work">
         <h2 class="h-2">A 90-Day Path From Invisible to Cited</h2>
 
         <h4>Weeks 1&ndash;2 &mdash; Diagnosis</h4>
@@ -215,7 +205,7 @@
         </ul>
       </div>
 
-      <div class="content-tabs__panel" id="seo-tab-who-we-serve" role="tabpanel" aria-labelledby="seo-tab-who-we-serve-btn" hidden>
+      <div class="content-tabs__panel" id="seo-tab-who-we-serve">
         <h2 class="h-2">Built for Every Kind of Healthcare Practice</h2>
         <p>Our strategies are tailored for every type of healthcare organisation, from individual practitioners to multi-location hospital groups.</p>
 
@@ -230,7 +220,7 @@
         <p>Headquartered in Kolkata, we work with healthcare brands across Hyderabad, Bhubaneswar, Ahmedabad, Noida, Guwahati and many other cities throughout India.</p>
       </div>
 
-      <div class="content-tabs__panel" id="seo-tab-boosts" role="tabpanel" aria-labelledby="seo-tab-boosts-btn" hidden>
+      <div class="content-tabs__panel" id="seo-tab-boosts">
         <h2 class="h-2">What We Offer</h2>
         <h3 class="h-3">The proven strategies to boost visibility and bring in more patients.</h3>
         <p>Our healthcare SEO services cover everything you need to get found:</p>
@@ -265,7 +255,7 @@
         <p><strong>Ready to rank higher and attract more patients? Let MfunL handle your SEO strategy &mdash; Call <a href="tel:8336920676">8336920676</a></strong></p>
       </div>
 
-      <div class="content-tabs__panel" id="seo-tab-why-us" role="tabpanel" aria-labelledby="seo-tab-why-us-btn" hidden>
+      <div class="content-tabs__panel" id="seo-tab-why-us">
         <h2 class="h-2">How MfunL Makes SEO Work for You?</h2>
         <h3 class="h-3">We don&rsquo;t just bring traffic; we get you real appointments.</h3>
         <p>At MfunL, we specialise in healthcare SEO strategies that improve your online presence and connect you with patients. Here&rsquo;s how we do it:</p>
@@ -280,7 +270,7 @@
         <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner-with-MfunL-for-Medical-Content.webp" alt="How MfunL Makes SEO Work for You?" loading="lazy">
       </div>
 
-      <div class="content-tabs__panel" id="seo-tab-faq" role="tabpanel" aria-labelledby="seo-tab-faq-btn" hidden>
+      <div class="content-tabs__panel" id="seo-tab-faq">
         <h2 class="h-2">Questions Hospital and Clinic Owners Ask Us</h2>
         <div class="faq__accordion">
           <?php

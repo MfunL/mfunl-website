@@ -19,21 +19,14 @@
 <section class="section-gap section-width content-tabs">
   <div class="content-tabs__inner">
     <div class="content-tabs__nav">
-      <nav class="content-tabs__nav-list" role="tablist" aria-label="Healthcare Social Media Marketing sections">
-        <button type="button" class="content-tabs__nav-item is-active" role="tab" id="hsmm-tab-brand-btn" data-tab-target="hsmm-tab-brand" aria-selected="true" aria-controls="hsmm-tab-brand">Brand Better, Reach Faster</button>
-        <button type="button" class="content-tabs__nav-item" role="tab" id="hsmm-tab-what-btn" data-tab-target="hsmm-tab-what" aria-selected="false" aria-controls="hsmm-tab-what">Social Media for Care?</button>
-        <button type="button" class="content-tabs__nav-item" role="tab" id="hsmm-tab-why-necessary-btn" data-tab-target="hsmm-tab-why-necessary" aria-selected="false" aria-controls="hsmm-tab-why-necessary">No Online Presence?</button>
-        <button type="button" class="content-tabs__nav-item" role="tab" id="hsmm-tab-offer-btn" data-tab-target="hsmm-tab-offer" aria-selected="false" aria-controls="hsmm-tab-offer">Is Your Brand Noticed?</button>
-        <button type="button" class="content-tabs__nav-item" role="tab" id="hsmm-tab-why-us-btn" data-tab-target="hsmm-tab-why-us" aria-selected="false" aria-controls="hsmm-tab-why-us">Why Choose Us?</button>
-        <button type="button" class="content-tabs__nav-item" role="tab" id="hsmm-tab-faq-btn" data-tab-target="hsmm-tab-faq" aria-selected="false" aria-controls="hsmm-tab-faq">FAQs</button>
-      </nav>
+      <?= \App\Core\View::partial('service-nav', ['current' => 'healthcare-social-media-marketing']) ?>
 
       <?= \App\Core\View::partial('side-contact') ?>
     </div>
 
     <div class="content-tabs__panels">
 
-      <div class="content-tabs__panel is-active" id="hsmm-tab-brand" role="tabpanel" aria-labelledby="hsmm-tab-brand-btn">
+      <div class="content-tabs__panel" id="hsmm-tab-brand">
         <h2 class="h-2">MfunL - Healthcare Branding Through Social Media</h2>
         <h3 class="h-3">Giving your healthcare brand a voice that connects, engages, and builds trust.</h3>
         <p>Social media isn&rsquo;t just a place to post updates anymore &mdash; it&rsquo;s your hospital or clinic&rsquo;s digital introduction.</p>
@@ -42,7 +35,7 @@
         <img class="content-tabs__panel-image b-rad" src="/assets/images/Mfunl-Healthcare-Branding-Through-Social-Media-img.webp" alt="MfunL - Healthcare Branding Through Social Media" loading="lazy">
       </div>
 
-      <div class="content-tabs__panel" id="hsmm-tab-what" role="tabpanel" aria-labelledby="hsmm-tab-what-btn" hidden>
+      <div class="content-tabs__panel" id="hsmm-tab-what">
         <h2 class="h-2">What is Healthcare Social Media Marketing?</h2>
         <h3 class="h-3">It is how your healthcare brand stays visible, trusted, and booked online.</h3>
         <p>Healthcare Social Media Marketing is the strategic use of social media platforms, such as Facebook, Instagram, and YouTube, to promote healthcare services, engage with patients, and establish trust.</p>
@@ -51,7 +44,7 @@
         <img class="content-tabs__panel-image b-rad" src="/assets/images/Healthcare-Social-Media-Marketing-img.webp" alt="What is Healthcare Social Media Marketing?" loading="lazy">
       </div>
 
-      <div class="content-tabs__panel" id="hsmm-tab-why-necessary" role="tabpanel" aria-labelledby="hsmm-tab-why-necessary-btn" hidden>
+      <div class="content-tabs__panel" id="hsmm-tab-why-necessary">
         <h2 class="h-2">It is how your presence becomes preference and your healthcare brand their first choice.</h2>
         <h3 class="h-3">It is how your healthcare brand stays visible, trusted, and booked online.</h3>
         <p>Before booking an appointment, patients often explore your social media. A well-branded, consistent presence can influence their decision. At MfunL, we transform your social feed into a powerful tool for healthcare branding, trust-building, and increasing patient footfall.</p>
@@ -68,7 +61,7 @@
         <img class="content-tabs__panel-image b-rad" src="/assets/images/No-Online-Presence-img.webp" alt="Build a powerful social media presence with MfunL" loading="lazy">
       </div>
 
-      <div class="content-tabs__panel" id="hsmm-tab-offer" role="tabpanel" aria-labelledby="hsmm-tab-offer-btn" hidden>
+      <div class="content-tabs__panel" id="hsmm-tab-offer">
         <h2 class="h-2">How MfunL Makes Social Media Work for You?</h2>
         <h3 class="h-3">We turn everyday browsing into building trust and real appointments.</h3>
         <p>At MfunL, we offer an all-inclusive medical content creation service designed to build your brand and increase patient footfall.</p>
@@ -100,7 +93,7 @@
         <p>Contact MfunL for a smarter, patient-focused approach to healthcare social media marketing &mdash; Call <a href="tel:8336920676">8336920676</a></p>
       </div>
 
-      <div class="content-tabs__panel" id="hsmm-tab-why-us" role="tabpanel" aria-labelledby="hsmm-tab-why-us-btn" hidden>
+      <div class="content-tabs__panel" id="hsmm-tab-why-us">
         <h2 class="h-2">Why Should You Choose MfunL for Healthcare Social Media Marketing?</h2>
         <h3 class="h-3">Because we position your healthcare brand where patients are already looking.</h3>
         <p>At MfunL, we understand the challenges of healthcare marketing. Our expert team, with years of experience in healthcare digital marketing, is dedicated to help you:</p>
@@ -113,7 +106,7 @@
         <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner.webp" alt="Why Should You Choose MfunL for Healthcare Social Media Marketing?" loading="lazy">
       </div>
 
-      <div class="content-tabs__panel" id="hsmm-tab-faq" role="tabpanel" aria-labelledby="hsmm-tab-faq-btn" hidden>
+      <div class="content-tabs__panel" id="hsmm-tab-faq">
         <h2 class="h-2">You May Want to Know</h2>
         <div class="faq__accordion">
           <?php
