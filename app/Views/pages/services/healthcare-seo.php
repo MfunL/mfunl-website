@@ -267,7 +267,7 @@
           <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> GMB Posts, Ad Copy, and Video Scripts optimised to improve local rankings and drive patient appointments.</li>
         </ul>
         <p>Let MfunL turn your expertise into content that educates, connects, and converts.</p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner-with-MfunL-for-Medical-Content.webp" alt="How MfunL Makes SEO Work for You?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner.webp" alt="How MfunL Makes SEO Work for You?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="seo-tab-faq">

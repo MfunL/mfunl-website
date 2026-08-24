@@ -108,7 +108,7 @@
           <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> GMB posts, ad copy, and video scripts that support your digital strategy, driving visibility and conversions.</li>
         </ul>
         <p>We refine your strategy to ensure your digital presence consistently educates, connects, and delivers real impact.</p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner-with-MfunL-for-Medical-Content-img.webp" alt="Why Partner with MfunL for Medical Content?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner.webp" alt="Why Partner with MfunL for Medical Content?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="tab-faq">
