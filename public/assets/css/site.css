@@ -3521,6 +3521,14 @@ section>.wrap>h2,
   margin: 40px 0;
 }
 
+/* Homepage FAQ sits in a centered section (eyebrow + heading are
+   centered above it) — inner-page FAQs live in a left-flowing
+   content column and should stay left-aligned. */
+.faq__accordion--centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .faq-item {
   border-bottom: 1px solid var(--color-border);
 }

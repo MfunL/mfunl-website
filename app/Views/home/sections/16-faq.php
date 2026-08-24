@@ -6,7 +6,7 @@
     <h2 class="section-eyebrow">You May Want to Know</h2>
     <p class="section-heading">Get An Overview of Our Services, Timings,<br>
 & <span class="mark">Healthcare</span> Solutions</p>
-    <div class="faq__accordion">
+    <div class="faq__accordion faq__accordion--centered">
       <?php foreach ($faqs as $i => $faq): ?>
         <div class="faq-item">
           <h3>
