@@ -48,7 +48,7 @@ final class CareerController extends Controller
 
         if ($validator->fails()) {
             Session::flash('errors', $validator->errors());
-            Response::redirect('/career/#apply');
+            Response::redirect('/career/');
         }
 
         Session::flash('success', 'Thanks for applying — we will review your CV and get back to you.');
