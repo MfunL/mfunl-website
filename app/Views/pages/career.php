@@ -13,8 +13,10 @@ $careerCsrfField = \App\Core\Csrf::field();
   </div>
 </section>
 
-<section class="section-gap-both section-width">
-  <h2 class="h-2 text-center">We&rsquo;re Hiring Fast! Your Next Big Career Move Starts Here</h2>
+<section class="section-gap-both section-width text-center">
+  <h2 class="h-2">Career Opportunities at MfunL</h2>
+  <h3 class="h-3">Leading healthcare digital marketing agency in Kolkata</h3>
+  <p>If you are looking to hone your craft, ignite your passion and push your limits, you have come to the right place. We are always looking for new passionate team members that can drive our creations to new heights.</p>
 
   <div class="career-poster-grid">
     <div class="career-poster-card">
@@ -39,16 +41,9 @@ $careerCsrfField = \App\Core\Csrf::field();
   </div>
 </section>
 
-<section class="section-gap-both section-width text-center">
-  <h2 class="h-2">Career Opportunities at MfunL</h2>
-  <h3 class="h-3">Leading healthcare digital marketing agency in Kolkata</h3>
-  <p>If you are looking to hone your craft, ignite your passion and push your limits, you have come to the right place. We are always looking for new passionate team members that can drive our creations to new heights.</p>
-</section>
-
 <section class="career-apply-section" id="apply">
   <div class="section-width">
     <h2 class="section-eyebrow">Apply Now</h2>
-    <p class="section-heading">Don&rsquo;t see your role above? <span class="accent">Send us your details</span> anyway.</p>
 
     <form action="/career/apply/" method="post" enctype="multipart/form-data" class="lead-form lead-form--grid career-form__form">
       <?= $careerCsrfField ?>
