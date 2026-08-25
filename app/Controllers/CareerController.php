@@ -9,6 +9,7 @@ use App\Core\Csrf;
 use App\Core\Response;
 use App\Core\Seo;
 use App\Core\Session;
+use App\Core\Validator;
 
 final class CareerController extends Controller
 {
@@ -16,7 +17,7 @@ final class CareerController extends Controller
     {
         $seo = new Seo(title: $routeMeta['title'], description: $routeMeta['description'], path: '/career/');
 
-        return $this->view('pages/_placeholder', [
+        return $this->view('pages/career', [
             'seo' => $seo,
             'bodyClass' => 'page-career',
             'title' => $routeMeta['title'],
@@ -36,6 +37,19 @@ final class CareerController extends Controller
 
         if ($this->request->string('website') !== '') {
             Response::redirect('/career/');
+        }
+
+        $validator = Validator::make($this->request->all(), [
+            'name' => 'required|max:120',
+            'email' => 'required|email',
+            'phone' => 'required|phone',
+            'expertise' => 'required',
+            'experience_years' => 'required',
+        ]);
+
+        if ($validator->fails()) {
+            Session::flash('errors', $validator->errors());
+            Response::redirect('/career/#apply');
         }
 
         Session::flash('success', 'Thanks for applying — we will review your CV and get back to you.');

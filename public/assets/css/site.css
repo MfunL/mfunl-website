@@ -4953,6 +4953,56 @@ section>.wrap>h2,
 /*End*/
 
 /* ================================================================
+   CAREERS — hiring poster grid + application form.
+   ================================================================ */
+.career-poster-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  margin: 32px 0;
+}
+
+.career-poster-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  box-shadow: var(--shadow-sm);
+}
+
+.career-poster-card img {
+  width: 100%;
+  border-radius: var(--radius-md);
+  display: block;
+}
+
+.career-poster-card .btn {
+  align-self: center;
+}
+
+.career-form {
+  scroll-margin-top: calc(var(--header-height) + 24px);
+}
+
+.career-form .field-hint {
+  display: block;
+  margin-top: 6px;
+  font-size: .8rem;
+  font-weight: 400;
+  color: var(--color-text-muted);
+}
+
+@media (max-width: 640px) {
+  .career-poster-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/*End*/
+
+/* ================================================================
    SIDE CONTACT — global, reusable dark contact card (address, phones,
    email). Drop into any sticky sidebar via partial('side-contact').
    ================================================================ */
