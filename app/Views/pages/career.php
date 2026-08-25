@@ -19,22 +19,30 @@
 
   <div class="career-poster-grid">
     <div class="career-poster-card">
-      <img src="/assets/images/BDM-Career-poster.webp" alt="Business Development Manager — we're hiring" class="b-rad" loading="lazy">
+      <button type="button" class="career-poster-card__image-btn" data-open-lightbox="/assets/images/BDM-Career-poster.webp" aria-label="View Business Development Manager job poster">
+        <img src="/assets/images/BDM-Career-poster.webp" alt="Business Development Manager — we're hiring" class="b-rad" loading="lazy">
+      </button>
       <button type="button" class="btn btn--accent" data-open-modal="career-modal" data-position="Business Development Manager">Apply Now</button>
     </div>
 
     <div class="career-poster-card">
-      <img src="/assets/images/business-dev-01.webp" alt="Business Development Executive — we're hiring" class="b-rad" loading="lazy">
+      <button type="button" class="career-poster-card__image-btn" data-open-lightbox="/assets/images/business-dev-01.webp" aria-label="View Business Development Executive job poster">
+        <img src="/assets/images/business-dev-01.webp" alt="Business Development Executive — we're hiring" class="b-rad" loading="lazy">
+      </button>
       <button type="button" class="btn btn--accent" data-open-modal="career-modal" data-position="Business Development Executive">Apply Now</button>
     </div>
 
     <div class="career-poster-card">
-      <img src="/assets/images/business-dev-02.webp" alt="Business Development Executive — we're hiring" class="b-rad" loading="lazy">
+      <button type="button" class="career-poster-card__image-btn" data-open-lightbox="/assets/images/business-dev-02.webp" aria-label="View Business Development Executive job poster">
+        <img src="/assets/images/business-dev-02.webp" alt="Business Development Executive — we're hiring" class="b-rad" loading="lazy">
+      </button>
       <button type="button" class="btn btn--accent" data-open-modal="career-modal" data-position="Business Development Executive">Apply Now</button>
     </div>
 
     <div class="career-poster-card">
-      <img src="/assets/images/Senior-Google-Ads-Expert-Hiring.webp" alt="Senior Google Ads Expert — we're hiring" class="b-rad" loading="lazy">
+      <button type="button" class="career-poster-card__image-btn" data-open-lightbox="/assets/images/Senior-Google-Ads-Expert-Hiring.webp" aria-label="View Senior Google Ads Expert job poster">
+        <img src="/assets/images/Senior-Google-Ads-Expert-Hiring.webp" alt="Senior Google Ads Expert — we're hiring" class="b-rad" loading="lazy">
+      </button>
       <button type="button" class="btn btn--accent" data-open-modal="career-modal" data-position="Senior Google Ads Expert">Apply Now</button>
     </div>
   </div>
