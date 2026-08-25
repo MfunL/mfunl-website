@@ -100,15 +100,30 @@ $csrfField = \App\Core\Csrf::field();
   <div class="modal__backdrop" data-close-modal></div>
   <div class="modal__panel">
     <button type="button" class="modal__close" data-close-modal aria-label="Close">&times;</button>
-    <h3 id="career-modal-title">Apply Before It's Gone!</h3>
-    <form action="/career/apply/" method="post" class="lead-form" enctype="multipart/form-data">
+    <h3 id="career-modal-title">Apply Before It&rsquo;s Gone!</h3>
+    <form action="/career/apply/" method="post" class="lead-form career-modal-form" enctype="multipart/form-data">
       <?= $csrfField ?>
       <input type="text" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
-      <label>Name<input type="text" name="name" required></label>
-      <label>Email<input type="email" name="email" required></label>
-      <label>Phone<input type="tel" name="phone" required></label>
-      <label>Position<input type="text" name="position" required></label>
-      <label>CV (PDF/JPG/PNG, max 1MB)<input type="file" name="cv" accept=".pdf,.jpg,.jpeg,.png" required></label>
+      <input type="hidden" name="form_type" value="career_popup">
+      <input type="hidden" name="position" id="career-modal-position" value="General Application">
+
+      <label><span class="field-label">Name<span class="required-mark">*</span></span>
+        <input type="text" name="name" required>
+      </label>
+
+      <label><span class="field-label">Email<span class="required-mark">*</span></span>
+        <input type="email" name="email" required>
+      </label>
+
+      <label><span class="field-label">Phone Number<span class="required-mark">*</span></span>
+        <input type="tel" name="phone" required>
+      </label>
+
+      <label><span class="field-label">Upload Your CV<span class="required-mark">*</span></span>
+        <input type="file" name="cv" accept=".jpg,.jpeg,.png,.pdf" required>
+        <small class="field-hint">File format .jpg/.png/.pdf, size not more than 1 MB.</small>
+      </label>
+
       <button type="submit" class="btn btn--accent btn--block">Apply Now</button>
     </form>
   </div>

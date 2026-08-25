@@ -41,6 +41,11 @@
         const field = modal.querySelector('#audit-form-type');
         if (field) field.value = formType;
       }
+      const position = trigger.dataset.position;
+      if (position) {
+        const field = modal.querySelector('#career-modal-position');
+        if (field) field.value = position;
+      }
       document.body.style.overflow = 'hidden';
     });
   });

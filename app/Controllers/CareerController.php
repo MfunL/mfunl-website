@@ -43,8 +43,7 @@ final class CareerController extends Controller
             'name' => 'required|max:120',
             'email' => 'required|email',
             'phone' => 'required|phone',
-            'expertise' => 'required',
-            'experience_years' => 'required',
+            'position' => 'required',
         ]);
 
         if ($validator->fails()) {
