@@ -313,7 +313,8 @@ button { font-family: inherit; cursor: pointer; }
 .page-what-we-do .page-hero__overlay,
 .page-service-build-your-brand .page-hero__overlay,
 .page-service-patient-lead-generation .page-hero__overlay,
-.page-career .page-hero__overlay {
+.page-career .page-hero__overlay,
+.page-testimonials .page-hero__overlay {
   background: linear-gradient(180deg, rgba(3, 15, 30, .8) 0%, rgba(3, 25, 46, .58) 45%, rgba(3, 15, 30, .85) 100%);
 }
 
@@ -5113,12 +5114,8 @@ section>.wrap>h2,
 /*End*/
 
 /* ================================================================
-   TESTIMONIALS — plain hero, video grid.
+   TESTIMONIALS — video grid.
    ================================================================ */
-.page-hero--plain {
-  background: linear-gradient(135deg, var(--color-dark) 0%, #142640 100%);
-}
-
 .testimonial-video-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
