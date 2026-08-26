@@ -5035,7 +5035,18 @@ section>.wrap>h2,
    PRICING — plain hero, plan cards, comparison tables, reason grid.
    ================================================================ */
 .page-hero--plain {
+  position: relative;
   background: linear-gradient(135deg, var(--color-dark) 0%, #142640 100%);
+}
+
+.page-hero--plain::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 900px 500px at 15% 0%, rgba(3, 201, 253, .22), transparent 60%),
+    radial-gradient(ellipse 700px 500px at 100% 100%, rgba(3, 201, 253, .14), transparent 60%);
+  pointer-events: none;
 }
 
 .pricing-jump-nav {
@@ -5056,7 +5067,7 @@ section>.wrap>h2,
   font-weight: 600;
   font-size: .9rem;
   color: var(--color-text);
-  transition: background-color .2s ease, color .2s ease, border-color .2s ease;
+  transition: background .2s ease, color .2s ease, border-color .2s ease, box-shadow .2s ease;
 }
 
 .pricing-jump-nav button:hover {
@@ -5064,9 +5075,10 @@ section>.wrap>h2,
 }
 
 .pricing-jump-nav button.is-active {
-  background: var(--color-accent);
-  border-color: var(--color-accent);
-  color: var(--color-dark);
+  background: linear-gradient(135deg, #03c9fd, #0b4e7a);
+  border-color: transparent;
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(3, 201, 253, .35);
 }
 
 .pricing-tab-panel[hidden] {
@@ -5077,19 +5089,69 @@ section>.wrap>h2,
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-  margin: 36px 0;
+  margin: 44px 0 36px;
   text-align: left;
+  align-items: start;
 }
 
 .pricing-plan {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 14px;
-  background: #fff;
+  background: linear-gradient(180deg, #fff 0%, #fbfdff 100%);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
-  padding: 32px 28px;
+  padding: 36px 28px 28px;
   box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
+}
+
+.pricing-plan::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 5px;
+  background: linear-gradient(135deg, #03c9fd, #0b4e7a);
+  opacity: .55;
+}
+
+.pricing-plan:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(3, 201, 253, .35);
+}
+
+.pricing-plan--featured {
+  border-color: var(--color-accent);
+  box-shadow: 0 16px 40px rgba(3, 201, 253, .22);
+  transform: scale(1.045);
+  z-index: 1;
+}
+
+.pricing-plan--featured::before {
+  height: 6px;
+  opacity: 1;
+}
+
+.pricing-plan--featured:hover {
+  transform: scale(1.045) translateY(-6px);
+}
+
+.pricing-plan__badge {
+  position: absolute;
+  top: 18px;
+  right: -34px;
+  transform: rotate(38deg);
+  background: linear-gradient(135deg, #03c9fd, #0b4e7a);
+  color: #fff;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  padding: 5px 40px;
+  box-shadow: 0 4px 10px rgba(3, 201, 253, .35);
 }
 
 .pricing-plan h3 {
@@ -5100,15 +5162,20 @@ section>.wrap>h2,
 }
 
 .pricing-plan .pricing-plan__price {
-  font-size: 2.1rem;
+  font-size: 2.3rem;
   font-weight: 800;
-  color: var(--color-accent-dark);
+  line-height: 1;
+  background: linear-gradient(135deg, #03c9fd, #0b4e7a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .pricing-plan .pricing-plan__price small {
   font-size: .95rem;
   font-weight: 500;
   color: var(--color-text-muted);
+  -webkit-text-fill-color: var(--color-text-muted);
 }
 
 .pricing-plan p {
@@ -5122,8 +5189,20 @@ section>.wrap>h2,
   justify-content: center;
 }
 
+.pricing-plan--featured .btn {
+  background: linear-gradient(135deg, #03c9fd, #0b4e7a);
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(3, 201, 253, .35);
+}
+
+.pricing-plan--featured .btn:hover {
+  background: linear-gradient(135deg, #02b3e0, #063a5e);
+}
+
 @media (max-width: 900px) {
   .pricing-plans { grid-template-columns: 1fr; }
+  .pricing-plan--featured { transform: none; }
+  .pricing-plan--featured:hover { transform: translateY(-6px); }
 }
 
 .price-table-wrap {
@@ -5131,6 +5210,7 @@ section>.wrap>h2,
   margin: 28px 0;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
 }
 
 .price-table {
@@ -5156,19 +5236,23 @@ section>.wrap>h2,
 }
 
 .price-table thead th {
-  background: var(--color-surface);
+  background: linear-gradient(135deg, var(--color-dark) 0%, #16324f 100%);
   font-family: var(--font-heading);
   font-weight: 800;
-  color: var(--color-dark);
+  color: #fff;
   vertical-align: top;
   padding-top: 20px;
+}
+
+.price-table thead th:first-child {
+  color: rgba(255, 255, 255, .85);
 }
 
 .price-table__tier-price {
   display: block;
   margin-top: 6px;
   font-size: 1.1rem;
-  color: var(--color-accent-dark);
+  color: var(--color-accent);
   font-weight: 800;
 }
 
@@ -5187,12 +5271,12 @@ section>.wrap>h2,
 
 .price-table i.fa-circle-check {
   color: var(--color-accent-dark);
-  font-size: 1.1rem;
+  font-size: 1.15rem;
 }
 
 .price-table i.fa-circle-xmark {
   color: #c7ced6;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
 }
 
 .pricing-service-cta {
@@ -5201,6 +5285,7 @@ section>.wrap>h2,
 }
 
 .reason-grid {
+  counter-reset: reason;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
@@ -5209,11 +5294,34 @@ section>.wrap>h2,
 }
 
 .reason-card {
-  background: #fff;
+  position: relative;
+  background: linear-gradient(180deg, #fff 0%, #fbfdff 100%);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
-  padding: 24px;
+  padding: 26px 24px 24px;
   box-shadow: var(--shadow-sm);
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+
+.reason-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(3, 201, 253, .35);
+}
+
+.reason-card::before {
+  counter-increment: reason;
+  content: counter(reason, decimal-leading-zero);
+  display: block;
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 1.7rem;
+  line-height: 1;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #03c9fd, #0b4e7a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .reason-card h4 {

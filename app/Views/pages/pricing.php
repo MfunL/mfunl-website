@@ -23,7 +23,8 @@
       <button type="button" class="btn btn--accent" data-open-modal="lead-modal">Book a Free Consultation</button>
     </div>
 
-    <div class="pricing-plan">
+    <div class="pricing-plan pricing-plan--featured">
+      <span class="pricing-plan__badge">Most Popular</span>
       <h3>Premium</h3>
       <p class="pricing-plan__price">&#8377;1,35,000<small> /month</small></p>
       <p>All four channels at Premium-tier scope &mdash; deeper keyword coverage, more content, and AI search optimisation included.</p>
