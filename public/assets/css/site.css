@@ -6228,16 +6228,38 @@ section>.wrap>h2,
   margin: 0 0 20px;
 }
 
-.article-section {
-  margin-top: 48px;
-  padding-top: 48px;
-  border-top: 1px solid var(--color-border);
+/* Zigzag layout for "The Big Shifts" &mdash; each block sits in a
+   half-width column, alternating right/left down the page, matching
+   the source page's alternating-column design. */
+.article-zigzag {
+  max-width: 1000px;
+  margin: 32px auto 0;
 }
 
-.article-section:first-of-type {
-  margin-top: 32px;
-  padding-top: 0;
-  border-top: none;
+.article-shift {
+  width: 100%;
+  max-width: 480px;
+  text-align: left;
+}
+
+.article-shift + .article-shift {
+  margin-top: 48px;
+}
+
+.article-shift--right {
+  margin-left: auto;
+}
+
+.article-shift--left {
+  margin-right: auto;
+}
+
+@media (max-width: 760px) {
+  .article-shift {
+    max-width: 100%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
 }
 
 .article-benefits-label {

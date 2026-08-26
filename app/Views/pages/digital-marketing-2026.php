@@ -155,9 +155,11 @@ $trackMetrics2026 = [
 <section class="section-gap-both section-width">
   <div class="article-prose">
     <h2 class="h-2">The Big Shifts Redefining How Healthcare Brands Get Chosen in 2026</h2>
+  </div>
 
-    <?php foreach ($bigShifts2026 as $shift): ?>
-      <div class="article-section">
+  <div class="article-zigzag">
+    <?php foreach ($bigShifts2026 as $i => $shift): ?>
+      <div class="article-shift <?= $i % 2 === 0 ? 'article-shift--right' : 'article-shift--left' ?>">
         <h3 class="h-3"><?= $shift['heading'] ?></h3>
         <img class="article-shift-image" src="/assets/images/<?= $shift['image'] ?>" alt="" loading="lazy">
         <p><?= $shift['intro'] ?></p>
