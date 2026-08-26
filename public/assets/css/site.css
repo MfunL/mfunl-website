@@ -6066,4 +6066,103 @@ section>.wrap>h2,
 .content-tabs__table tbody tr:nth-child(even) {
   background: rgba(3, 201, 253, .06);
 }
+
+/* ================================================================
+   CONTACT — info column + map with hover-reveal "See Location" btn.
+   ================================================================ */
+.contact-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.contact-info-col h2 {
+  margin-bottom: 24px;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin: 0 0 20px;
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+.contact-info-item i {
+  flex-shrink: 0;
+  width: 20px;
+  margin-top: 4px;
+  text-align: center;
+  color: var(--color-accent-dark);
+  font-size: 1.1rem;
+}
+
+.contact-info-item a {
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+.contact-info-item a:hover {
+  color: var(--color-accent-dark);
+}
+
+.contact-map {
+  position: relative;
+  display: block;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.contact-map img {
+  width: 100%;
+  display: block;
+}
+
+.contact-map::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(11, 18, 32, 0);
+  transition: background .2s ease;
+}
+
+.contact-map:hover::after {
+  background: rgba(11, 18, 32, .35);
+}
+
+.contact-map__btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .2s ease;
+}
+
+.contact-map:hover .contact-map__btn {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 900px) {
+  .contact-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-map::after {
+    background: rgba(11, 18, 32, .35);
+  }
+
+  .contact-map__btn {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+/*End*/
 /*End*/
