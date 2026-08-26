@@ -139,4 +139,26 @@
     });
   });
 
+  // ---- Pricing tabs (SEO / PPC / Social / Website) ----
+  document.querySelectorAll('[data-pricing-tabs]').forEach((tabs) => {
+    const buttons = tabs.querySelectorAll('[data-tab-btn]');
+    const panels = tabs.querySelectorAll('.pricing-tab-panel');
+
+    buttons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const target = btn.dataset.tabBtn;
+
+        buttons.forEach((other) => {
+          const isTarget = other === btn;
+          other.classList.toggle('is-active', isTarget);
+          other.setAttribute('aria-selected', String(isTarget));
+        });
+
+        panels.forEach((panel) => {
+          panel.hidden = panel.id !== target;
+        });
+      });
+    });
+  });
+
 })();

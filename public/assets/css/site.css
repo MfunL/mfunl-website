@@ -5046,7 +5046,10 @@ section>.wrap>h2,
   margin: 28px 0 8px;
 }
 
-.pricing-jump-nav a {
+.pricing-jump-nav button {
+  font: inherit;
+  cursor: pointer;
+  background: #fff;
   padding: 10px 22px;
   border-radius: 50px;
   border: 1px solid var(--color-border);
@@ -5056,10 +5059,18 @@ section>.wrap>h2,
   transition: background-color .2s ease, color .2s ease, border-color .2s ease;
 }
 
-.pricing-jump-nav a:hover {
+.pricing-jump-nav button:hover {
+  border-color: var(--color-accent);
+}
+
+.pricing-jump-nav button.is-active {
   background: var(--color-accent);
   border-color: var(--color-accent);
   color: var(--color-dark);
+}
+
+.pricing-tab-panel[hidden] {
+  display: none;
 }
 
 .pricing-plans {
