@@ -195,13 +195,13 @@ button { font-family: inherit; cursor: pointer; }
   justify-content: center;
   width: 36px;
   height: 36px;
-  background: #fff;
+  background: #03c9fd;
   border: none;
   border-radius: 50%;
   box-shadow: var(--shadow-md);
   font-size: 1.4rem;
   line-height: 1;
-  color: var(--color-dark);
+  color: #fff;
   z-index: 2;
   cursor: pointer;
 }
