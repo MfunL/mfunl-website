@@ -108,9 +108,77 @@ button { font-family: inherit; cursor: pointer; }
 .breadcrumbs li:not(:last-child)::after { content: '/'; margin-left: 6px; }
 
 /* ---- CTA band ---- */
-.cta-band { background: var(--color-dark); color: #fff; padding: 48px 0; }
-.cta-band__inner { display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
-.cta-band__actions { display: flex; gap: 12px; }
+.cta-band {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(155deg, #076499 0%, #013a5c 46%, #00537e 100%);
+  color: #fff;
+  padding: 72px 0;
+}
+
+.cta-band::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 800px 460px at 100% 0%, rgba(3, 201, 253, .2), transparent 60%),
+    radial-gradient(ellipse 700px 460px at 0% 100%, rgba(3, 201, 253, .14), transparent 60%);
+  pointer-events: none;
+}
+
+.cta-band__inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.cta-band h2 {
+  font-size: 1.7rem;
+  margin-bottom: 8px;
+}
+
+.cta-band p {
+  margin: 0;
+  max-width: 46ch;
+  color: rgba(255, 255, 255, .82);
+}
+
+.cta-band__actions {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.cta-band__actions .btn {
+  padding: 14px 28px;
+}
+
+.cta-band__actions .btn--accent {
+  background: linear-gradient(135deg, #03c9fd, #0b4e7a);
+  color: #fff;
+  box-shadow: 0 8px 22px rgba(3, 201, 253, .35);
+}
+
+.cta-band__actions .btn--accent:hover {
+  background: linear-gradient(135deg, #02b3e0, #063a5e);
+}
+
+.cta-band__actions .btn--outline {
+  background: #25d366;
+  border-color: #25d366;
+  color: #fff;
+}
+
+.cta-band__actions .btn--outline:hover {
+  background: #1ebc59;
+  border-color: #1ebc59;
+}
 
 /* ---- Modals ---- */
 .modal { position: fixed; inset: 0; z-index: 1200; display: flex; align-items: center; justify-content: center; }
@@ -5474,11 +5542,18 @@ section>.wrap>h2,
 }
 
 .leak-list {
+  width: 70%;
   display: flex;
   flex-direction: column;
-  margin: 40px 0 32px;
+  margin: auto;
   text-align: left;
   border-top: 1px solid var(--color-border);
+}
+
+@media (max-width: 768px) {
+  .leak-list {
+    width: 100%;
+  }
 }
 
 .leak-row {
