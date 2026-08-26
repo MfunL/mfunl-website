@@ -6245,4 +6245,20 @@ section>.wrap>h2,
   color: var(--color-dark);
   margin-bottom: 10px !important;
 }
+
+.article-feature-image {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto 24px;
+  border-radius: var(--radius-md);
+}
+
+.article-shift-image {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 20px;
+  border-radius: var(--radius-md);
+}
 /*End*/

@@ -13,6 +13,7 @@ $bigShifts2026 = [
             'Improve patient experience by answering their questions quickly.',
         ],
         'pitch' => 'MfunL helps healthcare brands shape their content so it&rsquo;s positioned to be surfaced &mdash; and trusted &mdash; by AI-driven search.',
+        'image' => 'AI-in-healthcare.webp',
     ],
     [
         'heading' => 'Patient Discovery Is Now Multi-Channel',
@@ -25,6 +26,7 @@ $bigShifts2026 = [
             'Stand out in a crowded market through repeated, reinforcing touchpoints.',
         ],
         'pitch' => 'MfunL builds multi-channel strategies that keep your brand consistent and trustworthy at every stop in that journey.',
+        'image' => 'Multi-Channel.webp',
     ],
     [
         'heading' => 'Content Marketing Is the Trust Engine of Healthcare',
@@ -36,6 +38,7 @@ $bigShifts2026 = [
             'Strengthen your social presence with content built to drive engagement.',
         ],
         'pitch' => 'MfunL builds content strategies designed to convert patients at every stage of their journey &mdash; not just fill a content calendar.',
+        'image' => 'Content-Marketing.webp',
     ],
     [
         'heading' => 'Social Media Is No Longer &ldquo;Optional&rdquo; in Healthcare',
@@ -48,6 +51,7 @@ $bigShifts2026 = [
             'Drive conversions by staying present where patients already are.',
         ],
         'pitch' => 'MfunL builds patient-first social strategies that turn engagement into real growth across every platform that matters.',
+        'image' => 'Social-Media-Marketing.webp',
     ],
     [
         'heading' => 'Google Ads &amp; Paid Media Accelerate What Works',
@@ -60,6 +64,7 @@ $bigShifts2026 = [
             'Amplify your content strategy for faster, more efficient conversions.',
         ],
         'pitch' => 'MfunL runs data-driven paid campaigns that accelerate patient acquisition while reinforcing your brand&rsquo;s credibility.',
+        'image' => 'Google-Ads.webp',
     ],
     [
         'heading' => 'UX, CRO, and Reputation Management: The Cornerstones of Patient Conversion',
@@ -71,6 +76,7 @@ $bigShifts2026 = [
             'Support long-term patient relationships through ongoing optimisation.',
         ],
         'pitch' => 'MfunL builds patient-focused digital experiences &mdash; from website usability to online reputation &mdash; that turn visitors into long-term patients.',
+        'image' => 'Reputation-Management.webp',
     ],
 ];
 
@@ -102,6 +108,7 @@ $trackMetrics2026 = [
 
 <section class="section-gap-both section-width">
   <div class="article-prose">
+    <img class="article-feature-image" src="/assets/images/healthcare-digital-marketing.webp" alt="Healthcare digital marketing" loading="eager">
     <p>By 2026, a patient rarely goes straight from a single search to a booked appointment. Before they ever land on your website, they&rsquo;ve likely already encountered your brand &mdash; or a competitor&rsquo;s &mdash; through an AI search summary, a social post, a short video, an ad, or a review. Each of those moments shapes an opinion long before the click.</p>
     <p>That raises two questions worth sitting with: does your healthcare brand show up more than once across the platforms your patients actually use? And does it already feel familiar and trustworthy by the time someone reaches your booking page?</p>
     <p>Ranking well on Google is no longer the finish line. The practices that grow fastest in 2026 won&rsquo;t just be the best-ranked &mdash; they&rsquo;ll be the ones that feel visible, credible and reassuring everywhere a patient happens to look.</p>
@@ -152,6 +159,7 @@ $trackMetrics2026 = [
     <?php foreach ($bigShifts2026 as $shift): ?>
       <div class="article-section">
         <h3 class="h-3"><?= $shift['heading'] ?></h3>
+        <img class="article-shift-image" src="/assets/images/<?= $shift['image'] ?>" alt="" loading="lazy">
         <p><?= $shift['intro'] ?></p>
         <p class="article-benefits-label">The benefits of adapting:</p>
         <ul class="content-tabs__list">
@@ -186,6 +194,7 @@ $trackMetrics2026 = [
 <section class="section-gap-both section-width">
   <div class="article-prose">
     <h2 class="h-2">Data-Driven Healthcare Marketing: What to Track Now</h2>
+    <img class="article-shift-image" src="/assets/images/Data-Driven-Healthcare-Marketing.webp" alt="" loading="lazy">
     <p>Traffic alone won&rsquo;t tell you if your healthcare marketing is working in 2026 &mdash; what matters is what that traffic actually leads to. At MfunL, we focus on:</p>
     <ul class="content-tabs__list">
       <?php foreach ($trackMetrics2026 as $metric): ?>
