@@ -227,7 +227,7 @@ $adsMetrics = [
   </div>
 </section>
 
-<section class="section-gap-both section-width" data-tabs>
+<section class="section-gap section-width" data-tabs>
   <div class="tab-nav" role="tablist" aria-label="Choose a category">
     <button type="button" class="is-active" role="tab" aria-selected="true" aria-controls="cs-seo" data-tab-btn="cs-seo">SEO</button>
     <button type="button" role="tab" aria-selected="false" aria-controls="cs-social" data-tab-btn="cs-social">Social Media</button>

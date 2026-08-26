@@ -4,8 +4,9 @@ $csrfField = \App\Core\Csrf::field();
 ?>
 <div class="modal" id="lead-modal" role="dialog" aria-modal="true" aria-labelledby="lead-modal-title" hidden>
   <div class="modal__backdrop" data-close-modal></div>
-  <div class="modal__panel modal__panel--split">
+  <div class="modal__dialog modal__dialog--split">
     <button type="button" class="modal__close" data-close-modal aria-label="Close">&times;</button>
+    <div class="modal__panel modal__panel--split">
     <div class="modal__panel-media">
       <img src="/assets/images/ceo-image.webp" alt="CEO of MfunL" title="CEO of MfunL" loading="lazy">
     </div>
@@ -75,13 +76,15 @@ $csrfField = \App\Core\Csrf::field();
         <button type="submit" class="contact-btn">Submit</button>
       </form>
     </div>
+    </div>
   </div>
 </div>
 
 <div class="modal" id="audit-modal" role="dialog" aria-modal="true" aria-labelledby="audit-modal-title" hidden>
   <div class="modal__backdrop" data-close-modal></div>
-  <div class="modal__panel">
+  <div class="modal__dialog">
     <button type="button" class="modal__close" data-close-modal aria-label="Close">&times;</button>
+    <div class="modal__panel">
     <h3 id="audit-modal-title">Request a Free Audit</h3>
     <form action="/contact/submit/" method="post" class="lead-form">
       <?= $csrfField ?>
@@ -93,13 +96,15 @@ $csrfField = \App\Core\Csrf::field();
       <label>Website or GMB URL<input type="text" name="message" placeholder="https://"></label>
       <button type="submit" class="btn btn--accent btn--block">Request Audit</button>
     </form>
+    </div>
   </div>
 </div>
 
 <div class="modal" id="career-modal" role="dialog" aria-modal="true" aria-labelledby="career-modal-title" hidden>
   <div class="modal__backdrop" data-close-modal></div>
-  <div class="modal__panel">
+  <div class="modal__dialog">
     <button type="button" class="modal__close" data-close-modal aria-label="Close">&times;</button>
+    <div class="modal__panel">
     <h3 id="career-modal-title">Apply Before It&rsquo;s Gone!</h3>
     <form action="/career/apply/" method="post" class="lead-form career-modal-form" enctype="multipart/form-data">
       <?= $csrfField ?>
@@ -126,13 +131,15 @@ $csrfField = \App\Core\Csrf::field();
 
       <button type="submit" class="btn btn--accent btn--block">Apply Now</button>
     </form>
+    </div>
   </div>
 </div>
 
 <div class="modal modal--exit" id="exit-modal" role="dialog" aria-modal="true" aria-labelledby="exit-modal-title" hidden>
   <div class="modal__backdrop" data-close-modal></div>
-  <div class="modal__panel">
+  <div class="modal__dialog">
     <button type="button" class="modal__close" data-close-modal aria-label="Close">&times;</button>
+    <div class="modal__panel">
     <img src="/assets/images/Kuntal-Sir-CEO-of-MfunL-img.webp" alt="Kuntal Chatterjee, CEO of MfunL" title="Kuntal Chatterjee, CEO of MfunL" width="330" height="475" loading="lazy">
     <h3 id="exit-modal-title">This is your first step to increasing your OPD</h3>
     <form action="/contact/submit/" method="post" class="lead-form">
@@ -143,6 +150,7 @@ $csrfField = \App\Core\Csrf::field();
       <label>Phone<input type="tel" name="phone" required></label>
       <button type="submit" class="btn btn--accent btn--block">Book My Free Call</button>
     </form>
+    </div>
   </div>
 </div>
 
