@@ -5032,6 +5032,198 @@ section>.wrap>h2,
 /*End*/
 
 /* ================================================================
+   PRICING — plain hero, plan cards, comparison tables, reason grid.
+   ================================================================ */
+.page-hero--plain {
+  background: linear-gradient(135deg, var(--color-dark) 0%, #142640 100%);
+}
+
+.pricing-jump-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin: 28px 0 8px;
+}
+
+.pricing-jump-nav a {
+  padding: 10px 22px;
+  border-radius: 50px;
+  border: 1px solid var(--color-border);
+  font-weight: 600;
+  font-size: .9rem;
+  color: var(--color-text);
+  transition: background-color .2s ease, color .2s ease, border-color .2s ease;
+}
+
+.pricing-jump-nav a:hover {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-dark);
+}
+
+.pricing-plans {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin: 36px 0;
+  text-align: left;
+}
+
+.pricing-plan {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 32px 28px;
+  box-shadow: var(--shadow-sm);
+}
+
+.pricing-plan h3 {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--color-dark);
+}
+
+.pricing-plan .pricing-plan__price {
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: var(--color-accent-dark);
+}
+
+.pricing-plan .pricing-plan__price small {
+  font-size: .95rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+}
+
+.pricing-plan p {
+  color: var(--color-text-muted);
+  font-size: .95rem;
+  line-height: 1.6;
+}
+
+.pricing-plan .btn {
+  margin-top: auto;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .pricing-plans { grid-template-columns: 1fr; }
+}
+
+.price-table-wrap {
+  overflow-x: auto;
+  margin: 28px 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
+
+.price-table {
+  width: 100%;
+  min-width: 640px;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.price-table th,
+.price-table td {
+  padding: 14px 20px;
+  text-align: center;
+  border-bottom: 1px solid var(--color-border);
+  font-size: .92rem;
+}
+
+.price-table th:first-child,
+.price-table td:first-child {
+  text-align: left;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.price-table thead th {
+  background: var(--color-surface);
+  font-family: var(--font-heading);
+  font-weight: 800;
+  color: var(--color-dark);
+  vertical-align: top;
+  padding-top: 20px;
+}
+
+.price-table__tier-price {
+  display: block;
+  margin-top: 6px;
+  font-size: 1.1rem;
+  color: var(--color-accent-dark);
+  font-weight: 800;
+}
+
+.price-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.price-table tbody tr:nth-child(even) {
+  background: var(--color-surface);
+}
+
+.price-table tbody tr.price-table__highlight td {
+  background: rgba(3, 201, 253, .1);
+  font-weight: 700;
+}
+
+.price-table i.fa-circle-check {
+  color: var(--color-accent-dark);
+  font-size: 1.1rem;
+}
+
+.price-table i.fa-circle-xmark {
+  color: #c7ced6;
+  font-size: 1.1rem;
+}
+
+.pricing-service-cta {
+  text-align: center;
+  margin: 20px 0 48px;
+}
+
+.reason-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 32px 0;
+  text-align: left;
+}
+
+.reason-card {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+}
+
+.reason-card h4 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--color-dark);
+}
+
+.reason-card p {
+  color: var(--color-text-muted);
+  font-size: .95rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .reason-grid { grid-template-columns: 1fr; }
+}
+/*End*/
+
+/* ================================================================
    SIDE CONTACT — global, reusable dark contact card (address, phones,
    email). Drop into any sticky sidebar via partial('side-contact').
    ================================================================ */
