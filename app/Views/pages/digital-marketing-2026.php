@@ -160,16 +160,20 @@ $trackMetrics2026 = [
   <div class="article-zigzag">
     <?php foreach ($bigShifts2026 as $i => $shift): ?>
       <div class="article-shift <?= $i % 2 === 0 ? 'article-shift--right' : 'article-shift--left' ?>">
-        <h3 class="h-3"><?= $shift['heading'] ?></h3>
-        <img class="article-shift-image" src="/assets/images/<?= $shift['image'] ?>" alt="" loading="lazy">
-        <p><?= $shift['intro'] ?></p>
-        <p class="article-benefits-label">The benefits of adapting:</p>
-        <ul class="content-tabs__list">
-          <?php foreach ($shift['benefits'] as $benefit): ?>
-            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> <?= $benefit ?></li>
-          <?php endforeach; ?>
-        </ul>
-        <p><?= $shift['pitch'] ?></p>
+        <div class="article-shift__media">
+          <img class="article-shift-image" src="/assets/images/<?= $shift['image'] ?>" alt="" loading="lazy">
+        </div>
+        <div class="article-shift__content">
+          <h3 class="h-3"><?= $shift['heading'] ?></h3>
+          <p><?= $shift['intro'] ?></p>
+          <p class="article-benefits-label">The benefits of adapting:</p>
+          <ul class="content-tabs__list">
+            <?php foreach ($shift['benefits'] as $benefit): ?>
+              <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> <?= $benefit ?></li>
+            <?php endforeach; ?>
+          </ul>
+          <p><?= $shift['pitch'] ?></p>
+        </div>
       </div>
     <?php endforeach; ?>
   </div>
