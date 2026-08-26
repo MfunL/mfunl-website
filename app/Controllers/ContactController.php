@@ -17,7 +17,7 @@ final class ContactController extends Controller
     {
         $seo = new Seo(title: $routeMeta['title'], description: $routeMeta['description'], path: '/contact/');
 
-        return $this->view('pages/_placeholder', [
+        return $this->view('pages/contact', [
             'seo' => $seo,
             'bodyClass' => 'page-contact',
             'title' => $routeMeta['title'],

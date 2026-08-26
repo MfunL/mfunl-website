@@ -312,7 +312,8 @@ button { font-family: inherit; cursor: pointer; }
    built-in tint, so this stays local to the pages that need it. */
 .page-what-we-do .page-hero__overlay,
 .page-service-build-your-brand .page-hero__overlay,
-.page-service-patient-lead-generation .page-hero__overlay {
+.page-service-patient-lead-generation .page-hero__overlay,
+.page-contact .page-hero__overlay {
   background: linear-gradient(180deg, rgba(3, 15, 30, .8) 0%, rgba(3, 25, 46, .58) 45%, rgba(3, 15, 30, .85) 100%);
 }
 
