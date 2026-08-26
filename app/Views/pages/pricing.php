@@ -42,7 +42,7 @@
   </div>
 </section>
 
-<section class="section-gap-both section-width text-center" data-pricing-tabs>
+<section class="section-gap section-width text-center" data-pricing-tabs>
   <p class="section-eyebrow">Or Build Your Own</p>
   <h2 class="section-heading">Pick a Service, Compare Tiers, <span class="accent">Choose What Fits</span></h2>
 
@@ -220,7 +220,7 @@
   </div>
 </section>
 
-<section class="section-gap-both section-width text-center">
+<section class="section-gap section-width text-center">
   <p class="section-eyebrow">The Shift</p>
   <h2 class="section-heading">What Changed Between <span class="accent">2020 and 2026</span></h2>
   <p class="pricing-lead">Six years ago, a good rank on Google was close to a complete strategy. That era has ended. Four things happened at once:</p>
@@ -251,7 +251,7 @@
   <p class="pricing-callout">None of this means any one channel has stopped working. It means no single channel can finish the job alone anymore.</p>
 </section>
 
-<section class="section-gap-both section-width text-center">
+<section class="section-gap section-width text-center">
   <p class="section-eyebrow">The Patient Journey</p>
   <h2 class="section-heading">Follow <span class="accent">One Real Patient</span></h2>
 

@@ -5105,7 +5105,7 @@ section>.wrap>h2,
 }
 
 .pricing-bundle {
-  padding: 64px 0;
+  padding: 40px 0;
   background: linear-gradient(155deg, #076499 0%, #013a5c 46%, #00537e 100%);
   color: #fff;
 }
@@ -5176,7 +5176,7 @@ section>.wrap>h2,
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-  margin: 44px 0 36px;
+  margin: 40px 0 20px;
   text-align: left;
   align-items: start;
 }
@@ -5372,7 +5372,7 @@ section>.wrap>h2,
   align-items: center;
   gap: 18px;
   text-align: center;
-  margin: 32px 0 56px;
+  margin: 32px 0 0;
 }
 
 .pricing-service-cta p {
