@@ -139,10 +139,10 @@
     });
   });
 
-  // ---- Pricing tabs (SEO / PPC / Social / Website) ----
-  document.querySelectorAll('[data-pricing-tabs]').forEach((tabs) => {
+  // ---- Tabs (pricing services, case study categories, etc.) ----
+  document.querySelectorAll('[data-tabs]').forEach((tabs) => {
     const buttons = tabs.querySelectorAll('[data-tab-btn]');
-    const panels = tabs.querySelectorAll('.pricing-tab-panel');
+    const panels = tabs.querySelectorAll('.tab-panel');
 
     buttons.forEach((btn) => {
       btn.addEventListener('click', () => {

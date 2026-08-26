@@ -42,18 +42,18 @@
   </div>
 </section>
 
-<section class="section-gap section-width text-center" data-pricing-tabs>
+<section class="section-gap section-width text-center" data-tabs>
   <p class="section-eyebrow">Or Build Your Own</p>
   <h2 class="section-heading">Pick a Service, Compare Tiers, <span class="accent">Choose What Fits</span></h2>
 
-  <div class="pricing-jump-nav" role="tablist" aria-label="Choose a service">
+  <div class="tab-nav" role="tablist" aria-label="Choose a service">
     <button type="button" class="is-active" role="tab" aria-selected="true" aria-controls="seo-pricing" data-tab-btn="seo-pricing">SEO</button>
     <button type="button" role="tab" aria-selected="false" aria-controls="ppc-pricing" data-tab-btn="ppc-pricing">Google Ads (PPC)</button>
     <button type="button" role="tab" aria-selected="false" aria-controls="social-pricing" data-tab-btn="social-pricing">Social Media</button>
     <button type="button" role="tab" aria-selected="false" aria-controls="website-pricing" data-tab-btn="website-pricing">Website Design</button>
   </div>
 
-  <div id="seo-pricing" class="pricing-tab-panel" role="tabpanel">
+  <div id="seo-pricing" class="tab-panel" role="tabpanel">
     <h3 class="h-2 pricing-service-title">SEO</h3>
     <div class="price-table-wrap">
       <table class="price-table">
@@ -94,7 +94,7 @@
     </div>
   </div>
 
-  <div id="ppc-pricing" class="pricing-tab-panel" role="tabpanel" hidden>
+  <div id="ppc-pricing" class="tab-panel" role="tabpanel" hidden>
     <h3 class="h-2 pricing-service-title">Google Ads (PPC)</h3>
     <div class="price-table-wrap">
       <table class="price-table">
@@ -130,7 +130,7 @@
     </div>
   </div>
 
-  <div id="social-pricing" class="pricing-tab-panel" role="tabpanel" hidden>
+  <div id="social-pricing" class="tab-panel" role="tabpanel" hidden>
     <h3 class="h-2 pricing-service-title">Social Media (Content Marketing)</h3>
     <div class="price-table-wrap">
       <table class="price-table">
@@ -169,7 +169,7 @@
     </div>
   </div>
 
-  <div id="website-pricing" class="pricing-tab-panel" role="tabpanel" hidden>
+  <div id="website-pricing" class="tab-panel" role="tabpanel" hidden>
     <h3 class="h-2 pricing-service-title">Website Design</h3>
     <div class="price-table-wrap">
       <table class="price-table">
