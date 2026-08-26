@@ -319,7 +319,8 @@ button { font-family: inherit; cursor: pointer; }
 /* Blue scrim (sampled from the Case Studies banner's own tint) for
    pages whose photo needs darkening but should read blue, not black. */
 .page-career .page-hero__overlay,
-.page-testimonials .page-hero__overlay {
+.page-testimonials .page-hero__overlay,
+.page-healthcare-case-studies .page-hero__overlay {
   background: linear-gradient(180deg, rgba(62, 96, 150, .78) 0%, rgba(45, 75, 125, .5) 45%, rgba(25, 50, 90, .85) 100%);
 }
 
