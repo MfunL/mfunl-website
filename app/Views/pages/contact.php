@@ -12,10 +12,10 @@
   </div>
 </section>
 
-<section class="section-gap-both section-width">
+<section class="section-gap-both contact-width">
   <div class="contact-info-grid">
     <div class="contact-info-col">
-      <h2 class="h-2">Contact Us</h2>
+      <h2 class="h-2">Get In Touch With Us</h2>
 
       <p class="contact-info-item">
         <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
