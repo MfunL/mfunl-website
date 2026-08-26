@@ -13,7 +13,7 @@
 <section class="section-gap-both section-width text-center">
   <h2 class="section-eyebrow">All Four Services, One Plan</h2>
   <p class="section-heading">The <span class="accent">Complete Growth Package</span></p>
-  <p>SEO + PPC + Social (Content Marketing) + Website, bundled into a single coordinated plan for practices that want every channel working together.</p>
+  <p class="pricing-lead">SEO + PPC + Social (Content Marketing) + Website, bundled into a single coordinated plan for practices that want every channel working together.</p>
 
   <div class="pricing-plans">
     <div class="pricing-plan">
@@ -52,7 +52,7 @@
   </div>
 
   <div id="seo-pricing" class="pricing-tab-panel" role="tabpanel">
-    <h3 class="h-2">SEO</h3>
+    <h3 class="h-2 pricing-service-title">SEO</h3>
     <div class="price-table-wrap">
       <table class="price-table">
         <thead>
@@ -86,13 +86,14 @@
         </tbody>
       </table>
     </div>
-    <p class="pricing-service-cta"><strong>Not sure which SEO tier fits your practice? Talk it through with our team &mdash; no obligation. Call <a href="tel:8336920676">8336920676</a></strong><br>
+    <div class="pricing-service-cta">
+      <p><strong>Not sure which SEO tier fits your practice? Talk it through with our team &mdash; no obligation. Call <a href="tel:8336920676">8336920676</a></strong></p>
       <button type="button" class="btn btn--accent" data-open-modal="lead-modal">Book a Free Consultation</button>
-    </p>
+    </div>
   </div>
 
   <div id="ppc-pricing" class="pricing-tab-panel" role="tabpanel" hidden>
-    <h3 class="h-2">Google Ads (PPC)</h3>
+    <h3 class="h-2 pricing-service-title">Google Ads (PPC)</h3>
     <div class="price-table-wrap">
       <table class="price-table">
         <thead>
@@ -121,13 +122,14 @@
         </tbody>
       </table>
     </div>
-    <p class="pricing-service-cta"><strong>Want a PPC plan sized to your ad budget? We&rsquo;ll walk you through spend vs. package cost. Call <a href="tel:8336920676">8336920676</a></strong><br>
+    <div class="pricing-service-cta">
+      <p><strong>Want a PPC plan sized to your ad budget? We&rsquo;ll walk you through spend vs. package cost. Call <a href="tel:8336920676">8336920676</a></strong></p>
       <button type="button" class="btn btn--accent" data-open-modal="lead-modal">Book a Free Consultation</button>
-    </p>
+    </div>
   </div>
 
   <div id="social-pricing" class="pricing-tab-panel" role="tabpanel" hidden>
-    <h3 class="h-2">Social Media (Content Marketing)</h3>
+    <h3 class="h-2 pricing-service-title">Social Media (Content Marketing)</h3>
     <div class="price-table-wrap">
       <table class="price-table">
         <thead>
@@ -159,13 +161,14 @@
         </tbody>
       </table>
     </div>
-    <p class="pricing-service-cta"><strong>Curious what a month of content actually looks like? Ask us for sample reels and posts from real clinics. Call <a href="tel:8336920676">8336920676</a></strong><br>
+    <div class="pricing-service-cta">
+      <p><strong>Curious what a month of content actually looks like? Ask us for sample reels and posts from real clinics. Call <a href="tel:8336920676">8336920676</a></strong></p>
       <button type="button" class="btn btn--accent" data-open-modal="lead-modal">Book a Free Consultation</button>
-    </p>
+    </div>
   </div>
 
   <div id="website-pricing" class="pricing-tab-panel" role="tabpanel" hidden>
-    <h3 class="h-2">Website Design</h3>
+    <h3 class="h-2 pricing-service-title">Website Design</h3>
     <div class="price-table-wrap">
       <table class="price-table">
         <thead>
@@ -208,37 +211,42 @@
         </tbody>
       </table>
     </div>
-    <p class="pricing-service-cta"><strong>Need a website that&rsquo;s ready for AI search too? Ask about our LLM-optimised content approach. Call <a href="tel:8336920676">8336920676</a></strong><br>
+    <div class="pricing-service-cta">
+      <p><strong>Need a website that&rsquo;s ready for AI search too? Ask about our LLM-optimised content approach. Call <a href="tel:8336920676">8336920676</a></strong></p>
       <button type="button" class="btn btn--accent" data-open-modal="lead-modal">Book a Free Consultation</button>
-    </p>
+    </div>
   </div>
 </section>
 
 <section class="section-gap-both section-width text-center">
   <h2 class="section-eyebrow">The Shift</h2>
   <p class="section-heading">What Changed Between <span class="accent">2020 and 2026</span></p>
-  <p>Six years ago, a good rank on Google was close to a complete strategy. That era has ended. Four things happened at once:</p>
+  <p class="pricing-lead">Six years ago, a good rank on Google was close to a complete strategy. That era has ended. Four things happened at once:</p>
 
-  <div class="reason-grid">
-    <div class="reason-card">
+  <div class="shift-timeline">
+    <div class="shift-timeline__item">
+      <div class="shift-timeline__marker">1</div>
       <h4>Search stopped being a list. It became an answer.</h4>
       <p>AI systems now compose answers from multiple sources instead of handing patients a ranked list of links &mdash; which means being #1 on Google is no longer enough on its own.</p>
     </div>
-    <div class="reason-card">
+    <div class="shift-timeline__item">
+      <div class="shift-timeline__marker">2</div>
       <h4>Trust moved outside your website.</h4>
       <p>Patients decide on review pages, in comments, and through social shares long before they ever land on your homepage, so reputation management now carries as much weight as the site itself.</p>
     </div>
-    <div class="reason-card">
+    <div class="shift-timeline__item">
+      <div class="shift-timeline__marker">3</div>
       <h4>The journey stopped being a straight line.</h4>
       <p>Awareness, search, verification and decision now happen across multiple touchpoints, not in one neat sequence &mdash; and each one needs its own presence.</p>
     </div>
-    <div class="reason-card">
+    <div class="shift-timeline__item">
+      <div class="shift-timeline__marker">4</div>
       <h4>Cost of a single channel keeps climbing.</h4>
       <p>Healthcare CPCs keep rising every year. Leaning on one paid channel without an organic base or brand recall to fall back on gets more expensive with every passing quarter.</p>
     </div>
   </div>
 
-  <p>None of this means any one channel has stopped working. It means no single channel can finish the job alone anymore.</p>
+  <p class="pricing-callout">None of this means any one channel has stopped working. It means no single channel can finish the job alone anymore.</p>
 </section>
 
 <section class="section-gap-both section-width text-center">
@@ -260,8 +268,10 @@
     </table>
   </div>
 
-  <p><strong>Ask yourself honestly: at which of these five stages does your practice currently disappear?</strong></p>
-  <a class="btn btn--accent" href="https://wa.me/917439775869" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Chat on WhatsApp</a>
+  <div class="pricing-service-cta">
+    <p><strong>Ask yourself honestly: at which of these five stages does your practice currently disappear?</strong></p>
+    <a class="btn btn--accent" href="https://wa.me/917439775869" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Chat on WhatsApp</a>
+  </div>
 </section>
 
 <section class="section-gap-both section-width text-center">
@@ -287,7 +297,7 @@
     </div>
   </div>
 
-  <p>Every one of these four is a genuinely good investment. Each one, alone, leaks. Holistic marketing simply means plugging the leaks in the same quarter instead of discovering them one at a time over three years.</p>
+  <p class="pricing-callout">Every one of these four is a genuinely good investment. Each one, alone, leaks. Holistic marketing simply means plugging the leaks in the same quarter instead of discovering them one at a time over three years.</p>
 </section>
 
 <?= \App\Core\View::partial('cta-band', [
