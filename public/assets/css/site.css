@@ -6207,3 +6207,42 @@ section>.wrap>h2,
   }
 }
 /*End*/
+
+/* ================================================================
+   ARTICLE PROSE — long-form content pages (e.g. Digital Marketing
+   2026): readable column width, spaced sections.
+   ================================================================ */
+.article-prose {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.article-prose p {
+  margin: 0 0 20px;
+  line-height: 1.75;
+  color: var(--color-text);
+}
+
+.article-prose .content-tabs__list {
+  margin: 0 0 20px;
+}
+
+.article-section {
+  margin-top: 48px;
+  padding-top: 48px;
+  border-top: 1px solid var(--color-border);
+}
+
+.article-section:first-of-type {
+  margin-top: 32px;
+  padding-top: 0;
+  border-top: none;
+}
+
+.article-benefits-label {
+  font-weight: 700;
+  color: var(--color-dark);
+  margin-bottom: 10px !important;
+}
+/*End*/
