@@ -12,8 +12,8 @@
 
 <section class="pricing-bundle text-center">
   <div class="section-width">
-    <h2 class="section-eyebrow">All Four Services, One Plan</h2>
-    <p class="section-heading">The <span class="accent">Complete Growth Package</span></p>
+    <p class="section-eyebrow">All Four Services, One Plan</p>
+    <h2 class="section-heading">The <span class="accent">Complete Growth Package</span></h2>
     <p class="pricing-lead">SEO + PPC + Social (Content Marketing) + Website, bundled into a single coordinated plan for practices that want every channel working together.</p>
 
     <div class="pricing-plans">
@@ -43,8 +43,8 @@
 </section>
 
 <section class="section-gap-both section-width text-center" data-pricing-tabs>
-  <h2 class="section-eyebrow">Or Build Your Own</h2>
-  <p class="section-heading">Pick a Service, Compare Tiers, <span class="accent">Choose What Fits</span></p>
+  <p class="section-eyebrow">Or Build Your Own</p>
+  <h2 class="section-heading">Pick a Service, Compare Tiers, <span class="accent">Choose What Fits</span></h2>
 
   <div class="pricing-jump-nav" role="tablist" aria-label="Choose a service">
     <button type="button" class="is-active" role="tab" aria-selected="true" aria-controls="seo-pricing" data-tab-btn="seo-pricing">SEO</button>
@@ -221,29 +221,29 @@
 </section>
 
 <section class="section-gap-both section-width text-center">
-  <h2 class="section-eyebrow">The Shift</h2>
-  <p class="section-heading">What Changed Between <span class="accent">2020 and 2026</span></p>
+  <p class="section-eyebrow">The Shift</p>
+  <h2 class="section-heading">What Changed Between <span class="accent">2020 and 2026</span></h2>
   <p class="pricing-lead">Six years ago, a good rank on Google was close to a complete strategy. That era has ended. Four things happened at once:</p>
 
   <div class="shift-timeline">
     <div class="shift-timeline__item">
       <div class="shift-timeline__marker">1</div>
-      <h4>Search stopped being a list. It became an answer.</h4>
+      <h3>Search stopped being a list. It became an answer.</h3>
       <p>AI systems now compose answers from multiple sources instead of handing patients a ranked list of links &mdash; which means being #1 on Google is no longer enough on its own.</p>
     </div>
     <div class="shift-timeline__item">
       <div class="shift-timeline__marker">2</div>
-      <h4>Trust moved outside your website.</h4>
+      <h3>Trust moved outside your website.</h3>
       <p>Patients decide on review pages, in comments, and through social shares long before they ever land on your homepage, so reputation management now carries as much weight as the site itself.</p>
     </div>
     <div class="shift-timeline__item">
       <div class="shift-timeline__marker">3</div>
-      <h4>The journey stopped being a straight line.</h4>
+      <h3>The journey stopped being a straight line.</h3>
       <p>Awareness, search, verification and decision now happen across multiple touchpoints, not in one neat sequence &mdash; and each one needs its own presence.</p>
     </div>
     <div class="shift-timeline__item">
       <div class="shift-timeline__marker">4</div>
-      <h4>Cost of a single channel keeps climbing.</h4>
+      <h3>Cost of a single channel keeps climbing.</h3>
       <p>Healthcare CPCs keep rising every year. Leaning on one paid channel without an organic base or brand recall to fall back on gets more expensive with every passing quarter.</p>
     </div>
   </div>
@@ -252,8 +252,8 @@
 </section>
 
 <section class="section-gap-both section-width text-center">
-  <h2 class="section-eyebrow">The Patient Journey</h2>
-  <p class="section-heading">Follow <span class="accent">One Real Patient</span></p>
+  <p class="section-eyebrow">The Patient Journey</p>
+  <h2 class="section-heading">Follow <span class="accent">One Real Patient</span></h2>
 
   <div class="price-table-wrap">
     <table class="price-table">
@@ -277,35 +277,35 @@
 </section>
 
 <section class="section-gap-both section-width text-center">
-  <h2 class="section-eyebrow">The Leaks</h2>
-  <p class="section-heading">What Actually Happens When You <span class="accent">Buy Only One</span></p>
+  <p class="section-eyebrow">The Leaks</p>
+  <h2 class="section-heading">What Actually Happens When You <span class="accent">Buy Only One</span></h2>
 
   <div class="leak-list">
     <div class="leak-row">
       <span class="leak-row__tag">SEO</span>
       <div class="leak-row__body">
-        <h4>If you buy only SEO</h4>
+        <h3>If you buy only SEO</h3>
         <p>You rank. Six months in, traffic climbs. But the visitor lands on a slow website that doesn&rsquo;t make it obvious how to book, sees eleven reviews next to a competitor&rsquo;s four hundred, and leaves. You paid for the visit and gave it away at the door.</p>
       </div>
     </div>
     <div class="leak-row">
       <span class="leak-row__tag">Google Ads</span>
       <div class="leak-row__body">
-        <h4>If you buy only Google Ads</h4>
+        <h3>If you buy only Google Ads</h3>
         <p>You get enquiries from week one &mdash; that part is real. You also pay full price for every one of them, compete against hospitals with ten times your budget, and build zero brand equity. Your cost per lead rises every quarter because nothing else is doing the persuading. Stop paying, and the flow stops the same day.</p>
       </div>
     </div>
     <div class="leak-row">
       <span class="leak-row__tag">Social Media</span>
       <div class="leak-row__body">
-        <h4>If you buy only Social Media</h4>
+        <h3>If you buy only Social Media</h3>
         <p>You build recall and warmth. Followers rise, reels perform. But nobody searching for your speciality at 9 a.m. finds you, and there&rsquo;s no captured demand &mdash; you&rsquo;re famous to people who weren&rsquo;t looking, invisible to people who were.</p>
       </div>
     </div>
     <div class="leak-row">
       <span class="leak-row__tag">Website</span>
       <div class="leak-row__body">
-        <h4>If you buy only a Website</h4>
+        <h3>If you buy only a Website</h3>
         <p>You have a beautiful brochure in a room nobody enters. A website without traffic is a signboard inside a locked shop.</p>
       </div>
     </div>
