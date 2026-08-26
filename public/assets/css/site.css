@@ -5113,6 +5113,52 @@ section>.wrap>h2,
 /*End*/
 
 /* ================================================================
+   TESTIMONIALS — plain hero, video grid.
+   ================================================================ */
+.page-hero--plain {
+  background: linear-gradient(135deg, var(--color-dark) 0%, #142640 100%);
+}
+
+.testimonial-video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  margin: 36px 0;
+}
+
+.testimonial-video {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  background: var(--color-dark);
+}
+
+.testimonial-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.testimonial-cta {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+@media (max-width: 768px) {
+  .testimonial-video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/*End*/
+
+/* ================================================================
    PRICING — light hero, plan cards, comparison tables, reason grid.
    ================================================================ */
 .page-hero--light {
