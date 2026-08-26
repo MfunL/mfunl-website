@@ -5049,6 +5049,28 @@ section>.wrap>h2,
   pointer-events: none;
 }
 
+.pricing-bundle {
+  padding: 64px 0;
+  background: linear-gradient(155deg, #076499 0%, #013a5c 46%, #00537e 100%);
+  color: #fff;
+}
+
+.pricing-bundle .section-eyebrow {
+  color: #fff;
+}
+
+.pricing-bundle .section-heading {
+  color: #fff;
+}
+
+.pricing-bundle .section-heading .accent {
+  color: var(--color-accent);
+}
+
+.pricing-bundle .pricing-lead {
+  color: rgba(255, 255, 255, .82);
+}
+
 .pricing-lead {
   max-width: 640px;
   margin: 0 auto;

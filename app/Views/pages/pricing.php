@@ -10,32 +10,34 @@
   </div>
 </section>
 
-<section class="section-gap-both section-width text-center">
-  <h2 class="section-eyebrow">All Four Services, One Plan</h2>
-  <p class="section-heading">The <span class="accent">Complete Growth Package</span></p>
-  <p class="pricing-lead">SEO + PPC + Social (Content Marketing) + Website, bundled into a single coordinated plan for practices that want every channel working together.</p>
+<section class="pricing-bundle text-center">
+  <div class="section-width">
+    <h2 class="section-eyebrow">All Four Services, One Plan</h2>
+    <p class="section-heading">The <span class="accent">Complete Growth Package</span></p>
+    <p class="pricing-lead">SEO + PPC + Social (Content Marketing) + Website, bundled into a single coordinated plan for practices that want every channel working together.</p>
 
-  <div class="pricing-plans">
-    <div class="pricing-plan">
-      <h3>Basic</h3>
-      <p class="pricing-plan__price">&#8377;90,000<small> /month</small></p>
-      <p>All four channels at Basic-tier scope &mdash; a coordinated starting point across SEO, PPC, Social and Website.</p>
-      <button type="button" class="btn btn--accent" data-open-modal="lead-modal">Book a Free Consultation</button>
-    </div>
+    <div class="pricing-plans">
+      <div class="pricing-plan">
+        <h3>Basic</h3>
+        <p class="pricing-plan__price">&#8377;90,000<small> /month</small></p>
+        <p>All four channels at Basic-tier scope &mdash; a coordinated starting point across SEO, PPC, Social and Website.</p>
+        <button type="button" class="btn btn--accent" data-open-modal="lead-modal">Book a Free Consultation</button>
+      </div>
 
-    <div class="pricing-plan pricing-plan--featured">
-      <span class="pricing-plan__badge">Most Popular</span>
-      <h3>Premium</h3>
-      <p class="pricing-plan__price">&#8377;1,35,000<small> /month</small></p>
-      <p>All four channels at Premium-tier scope &mdash; deeper keyword coverage, more content, and AI search optimisation included.</p>
-      <button type="button" class="btn btn--accent" data-open-modal="lead-modal">Book a Free Consultation</button>
-    </div>
+      <div class="pricing-plan pricing-plan--featured">
+        <span class="pricing-plan__badge">Most Popular</span>
+        <h3>Premium</h3>
+        <p class="pricing-plan__price">&#8377;1,35,000<small> /month</small></p>
+        <p>All four channels at Premium-tier scope &mdash; deeper keyword coverage, more content, and AI search optimisation included.</p>
+        <button type="button" class="btn btn--accent" data-open-modal="lead-modal">Book a Free Consultation</button>
+      </div>
 
-    <div class="pricing-plan">
-      <h3>Premium+</h3>
-      <p class="pricing-plan__price">&#8377;1,70,000<small> /month</small></p>
-      <p>All four channels at our widest scope &mdash; maximum keyword, content and ad coverage for practices ready to scale fast.</p>
-      <button type="button" class="btn btn--accent" data-open-modal="lead-modal">Book a Free Consultation</button>
+      <div class="pricing-plan">
+        <h3>Premium+</h3>
+        <p class="pricing-plan__price">&#8377;1,70,000<small> /month</small></p>
+        <p>All four channels at our widest scope &mdash; maximum keyword, content and ad coverage for practices ready to scale fast.</p>
+        <button type="button" class="btn btn--accent" data-open-modal="lead-modal">Book a Free Consultation</button>
+      </div>
     </div>
   </div>
 </section>
