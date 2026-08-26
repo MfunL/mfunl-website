@@ -2,10 +2,10 @@
 /** @var string $title */
 /** @var array<int,array{label:string,url:string}> $crumbs */
 ?>
-<section class="page-hero page-hero--plain">
+<section class="page-hero page-hero--light">
   <div class="wrap page-hero__inner">
-    <h1>Healthcare Digital Marketing Pricing in Kolkata</h1>
-    <p class="page-hero__sub">Transparent packages for hospitals, clinics and practitioners &mdash; bundled for full coverage, or built one service at a time.</p>
+    <span class="page-hero__badge"><span class="page-hero__badge-dot"></span> MfunL Pricing</span>
+    <h1><span class="accent">Healthcare Digital Marketing</span> Pricing in Kolkata</h1>
     <?= \App\Core\View::partial('breadcrumbs', ['crumbs' => $crumbs ?? []]) ?>
   </div>
 </section>

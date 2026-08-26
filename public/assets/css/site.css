@@ -5032,21 +5032,76 @@ section>.wrap>h2,
 /*End*/
 
 /* ================================================================
-   PRICING — plain hero, plan cards, comparison tables, reason grid.
+   PRICING — light hero, plan cards, comparison tables, reason grid.
    ================================================================ */
-.page-hero--plain {
-  position: relative;
-  background: linear-gradient(135deg, var(--color-dark) 0%, #142640 100%);
+.page-hero--light {
+  color: var(--color-dark);
+  background:
+    linear-gradient(rgba(3, 201, 253, .07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(3, 201, 253, .07) 1px, transparent 1px),
+    linear-gradient(180deg, #eaf6fd 0%, #ffffff 100%);
+  background-size: 40px 40px, 40px 40px, 100% 100%;
 }
 
-.page-hero--plain::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(ellipse 900px 500px at 15% 0%, rgba(3, 201, 253, .22), transparent 60%),
-    radial-gradient(ellipse 700px 500px at 100% 100%, rgba(3, 201, 253, .14), transparent 60%);
-  pointer-events: none;
+.page-hero--light h1 {
+  color: var(--color-dark);
+}
+
+.page-hero--light h1 .accent {
+  color: var(--color-accent-dark);
+}
+
+.page-hero__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 9px 22px;
+  margin-bottom: 22px;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 50px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: .78rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--color-dark);
+}
+
+.page-hero__badge-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+  box-shadow: 0 0 0 4px rgba(34, 197, 94, .15);
+}
+
+.page-hero--light .breadcrumbs {
+  display: inline-flex;
+  padding: 10px 24px;
+  margin-top: 8px;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 50px;
+  color: var(--color-dark);
+}
+
+.page-hero--light .breadcrumbs a {
+  color: var(--color-dark);
+  font-weight: 700;
+}
+
+.page-hero--light .breadcrumbs a:hover {
+  color: var(--color-accent-dark);
+}
+
+.page-hero--light .breadcrumbs li[aria-current='page'] {
+  font-weight: 700;
+}
+
+.page-hero--light .breadcrumbs li:not(:last-child)::after {
+  content: '>';
+  margin-left: 6px;
 }
 
 .pricing-bundle {
