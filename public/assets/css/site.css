@@ -6304,4 +6304,60 @@ section>.wrap>h2,
   width: 100%;
   border-radius: var(--radius-md);
 }
+
+/* "Bigger Than Just SEO" feature block: image left, content right. */
+.article-feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  margin-top: 24px;
+}
+
+.article-feature__media {
+  flex: 0 0 300px;
+}
+
+.article-feature__media img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  display: block;
+}
+
+.article-feature__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.article-feature__content .content-tabs__list a {
+  color: var(--color-accent-dark);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.article-callout {
+  margin-top: 24px;
+  padding: 24px 28px;
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+}
+
+.article-callout p:first-child {
+  margin-bottom: 20px;
+}
+
+.article-callout .pricing-service-cta {
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .article-feature {
+    flex-direction: column;
+  }
+
+  .article-feature__media {
+    flex-basis: auto;
+    max-width: 260px;
+    margin: 0 auto;
+  }
+}
 /*End*/

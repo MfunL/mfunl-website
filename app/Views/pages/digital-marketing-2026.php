@@ -96,6 +96,7 @@ $trackMetrics2026 = [
     'Review volume and patient sentiment',
 ];
 ?>
+
 <section class="page-hero">
   <img class="page-hero__bg" src="/assets/images/Digital-Marketing-in-2026-banner.webp" alt="" width="1920" height="800" loading="eager" fetchpriority="high">
   <div class="page-hero__overlay" aria-hidden="true"></div>
@@ -108,7 +109,6 @@ $trackMetrics2026 = [
 
 <section class="section-gap-both section-width">
   <div class="article-prose">
-    <img class="article-feature-image" src="/assets/images/healthcare-digital-marketing.webp" alt="Healthcare digital marketing" loading="eager">
     <p>By 2026, a patient rarely goes straight from a single search to a booked appointment. Before they ever land on your website, they&rsquo;ve likely already encountered your brand &mdash; or a competitor&rsquo;s &mdash; through an AI search summary, a social post, a short video, an ad, or a review. Each of those moments shapes an opinion long before the click.</p>
     <p>That raises two questions worth sitting with: does your healthcare brand show up more than once across the platforms your patients actually use? And does it already feel familiar and trustworthy by the time someone reaches your booking page?</p>
     <p>Ranking well on Google is no longer the finish line. The practices that grow fastest in 2026 won&rsquo;t just be the best-ranked &mdash; they&rsquo;ll be the ones that feel visible, credible and reassuring everywhere a patient happens to look.</p>
@@ -116,25 +116,37 @@ $trackMetrics2026 = [
 </section>
 
 <section class="section-gap-both section-width">
-  <div class="article-prose">
+  <div class="article-zigzag">
     <h2 class="h-2">Healthcare Digital Marketing in 2026 Is Bigger Than Just SEO</h2>
-    <p>SEO isn&rsquo;t going away &mdash; it still carries real weight. But treating it as your entire healthcare marketing strategy leaves gaps at exactly the moments patients are forming an opinion of you. Growth in 2026 comes from a connected system, not a single channel:</p>
 
-    <ul class="content-tabs__list">
-      <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> AI-enhanced organic search optimisation (powered by SEO and LLM optimisation)</li>
-      <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Strategic content marketing</li>
-      <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Social media influence &amp; engagement</li>
-      <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Targeted paid advertising (Google Ads and paid media)</li>
-      <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Conversion optimisation (UX, CRO) and reputation management</li>
-    </ul>
+    <div class="article-feature">
+      <div class="article-feature__media">
+        <img src="/assets/images/healthcare-digital-marketing.webp" alt="Healthcare digital marketing" loading="lazy">
+      </div>
+      <div class="article-feature__content">
+        <p>But in 2026, relying on SEO as the only healthcare digital marketing strategy leaves too many patient touchpoints uncovered &mdash; and too many opportunities missed.</p>
+        <p>Healthcare digital marketing today works as a connected ecosystem.</p>
 
-    <p>If even one of these is being neglected, some of your patients are likely finding &mdash; and choosing &mdash; someone else.</p>
+        <ul class="content-tabs__list">
+          <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> AI Enhanced- <a href="/healthcare-seo/"><em>Organic Search Optimisation</em></a> (Powered by SEO and LLM)</li>
+          <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Strategic <a href="/medical-content-creation/"><em>Content Marketing</em></a></li>
+          <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> <a href="/healthcare-social-media-marketing/"><em>Social Media</em></a> Influence &amp; Engagement</li>
+          <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Targeted <a href="/healthcare-google-ads/"><em>Paid Advertising</em></a> (Google Ads and Paid Media)</li>
+          <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> <a href="/patient-conversion-management/"><em>Conversion Optimisation</em></a> (UX, CRO) and <a href="/online-reputation-management/"><em>Reputation Management</em></a></li>
+        </ul>
 
-    <p class="pricing-service-cta">
-      <a class="btn btn--accent" href="tel:8336920676"><i class="fa-solid fa-phone" aria-hidden="true"></i> 8336920676</a>
-      <a class="btn btn--outline" href="https://wa.me/917439775869" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
-    </p>
+        <div class="article-callout">
+          <p><strong>LET&rsquo;S BE HONEST</strong>: If any of these areas are slipping through the cracks, is your healthcare brand really reaching all the patients who need you?</p>
+          <p class="pricing-service-cta">
+            <a class="btn btn--accent" href="tel:8336920676"><i class="fa-solid fa-phone" aria-hidden="true"></i> 8336920676</a>
+            <a class="btn btn--outline" href="https://wa.me/917439775869" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="article-prose">
     <p><strong>Ask yourself:</strong></p>
     <ul class="content-tabs__list">
       <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Can patients find your practice when they ask an AI tool like ChatGPT for a recommendation?</li>
