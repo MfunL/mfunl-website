@@ -3039,6 +3039,11 @@ section>.wrap>h2,
 
 }
 
+.testi-width{width:80%;margin: auto;}
+@media(max-width:768px){
+  .testi-width{width:95%;}
+}
+
 
 
 /* ================================================================

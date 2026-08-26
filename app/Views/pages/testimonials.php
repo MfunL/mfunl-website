@@ -25,7 +25,7 @@ $testimonialVideoIds = [
   </div>
 </section>
 
-<section class="section-gap-both section-width text-center">
+<section class="section-gap-both testi-width text-center">
   <h2 class="h-2">What Our Clients Say</h2>
   <p>See what our clients have to say about how MfunL&rsquo;s expert digital marketing strategies have transformed their healthcare brands.</p>
 
