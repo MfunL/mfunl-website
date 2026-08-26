@@ -278,22 +278,34 @@
   <h2 class="section-eyebrow">The Leaks</h2>
   <p class="section-heading">What Actually Happens When You <span class="accent">Buy Only One</span></p>
 
-  <div class="reason-grid">
-    <div class="reason-card">
-      <h4>If you buy only SEO</h4>
-      <p>You rank well, but conversions stay flat because the website is slow, reviews are thin, and the booking process isn&rsquo;t clear.</p>
+  <div class="leak-list">
+    <div class="leak-row">
+      <span class="leak-row__tag">SEO</span>
+      <div class="leak-row__body">
+        <h4>If you buy only SEO</h4>
+        <p>You rank. Six months in, traffic climbs. But the visitor lands on a slow website that doesn&rsquo;t make it obvious how to book, sees eleven reviews next to a competitor&rsquo;s four hundred, and leaves. You paid for the visit and gave it away at the door.</p>
+      </div>
     </div>
-    <div class="reason-card">
-      <h4>If you buy only Google Ads</h4>
-      <p>Enquiries show up immediately, but you&rsquo;re paying full price for every one of them, building zero brand equity, and costs keep climbing the moment you stop.</p>
+    <div class="leak-row">
+      <span class="leak-row__tag">Google Ads</span>
+      <div class="leak-row__body">
+        <h4>If you buy only Google Ads</h4>
+        <p>You get enquiries from week one &mdash; that part is real. You also pay full price for every one of them, compete against hospitals with ten times your budget, and build zero brand equity. Your cost per lead rises every quarter because nothing else is doing the persuading. Stop paying, and the flow stops the same day.</p>
+      </div>
     </div>
-    <div class="reason-card">
-      <h4>If you buy only Social Media</h4>
-      <p>You build a following and brand recall, but there&rsquo;s no search visibility to capture the demand you&rsquo;re creating.</p>
+    <div class="leak-row">
+      <span class="leak-row__tag">Social Media</span>
+      <div class="leak-row__body">
+        <h4>If you buy only Social Media</h4>
+        <p>You build recall and warmth. Followers rise, reels perform. But nobody searching for your speciality at 9 a.m. finds you, and there&rsquo;s no captured demand &mdash; you&rsquo;re famous to people who weren&rsquo;t looking, invisible to people who were.</p>
+      </div>
     </div>
-    <div class="reason-card">
-      <h4>If you buy only a Website</h4>
-      <p>It&rsquo;s a beautiful brochure in a room nobody enters.</p>
+    <div class="leak-row">
+      <span class="leak-row__tag">Website</span>
+      <div class="leak-row__body">
+        <h4>If you buy only a Website</h4>
+        <p>You have a beautiful brochure in a room nobody enters. A website without traffic is a signboard inside a locked shop.</p>
+      </div>
     </div>
   </div>
 
