@@ -6238,7 +6238,7 @@ section>.wrap>h2,
 
 .article-shift {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 20px;
   width: 100%;
   max-width: 560px;
@@ -6258,7 +6258,12 @@ section>.wrap>h2,
 }
 
 .article-shift__media {
-  flex: 0 0 130px;
+  flex: 0 0 160px;
+  min-height: 160px;
+  border-radius: var(--radius-md);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .article-shift__content {
@@ -6281,7 +6286,8 @@ section>.wrap>h2,
 
   .article-shift__media {
     flex-basis: auto;
-    width: 130px;
+    width: 100%;
+    min-height: 180px;
   }
 }
 
@@ -6289,14 +6295,6 @@ section>.wrap>h2,
   font-weight: 700;
   color: var(--color-dark);
   margin-bottom: 10px !important;
-}
-
-.article-feature-image {
-  display: block;
-  width: 100%;
-  max-width: 320px;
-  margin: 0 auto 24px;
-  border-radius: var(--radius-md);
 }
 
 .article-shift-image {
@@ -6308,19 +6306,18 @@ section>.wrap>h2,
 /* "Bigger Than Just SEO" feature block: image left, content right. */
 .article-feature {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 32px;
   margin-top: 24px;
 }
 
 .article-feature__media {
   flex: 0 0 300px;
-}
-
-.article-feature__media img {
-  width: 100%;
+  min-height: 300px;
   border-radius: var(--radius-lg);
-  display: block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .article-feature__content {
@@ -6357,6 +6354,7 @@ section>.wrap>h2,
   .article-feature__media {
     flex-basis: auto;
     max-width: 260px;
+    min-height: 220px;
     margin: 0 auto;
   }
 }

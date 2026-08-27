@@ -120,9 +120,7 @@ $trackMetrics2026 = [
     <h2 class="h-2">Healthcare Digital Marketing in 2026 Is Bigger Than Just SEO</h2>
 
     <div class="article-feature">
-      <div class="article-feature__media">
-        <img src="/assets/images/healthcare-digital-marketing.webp" alt="Healthcare digital marketing" loading="lazy">
-      </div>
+      <div class="article-feature__media" style="background-image:url('/assets/images/healthcare-digital-marketing.webp');" role="img" aria-label="Healthcare digital marketing"></div>
       <div class="article-feature__content">
         <p>But in 2026, relying on SEO as the only healthcare digital marketing strategy leaves too many patient touchpoints uncovered &mdash; and too many opportunities missed.</p>
         <p>Healthcare digital marketing today works as a connected ecosystem.</p>
@@ -172,9 +170,7 @@ $trackMetrics2026 = [
   <div class="article-zigzag">
     <?php foreach ($bigShifts2026 as $i => $shift): ?>
       <div class="article-shift <?= $i % 2 === 0 ? 'article-shift--right' : 'article-shift--left' ?>">
-        <div class="article-shift__media">
-          <img class="article-shift-image" src="/assets/images/<?= $shift['image'] ?>" alt="" loading="lazy">
-        </div>
+        <div class="article-shift__media" style="background-image:url('/assets/images/<?= $shift['image'] ?>');" role="img" aria-label="<?= strip_tags($shift['heading']) ?>"></div>
         <div class="article-shift__content">
           <h3 class="h-3"><?= $shift['heading'] ?></h3>
           <p><?= $shift['intro'] ?></p>
@@ -230,3 +226,4 @@ $trackMetrics2026 = [
     <p><strong>In 2026, patients aren&rsquo;t choosing the brand that shows up once. They&rsquo;re choosing the one that feels clear, credible and present &mdash; everywhere they look.</strong></p>
   </div>
 </section>
+
