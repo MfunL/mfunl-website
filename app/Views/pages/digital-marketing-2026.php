@@ -269,7 +269,9 @@ $partnerDeliverables2026 = [
   <div class="article-icon-row">
     <?php foreach ($partnerDeliverables2026 as $item): ?>
       <div class="article-icon-row__item">
-        <img src="/assets/images/<?= $item['icon'] ?>" alt="" loading="lazy">
+        <div class="article-icon-row__icon-wrap">
+          <img src="/assets/images/<?= $item['icon'] ?>" alt="" loading="lazy">
+        </div>
         <p><?= $item['text'] ?></p>
       </div>
     <?php endforeach; ?>

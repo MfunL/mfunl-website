@@ -3993,7 +3993,7 @@ section>.wrap>h2,
 }
 
 .h-3{
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
 }
 
@@ -4013,6 +4013,12 @@ section>.wrap>h2,
 .section-width-80{
   max-width: 80%;
   margin: 0 auto;
+}
+
+@media(max-width: 768px){
+  .section-width-80{
+    max-width: 95%;
+  }
 }
 
 .b-rad{
@@ -5466,7 +5472,7 @@ section>.wrap>h2,
   font-family: var(--font-heading);
   font-weight: 800;
   color: #fff;
-  vertical-align: top;
+  vertical-align: middle;
   padding-top: 20px;
 }
 
@@ -5507,6 +5513,7 @@ section>.wrap>h2,
 
 .pricing-service-cta {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   align-items: center;
   gap: 18px;
@@ -6336,7 +6343,7 @@ section>.wrap>h2,
 
   .article-row__media {
     flex-basis: auto;
-    min-height: 220px;
+    min-height: 400px;
   }
 }
 
@@ -6347,12 +6354,14 @@ section>.wrap>h2,
   border-radius: var(--radius-lg);
 }
 
+
 .article-callout p:first-child {
   margin-bottom: 20px;
 }
 
 .article-callout .pricing-service-cta {
   margin: 0;
+  justify-content: start;
 }
 
 /* "Ask yourself" 2x2 question grid. */
@@ -6367,7 +6376,7 @@ section>.wrap>h2,
 
 .article-grid-2x2__item {
   background: #0188ad;
-  border-radius: var(--radius-md);
+  border-radius: 50px 0px 50px 0px;
   padding: 22px 26px;
   font-weight: 600;
   color: #fff;
@@ -6385,22 +6394,44 @@ section>.wrap>h2,
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 32px;
-  max-width: 900px;
+  gap: 24px;
+  max-width: 1000px;
   margin: 32px auto 0;
 }
 
 .article-icon-row__item {
-  flex: 0 1 190px;
+  flex: 0 1 220px;
   text-align: center;
+  background: linear-gradient(180deg, #fff 0%, #fbfdff 100%);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 32px 22px;
+  box-shadow: var(--shadow-sm);
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+
+.article-icon-row__item:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(3, 201, 253, .35);
+}
+
+.article-icon-row__icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  height: 84px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  background: var(--color-surface);
 }
 
 .article-icon-row__item img {
   display: block;
-  width: 64px;
-  height: 64px;
+  width: 44px;
+  height: 44px;
   object-fit: contain;
-  margin: 0 auto 14px;
 }
 
 .article-icon-row__item p {
@@ -6413,6 +6444,7 @@ section>.wrap>h2,
 .article-pitch {
   background: rgb(217, 238, 249);
   padding: 16px 20px;
+  font-weight: 600;
   border-radius: var(--radius-md);
 }
 /*End*/
