@@ -5429,7 +5429,6 @@ section>.wrap>h2,
 
 .price-table-wrap {
   overflow-x: auto;
-  margin: 28px 0;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-sm);
@@ -5503,7 +5502,7 @@ section>.wrap>h2,
 
 .pricing-service-cta {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   gap: 18px;
   text-align: center;
@@ -6213,7 +6212,6 @@ section>.wrap>h2,
    2026): readable column width, spaced sections.
    ================================================================ */
 .article-prose {
-  max-width: 760px;
   margin: 0 auto;
   text-align: left;
 }
@@ -6234,26 +6232,44 @@ section>.wrap>h2,
   margin-bottom: 10px !important;
 }
 
-/* Pull-quote used for the article's short callout lines. */
+/* Pull-quote used for the article's short callout lines: large
+   bracketing quote marks at opposite corners, italic bold text
+   between them. */
 .article-quote {
+  position: relative;
   max-width: 680px;
-  margin: 28px auto;
+  margin: 44px auto;
+  padding: 10px 56px 34px;
   text-align: center;
+}
+
+.article-quote::before,
+.article-quote::after {
+  position: absolute;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--color-accent);
 }
 
 .article-quote::before {
   content: '\201C';
-  display: block;
-  font-family: Georgia, serif;
-  font-size: 3rem;
-  line-height: 1;
-  color: var(--color-accent);
-  margin-bottom: 4px;
+  top: -6px;
+  left: 0;
+}
+
+.article-quote::after {
+  content: '\201D';
+  bottom: -18px;
+  right: 0;
 }
 
 .article-quote p {
   font-family: var(--font-heading);
   font-weight: 700;
+  font-style: italic;
   font-size: 1.2rem;
   color: var(--color-dark);
   margin: 0 0 8px;
@@ -6263,14 +6279,24 @@ section>.wrap>h2,
   margin-bottom: 0;
 }
 
+@media (max-width: 560px) {
+  .article-quote {
+    padding: 6px 36px 30px;
+  }
+
+  .article-quote::before,
+  .article-quote::after {
+    font-size: 3rem;
+  }
+}
+
 /* Full-width alternating row: background-image panel + text column.
    .article-row--reverse swaps the image to the right. */
 .article-row {
   display: flex;
   align-items: stretch;
   gap: 32px;
-  max-width: 1000px;
-  margin: 32px auto 0;
+  margin: 40px auto 0;
 }
 
 .article-row--reverse {
@@ -6278,7 +6304,7 @@ section>.wrap>h2,
 }
 
 .article-row__media {
-  flex: 0 0 340px;
+  flex: 0 0 40%;
   min-height: 300px;
   border-radius: var(--radius-lg);
   background-size: cover;
@@ -6335,11 +6361,11 @@ section>.wrap>h2,
 }
 
 .article-grid-2x2__item {
-  background: var(--color-surface);
+  background: #0188ad;
   border-radius: var(--radius-md);
   padding: 22px 26px;
   font-weight: 600;
-  color: var(--color-dark);
+  color: #fff;
   line-height: 1.5;
 }
 
