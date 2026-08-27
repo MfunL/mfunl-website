@@ -6228,91 +6228,57 @@ section>.wrap>h2,
   margin: 0 0 20px;
 }
 
-/* Zigzag layout for "The Big Shifts" &mdash; each block sits in a
-   half-width column, alternating right/left down the page, matching
-   the source page's alternating-column design. */
-.article-zigzag {
-  max-width: 1000px;
-  margin: 32px auto 0;
-}
-
-.article-shift {
-  display: flex;
-  align-items: stretch;
-  gap: 20px;
-  width: 100%;
-  max-width: 560px;
-  text-align: left;
-}
-
-.article-shift + .article-shift {
-  margin-top: 48px;
-}
-
-.article-shift--right {
-  margin-left: auto;
-}
-
-.article-shift--left {
-  margin-right: auto;
-}
-
-.article-shift__media {
-  flex: 0 0 160px;
-  min-height: 160px;
-  border-radius: var(--radius-md);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.article-shift__content {
-  flex: 1;
-  min-width: 0;
-}
-
-@media (max-width: 760px) {
-  .article-shift {
-    max-width: 100%;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-}
-
-@media (max-width: 480px) {
-  .article-shift {
-    flex-direction: column;
-  }
-
-  .article-shift__media {
-    flex-basis: auto;
-    width: 100%;
-    min-height: 180px;
-  }
-}
-
 .article-benefits-label {
   font-weight: 700;
   color: var(--color-dark);
   margin-bottom: 10px !important;
 }
 
-.article-shift-image {
-  display: block;
-  width: 100%;
-  border-radius: var(--radius-md);
+/* Pull-quote used for the article's short callout lines. */
+.article-quote {
+  max-width: 680px;
+  margin: 28px auto;
+  text-align: center;
 }
 
-/* "Bigger Than Just SEO" feature block: image left, content right. */
-.article-feature {
+.article-quote::before {
+  content: '\201C';
+  display: block;
+  font-family: Georgia, serif;
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--color-accent);
+  margin-bottom: 4px;
+}
+
+.article-quote p {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--color-dark);
+  margin: 0 0 8px;
+}
+
+.article-quote p:last-child {
+  margin-bottom: 0;
+}
+
+/* Full-width alternating row: background-image panel + text column.
+   .article-row--reverse swaps the image to the right. */
+.article-row {
   display: flex;
   align-items: stretch;
   gap: 32px;
-  margin-top: 24px;
+  max-width: 1000px;
+  margin: 32px auto 0;
 }
 
-.article-feature__media {
-  flex: 0 0 300px;
+.article-row--reverse {
+  flex-direction: row-reverse;
+}
+
+.article-row__media {
+  flex: 0 0 340px;
   min-height: 300px;
   border-radius: var(--radius-lg);
   background-size: cover;
@@ -6320,15 +6286,27 @@ section>.wrap>h2,
   background-repeat: no-repeat;
 }
 
-.article-feature__content {
+.article-row__content {
   flex: 1;
   min-width: 0;
+  text-align: left;
 }
 
-.article-feature__content .content-tabs__list a {
+.article-row__content .content-tabs__list a {
   color: var(--color-accent-dark);
   text-decoration: underline;
   font-weight: 600;
+}
+
+@media (max-width: 760px) {
+  .article-row {
+    flex-direction: column !important;
+  }
+
+  .article-row__media {
+    flex-basis: auto;
+    min-height: 220px;
+  }
 }
 
 .article-callout {
@@ -6346,16 +6324,58 @@ section>.wrap>h2,
   margin: 0;
 }
 
-@media (max-width: 640px) {
-  .article-feature {
-    flex-direction: column;
-  }
+/* "Ask yourself" 2x2 question grid. */
+.article-grid-2x2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 820px;
+  margin: 32px auto;
+  text-align: left;
+}
 
-  .article-feature__media {
-    flex-basis: auto;
-    max-width: 260px;
-    min-height: 220px;
-    margin: 0 auto;
+.article-grid-2x2__item {
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  padding: 22px 26px;
+  font-weight: 600;
+  color: var(--color-dark);
+  line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .article-grid-2x2 {
+    grid-template-columns: 1fr;
   }
+}
+
+/* 4-column icon row (partner deliverables). */
+.article-icon-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  max-width: 900px;
+  margin: 32px auto 0;
+}
+
+.article-icon-row__item {
+  flex: 0 1 190px;
+  text-align: center;
+}
+
+.article-icon-row__item img {
+  display: block;
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin: 0 auto 14px;
+}
+
+.article-icon-row__item p {
+  margin: 0;
+  font-size: .92rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
 }
 /*End*/
