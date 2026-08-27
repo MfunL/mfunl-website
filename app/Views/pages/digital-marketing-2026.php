@@ -119,7 +119,7 @@ $partnerDeliverables2026 = [
   </div>
 </section>
 
-<section class="section-gap-both section-width text-center">
+<section class="section-gap section-width-80 text-center">
   <div class="article-prose" style="text-align:center;">
     <p>Healthcare digital marketing in 2026 isn&rsquo;t about chasing attention&mdash;it&rsquo;s about earning recognition consistently. In 2026, the patient journey from the &lsquo;first search&rsquo; to &lsquo;appointment booking&rsquo; is no longer linear. They move across AI-powered search, social media channels, short-form video, ads, and reviews&mdash;forming opinions at every step. Only after all that&hellip; they might land on your website. So pause and ask:</p>
   </div>
@@ -134,7 +134,7 @@ $partnerDeliverables2026 = [
   </div>
 </section>
 
-<section class="section-gap-both section-width text-center">
+<section class="section-gap section-width-80 text-center">
   <h2 class="h-2">Healthcare Digital Marketing in 2026 Is Bigger Than Just SEO</h2>
 
   <div class="article-quote">
@@ -166,7 +166,7 @@ $partnerDeliverables2026 = [
   </div>
 </section>
 
-<section class="section-gap-both section-width text-center">
+<section class="section-gap section-width-80 text-center">
   <h2 class="h-2">Ask Yourself</h2>
 
   <div class="article-grid-2x2">
@@ -194,7 +194,7 @@ $partnerDeliverables2026 = [
   </p>
 </section>
 
-<section class="section-gap-both section-width text-center">
+<section class="section-gap section-width-80 text-center">
   <h2 class="h-2">The Big Shifts Redefining How Healthcare Brands Get Chosen in 2026</h2>
 
   <?php foreach ($bigShifts2026 as $i => $shift): ?>
@@ -210,14 +210,14 @@ $partnerDeliverables2026 = [
           <?php endforeach; ?>
         </ul>
         <?php if ($shift['pitch']): ?>
-          <p><?= $shift['pitch'] ?></p>
+          <p class="article-pitch"><?= $shift['pitch'] ?></p>
         <?php endif; ?>
       </div>
     </div>
   <?php endforeach; ?>
 </section>
 
-<section class="section-gap-both section-width text-center">
+<section class="section-gap section-width-80 text-center">
   <div class="article-quote">
     <p>How MfunL Can Help Your Brand Excel in UX, CRO, and Reputation Management</p>
   </div>
@@ -226,7 +226,7 @@ $partnerDeliverables2026 = [
   </div>
 </section>
 
-<section class="section-gap-both section-width text-center">
+<section class="section-gap section-width-80 text-center">
   <h2 class="h-2">The Modern Healthcare Digital Marketing Stack (2026 Edition)</h2>
   <div class="price-table-wrap">
     <table class="price-table">
@@ -242,7 +242,7 @@ $partnerDeliverables2026 = [
   </div>
 </section>
 
-<section class="section-gap-both section-width text-center">
+<section class="section-width-80 text-center">
   <div class="article-row">
     <div class="article-row__media" style="background-image:url('/assets/images/Data-Driven-Healthcare-Marketing.webp');" role="img" aria-label="Data-Driven Healthcare Marketing"></div>
     <div class="article-row__content">
@@ -258,13 +258,13 @@ $partnerDeliverables2026 = [
   </div>
 </section>
 
-<section class="section-gap-both section-width text-center">
+<section class="section-gap section-width-80 text-center">
   <h2 class="h-2">How We Help Healthcare Brands Win in 2026</h2>
   <div class="article-prose" style="text-align:center;">
     <p>At MfunL, we don&rsquo;t just do SEO or design. We build end-to-end healthcare digital marketing systems that help surgeons, superspeciality clinics, multi-speciality hospitals, and healthcare laboratories grow with credibility and measurable patient flow.</p>
   </div>
 
-  <h3 class="h-3">We partner with healthcare brands to deliver:</h3>
+  <h3 class="h-3 section-gap">We partner with healthcare brands to deliver:</h3>
 
   <div class="article-icon-row">
     <?php foreach ($partnerDeliverables2026 as $item): ?>
@@ -276,7 +276,7 @@ $partnerDeliverables2026 = [
   </div>
 </section>
 
-<section class="section-gap-both section-width text-center">
+<section class="section-gap-both section-width-80 text-center">
   <div class="article-prose" style="text-align:center;">
     <p>We combine strategy, creativity, and healthcare expertise&mdash;so your message matters where patients actually decide.</p>
     <p>At MfunL, we also support offline healthcare marketing&mdash;ensuring your on-ground presence matches the trust you build online.</p>
