@@ -77,3 +77,19 @@
     </div>
   </div>
 </section>
+
+<section class="section-gap-both">
+  <div class="wrap section-width epaper-feature">
+    <h2 class="h-2">Odisha Pharma Summit 2025</h2>
+    <div class="article-prose">
+      <p>CEO of MfunL, Mr. Kuntal Chatterjee, was a part of the Odisha Pharma Summit&mdash;where conversations around healthcare innovation and pharma growth took centre stage. Experiences like these sharpen MfunL&rsquo;s vision to keep building impactful healthcare brands through insight-led digital marketing.</p>
+    </div>
+    <div class="awards__grid">
+      <?php for ($i = 1; $i <= 8; $i++): ?>
+        <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Odisha-Pharma-SummitG<?= $i ?>-img.webp" aria-label="View Odisha Pharma Summit 2025 photo <?= $i ?>">
+          <img src="/assets/images/events/Odisha-Pharma-SummitG<?= $i ?>-img.webp" alt="Odisha Pharma Summit 2025, photo <?= $i ?>" loading="lazy">
+        </button>
+      <?php endfor; ?>
+    </div>
+  </div>
+</section>
