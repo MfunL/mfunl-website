@@ -312,8 +312,7 @@ button { font-family: inherit; cursor: pointer; }
    built-in tint, so this stays local to the pages that need it. */
 .page-what-we-do .page-hero__overlay,
 .page-service-build-your-brand .page-hero__overlay,
-.page-service-patient-lead-generation .page-hero__overlay,
-.page-tv-channels .page-hero__overlay {
+.page-service-patient-lead-generation .page-hero__overlay {
   background: linear-gradient(180deg, rgba(3, 15, 30, .8) 0%, rgba(3, 25, 46, .58) 45%, rgba(3, 15, 30, .85) 100%);
 }
 
@@ -323,7 +322,8 @@ button { font-family: inherit; cursor: pointer; }
 .page-testimonials .page-hero__overlay,
 .page-healthcare-case-studies .page-hero__overlay,
 .page-contact .page-hero__overlay,
-.page-e-papers .page-hero__overlay {
+.page-e-papers .page-hero__overlay,
+.page-tv-channels .page-hero__overlay {
   background: linear-gradient(180deg, rgba(62, 96, 150, .78) 0%, rgba(45, 75, 125, .5) 45%, rgba(25, 50, 90, .85) 100%);
 }
 
