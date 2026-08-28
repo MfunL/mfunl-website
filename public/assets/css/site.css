@@ -3517,6 +3517,11 @@ section>.wrap>h2,
   grid-template-columns: repeat(3, 1fr);
 }
 
+.event-single-photo {
+  max-width: 420px;
+  margin: 40px auto 0;
+}
+
 .awards__item {
   border: none;
   background: none;

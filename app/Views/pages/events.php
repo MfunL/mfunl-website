@@ -12,7 +12,7 @@
   </div>
 </section>
 
-<section class="section-gap-both">
+<section class="section-gap">
   <div class="wrap section-width epaper-feature">
     <h2 class="h-2">Highlights from MfunL Award Ceremony 2026</h2>
     <div class="article-prose">
@@ -44,6 +44,20 @@
       <button type="button" class="awards__item awards__item--video" data-open-video="/assets/images/events/MfunLs-Participation-in-Medicall-2026.mp4" aria-label="Play MfunL at Medicall 2026 video">
         <img src="/assets/images/events/MfunLs-Participation-in-Medicall-2026-img.webp" alt="MfunL at Medicall 2026 video" loading="lazy">
         <img class="awards__item-play" src="/assets/images/play-icon.png" alt="" loading="lazy">
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="section-gap-both">
+  <div class="wrap section-width epaper-feature">
+    <h2 class="h-2">SMC MedExpo 2.0 Agartala, Tripura.</h2>
+    <div class="article-prose">
+      <p>MfunL is proud to be part of the SMC Med Expo 2.0 Tripura, hosted at Tripura Medical College &amp; Hospital&mdash;a powerful platform bringing healthcare innovation and collaboration together.</p>
+    </div>
+    <div class="event-single-photo">
+      <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/SMC-MedExpo-2.0-Agartala-Tripura.webp" aria-label="View SMC MedExpo 2.0 Agartala, Tripura photo">
+        <img src="/assets/images/events/SMC-MedExpo-2.0-Agartala-Tripura.webp" alt="SMC MedExpo 2.0 Agartala, Tripura" loading="lazy">
       </button>
     </div>
   </div>
