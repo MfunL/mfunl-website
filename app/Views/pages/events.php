@@ -126,3 +126,20 @@
     </div>
   </div>
 </section>
+
+<section class="section-gap-both bg-tint">
+  <div class="wrap section-width epaper-feature">
+    <h2 class="h-2">MedExpo 2025</h2>
+    <div class="article-prose">
+      <p>MfunL is proud to lead the way in healthcare digital marketing at MedExpo 2025 in Bolpur.</p>
+    </div>
+    <div class="awards__grid">
+      <?php for ($i = 1; $i <= 11; $i++): ?>
+        <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/MedExpo-2025-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" aria-label="View MedExpo 2025 photo <?= $i ?>">
+          <img src="/assets/images/events/MedExpo-2025-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="MedExpo 2025, photo <?= $i ?>" loading="lazy">
+        </button>
+      <?php endfor; ?>
+    </div>
+  </div>
+</section>
+
