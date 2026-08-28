@@ -34,7 +34,7 @@
     <div class="article-prose">
       <p>MfunL marked its presence at Medicall, engaging with healthcare leaders and showcasing the power of strategic digital marketing in modern healthcare growth.</p>
     </div>
-    <div class="awards__grid">
+    <div class="awards__grid awards__grid--3col">
       <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/MfunLs-Participation-in-Medicall-2026-img.webp" aria-label="View MfunL at Medicall 2026, photo 1">
         <img src="/assets/images/events/MfunLs-Participation-in-Medicall-2026-img.webp" alt="MfunL at Medicall 2026, photo 1" loading="lazy">
       </button>

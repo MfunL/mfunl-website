@@ -3513,6 +3513,10 @@ section>.wrap>h2,
   margin: 40px 0;
 }
 
+.awards__grid--3col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .awards__item {
   border: none;
   background: none;
