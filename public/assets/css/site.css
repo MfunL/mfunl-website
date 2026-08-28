@@ -6463,6 +6463,10 @@ section>.wrap>h2,
   flex-direction: row-reverse;
 }
 
+.article-row--align-center {
+  align-items: center;
+}
+
 .article-row__media {
   flex: 0 0 40%;
   min-height: 300px;
@@ -6470,6 +6474,14 @@ section>.wrap>h2,
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/* Full graphic/poster images must stay uncropped — letterbox instead
+   of covering, since cover crops content off promotional artwork. */
+.article-row__media--contain {
+  background-size: contain;
+  background-color: #fff;
+  border: 1px solid var(--color-border);
 }
 
 .article-row__content {

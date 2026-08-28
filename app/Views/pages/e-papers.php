@@ -32,13 +32,13 @@
 <section class="section-gap-both">
   <div class="wrap section-width-80">
     <h2 class="h-2 text-center">MfunL CEO talks at the IDAC event organized by Exchange4media at Mumbai</h2>
-    <div class="article-row">
+    <div class="article-row article-row--align-center">
       <div class="article-row__content">
         <div class="article-prose">
           <p>&quot;We are delighted to announce that our CEO, Sree Kuntal Chatterjee, will be delivering his insights on the captivating subject: &lsquo;Striking a Balance Between Technology and Creativity for Successful Digital Marketing in Regional India&rsquo; at the prestigious IDAC (Independent Digital Agency Connect) event organized by EXCHANGE4MEDIA. As the digital barrier in India slowly fades away, it has become imperative to confront the challenges of taking digital marketing to all the obscure nooks of India, a necessity that raises the relevance of this initiative all the more.&quot;</p>
         </div>
       </div>
-      <div class="article-row__media" style="background-image:url('/assets/images/IDAC1.webp');" role="img" aria-label="MfunL CEO speaking at the IDAC event"></div>
+      <div class="article-row__media article-row__media--contain" style="background-image:url('/assets/images/IDAC1.webp');" role="img" aria-label="MfunL CEO speaking at the IDAC event"></div>
     </div>
   </div>
 </section>
