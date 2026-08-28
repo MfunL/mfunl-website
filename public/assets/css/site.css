@@ -6273,6 +6273,11 @@ section>.wrap>h2,
   object-fit: contain;
 }
 
+.epaper-feature h2,
+.epaper-feature .article-prose {
+  text-align: center;
+}
+
 /* ================================================================
    TV EVENTS — press coverage blocks on the TV Channels page.
    ================================================================ */
@@ -6292,10 +6297,12 @@ section>.wrap>h2,
 
 .tv-event h2 {
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .tv-event .article-prose {
   margin: 0;
+  text-align: center;
 }
 
 /* ================================================================

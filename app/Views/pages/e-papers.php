@@ -13,8 +13,8 @@
 </section>
 
 <section class="section-gap-both">
-  <div class="wrap testi-width">
-    <h2 class="h-2">MfunL Featured in India Pharma Outlook Magazine!</h2>
+  <div class="wrap section-width-80">
+    <h2 class="h-2 text-center">MfunL Featured in India Pharma Outlook Magazine!</h2>
     <div class="article-row">
       <div class="article-row__media" style="background-image:url('/assets/images/Kuntal-Chatterjee-CEO.webp');" role="img" aria-label="Kuntal Chatterjee, CEO of MfunL"></div>
       <div class="article-row__content">
@@ -30,8 +30,8 @@
 </section>
 
 <section class="section-gap-both">
-  <div class="wrap testi-width">
-    <h2 class="h-2">MfunL CEO talks at the IDAC event organized by Exchange4media at Mumbai</h2>
+  <div class="wrap section-width-80">
+    <h2 class="h-2 text-center">MfunL CEO talks at the IDAC event organized by Exchange4media at Mumbai</h2>
     <div class="article-row">
       <div class="article-row__content">
         <div class="article-prose">
@@ -44,7 +44,7 @@
 </section>
 
 <section class="section-gap-both bg-tint">
-  <div class="wrap testi-width">
+  <div class="wrap section-width-80 epaper-feature">
     <h2 class="h-2">MfunL is a Proud to be Associated as the Digital Partner at the 25th Cable TV Show 2024 in Kolkata</h2>
     <div class="article-prose">
       <p>MfunL i takes pride in being associated as the digital partner of Cable TV Equipments Traders &amp; Manufacturers Association's (CTMA) 25th Cable TV Show at Biswa Bangla Mela Prangan, Kolkata, from January 9-11, 2024.</p>
@@ -56,7 +56,7 @@
 </section>
 
 <section class="section-gap-both">
-  <div class="wrap testi-width">
+  <div class="wrap section-width-80 epaper-feature">
     <h2 class="h-2">Taking digital marketing to regional India: enriching discourse unfolds in e4m iDAC conference</h2>
     <div class="article-prose">
       <p>Thought leaders in the digital marketing industry, including our CEO Sree Kunal Chatterjee, engage in an intriguing exchange of ideas on the theme of taking the pyre of digital marketing into the different nooks of regional and rural India at the exchange4media Independent Digital Agency Connect Conference (iDAC) 2023. The proliferation of technology and consumer demands have set this astounding opportunity for digital Prometheus like us to spread the fire of new-age marketing far and wide.</p>
@@ -68,7 +68,7 @@
 </section>
 
 <section class="section-gap-both bg-tint">
-  <div class="wrap testi-width">
+  <div class="wrap section-width-80 epaper-feature">
     <h2 class="h-2">MfunL is honored to be associated with the 24th Cable TV Show 2023 in Kolkata</h2>
     <div class="article-prose">
       <p>MfunL is proud to be a part of India&rsquo;s largest trade shows on digital cable television, broadband, and OTT &ndash; the 24th Cable TV Show held on January 11 2023, at Science City, Kolkata.</p>
@@ -81,7 +81,7 @@
 </section>
 
 <section class="section-gap-both">
-  <div class="wrap testi-width">
+  <div class="wrap section-width-80 epaper-feature">
     <h2 class="h-2">A wonderful silent rally with an empowering message on 27th February 2020</h2>
     <div class="article-prose">
       <p>Thank you all the E-Papers for covering our silent rally against the age-old myth of women being impure at the time of the menstrual cycle and tell the world how beautiful she is&hellip;</p>
@@ -94,7 +94,7 @@
 </section>
 
 <section class="section-gap-both bg-tint">
-  <div class="wrap testi-width">
+  <div class="wrap section-width-80 epaper-feature">
     <h2 class="h-2">A wonderful event with a social message on 9th may 2019</h2>
     <div class="article-prose">
       <p>Kolkata-based entrepreneurs Anurag Chirimar and Subrata Roy today formally announced the launch of a new social media marketing company &ndash; MfunL &ndash; which would provide a 360-degree social media promotion, marketing and advisory services.</p>
