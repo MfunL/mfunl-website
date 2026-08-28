@@ -266,7 +266,8 @@ button { font-family: inherit; cursor: pointer; }
 .lightbox__panel { position: relative; max-width: 90vw; max-height: 90vh; }
 .lightbox__panel img { max-height: 90vh; border-radius: var(--radius-sm); }
 .lightbox__panel--video { width: min(90vw, 900px); aspect-ratio: 16/9; }
-.lightbox__video-frame, .lightbox__video-frame iframe { width: 100%; height: 100%; border: 0; border-radius: var(--radius-sm); }
+.lightbox__video-frame, .lightbox__video-frame iframe, .lightbox__video-frame video { width: 100%; height: 100%; border: 0; border-radius: var(--radius-sm); }
+.lightbox__video-frame video { object-fit: contain; background: #000; }
 
 /* ---- Floating buttons ---- */
 .floating-buttons { position: fixed; right: 20px; bottom: 20px; display: flex; flex-direction: column; gap: 10px; z-index: 900; }
@@ -3530,6 +3531,33 @@ section>.wrap>h2,
 
 .awards__item:hover img {
   transform: scale(1.06);
+}
+
+.awards__item--video {
+  position: relative;
+}
+
+.awards__item--video::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(11, 18, 32, .25);
+  border-radius: var(--radius-md);
+  transition: background .18s ease;
+}
+
+.awards__item--video:hover::after {
+  background: rgba(11, 18, 32, .42);
+}
+
+.awards__item-play {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  z-index: 1;
+  width: 48px;
+  height: 48px;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, .4));
 }
 
 /* ================================================================

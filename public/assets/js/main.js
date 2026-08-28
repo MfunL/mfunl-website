@@ -75,7 +75,10 @@
   document.querySelectorAll('[data-open-video]').forEach((trigger) => {
     trigger.addEventListener('click', () => {
       if (!videoLightbox || !videoFrame) return;
-      videoFrame.innerHTML = '<iframe src="https://www.youtube.com/embed/vHZWwWAjVEU" title="MfunL video" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+      const src = trigger.dataset.openVideo;
+      videoFrame.innerHTML = src
+        ? `<video src="${src}" controls autoplay playsinline></video>`
+        : '<iframe src="https://www.youtube.com/embed/vHZWwWAjVEU" title="MfunL video" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
       videoLightbox.hidden = false;
     });
   });
