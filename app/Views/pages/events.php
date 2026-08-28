@@ -62,3 +62,18 @@
     </div>
   </div>
 </section>
+
+<section class="section-gap-both bg-tint">
+  <div class="wrap section-width epaper-feature">
+    <h2 class="h-2">SMC MedExpo 2.0 Shantiniketan, Birbhum.</h2>
+    <div class="article-prose">
+      <p>Delighted to be a part of an enriching experience with the masterminds of the medical fraternity.</p>
+    </div>
+    <div class="event-single-photo">
+      <button type="button" class="awards__item awards__item--video" data-open-video="/assets/images/events/MedExpo-2.0.mp4" aria-label="Play SMC MedExpo 2.0 Shantiniketan, Birbhum video">
+        <video src="/assets/images/events/MedExpo-2.0.mp4" preload="metadata" muted playsinline></video>
+        <img class="awards__item-play" src="/assets/images/play-icon.png" alt="" loading="lazy">
+      </button>
+    </div>
+  </div>
+</section>
