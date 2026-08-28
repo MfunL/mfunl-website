@@ -3550,13 +3550,14 @@ section>.wrap>h2,
   background: rgba(11, 18, 32, .42);
 }
 
-.awards__item-play {
+.awards__item--video .awards__item-play {
   position: absolute;
   inset: 0;
   margin: auto;
   z-index: 1;
   width: 48px;
   height: 48px;
+  aspect-ratio: 1 / 1;
   filter: drop-shadow(0 4px 12px rgba(0, 0, 0, .4));
 }
 
