@@ -109,3 +109,20 @@
     </div>
   </div>
 </section>
+
+<section class="section-gap-both">
+  <div class="wrap section-width epaper-feature">
+    <h2 class="h-2">MfunL Award Ceremony 2025 Highlights</h2>
+    <div class="article-prose">
+      <p>The spirit of excellence and teamwork was on full display at the MfunL Award Ceremony 2025, held at Hotel Hindustan International. From recognising outstanding performers to celebrating collective milestones, the event was filled with energy, gratitude, and inspiration. Adding a special touch to the evening, celebrity guests joined us and personally handed out the awards, making the celebration even more memorable.</p>
+      <p>Here's a glimpse into the moments that made the evening truly unforgettable.</p>
+    </div>
+    <div class="awards__grid">
+      <?php for ($i = 1; $i <= 9; $i++): ?>
+        <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/2025-award-ceremony-img<?= $i ?>.webp" aria-label="View MfunL Award Ceremony 2025 photo <?= $i ?>">
+          <img src="/assets/images/events/2025-award-ceremony-img<?= $i ?>.webp" alt="MfunL Award Ceremony 2025, photo <?= $i ?>" loading="lazy">
+        </button>
+      <?php endfor; ?>
+    </div>
+  </div>
+</section>
