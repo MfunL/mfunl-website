@@ -6240,6 +6240,31 @@ section>.wrap>h2,
 }
 
 /* ================================================================
+   TV EVENTS — press coverage blocks on the TV Channels page.
+   ================================================================ */
+.tv-event {
+  padding: 48px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.tv-event:first-child {
+  padding-top: 0;
+}
+
+.tv-event:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.tv-event h2 {
+  margin-bottom: 16px;
+}
+
+.tv-event .article-prose {
+  margin: 0;
+}
+
+/* ================================================================
    LEGAL CONTENT — Privacy Policy, Terms & Conditions: plain readable
    article typography, no marketing chrome or hero banner.
    ================================================================ */
