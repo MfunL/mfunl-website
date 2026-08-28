@@ -93,3 +93,19 @@
     </div>
   </div>
 </section>
+
+<section class="section-gap-both bg-tint">
+  <div class="wrap section-width epaper-feature">
+    <h2 class="h-2">MADX Awards 2025</h2>
+    <div class="article-prose">
+      <p>Our CEO, Mr. Kuntal Chatterjee was invited to speak at the MADX Awards 2025 in Mumbai, sharing insights on 'Tech, Tools, and Talent.' MfunL was awarded with the 'Best Healthcare and Wellness Marketing Campaign' award, a testament to the dedication, creativity, and passion of our amazing team. This achievement marks a significant milestone for us.</p>
+    </div>
+    <div class="awards__grid">
+      <?php foreach ([1, 2, 3, 4, 5, 7] as $i): ?>
+        <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/MADX-Awards-2025<?= $i ?>-img.webp" aria-label="View MADX Awards 2025 photo <?= $i ?>">
+          <img src="/assets/images/events/MADX-Awards-2025<?= $i ?>-img.webp" alt="MADX Awards 2025, photo <?= $i ?>" loading="lazy">
+        </button>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
