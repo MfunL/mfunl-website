@@ -50,7 +50,7 @@
       <p>MfunL i takes pride in being associated as the digital partner of Cable TV Equipments Traders &amp; Manufacturers Association's (CTMA) 25th Cable TV Show at Biswa Bangla Mela Prangan, Kolkata, from January 9-11, 2024.</p>
     </div>
     <div class="press-logo-row">
-      <div class="press-logo"><img src="/assets/images/Ahmedabad_mirror_logo.webp" alt="Ahmedabad Mirror" loading="lazy"></div>
+      <a href="https://www.ahmedabadmirror.com/cable-tv-show-2023-kolkata-gears-up-for-three-day-mega-exhibition/81849869.html" rel="noopener noreferrer" aria-label="Ahmedabad Mirror" target="_blank"><div class="press-logo"><img src="/assets/images/Ahmedabad_mirror_logo.webp" alt="Ahmedabad Mirror" loading="lazy"></div></a>
     </div>
   </div>
 </section>
@@ -62,7 +62,7 @@
       <p>Thought leaders in the digital marketing industry, including our CEO Sree Kunal Chatterjee, engage in an intriguing exchange of ideas on the theme of taking the pyre of digital marketing into the different nooks of regional and rural India at the exchange4media Independent Digital Agency Connect Conference (iDAC) 2023. The proliferation of technology and consumer demands have set this astounding opportunity for digital Prometheus like us to spread the fire of new-age marketing far and wide.</p>
     </div>
     <div class="press-logo-row">
-      <div class="press-logo"><img src="/assets/images/e4m.webp" alt="exchange4media" loading="lazy"></div>
+      <a href="https://www.exchange4media.com/digital-news/india-among-the-most-heterogeneous-markets-in-terms-of-delivering-brand-message-128721.html" rel="noopener noreferrer" aria-label="exchange4media" target="_blank"><div class="press-logo"><img src="/assets/images/e4m.webp" alt="exchange4media" loading="lazy"></div></a>
     </div>
   </div>
 </section>
@@ -74,8 +74,8 @@
       <p>MfunL is proud to be a part of India&rsquo;s largest trade shows on digital cable television, broadband, and OTT &ndash; the 24th Cable TV Show held on January 11 2023, at Science City, Kolkata.</p>
     </div>
     <div class="press-logo-row">
-      <div class="press-logo"><img src="/assets/images/Ahmedabad_mirror_logo.webp" alt="Ahmedabad Mirror" loading="lazy"></div>
-      <div class="press-logo"><img src="/assets/images/india-blooms.webp" alt="India Blooms" loading="lazy"></div>
+      <a href="https://www.ahmedabadmirror.com/cable-tv-show-2023-kolkata-gears-up-for-three-day-mega-exhibition/81849869.html" rel="noopener noreferrer" aria-label="Ahmedabad Mirror" target="_blank"><div class="press-logo"><img src="/assets/images/Ahmedabad_mirror_logo.webp" alt="Ahmedabad Mirror" loading="lazy"></div></a>
+      <a href="https://www.indiablooms.com/finance-details/17518/cable-tv-show-2023-kolkata-gears-up-for-three-day-mega-exhibition.html" rel="noopener noreferrer" aria-label="India Blooms" target="_blank"><div class="press-logo"><img src="/assets/images/india-blooms.webp" alt="India Blooms" loading="lazy"></div></a>
     </div>
   </div>
 </section>
@@ -88,7 +88,7 @@
       <p>Special thanks to the casting crew of &ldquo;Brahma Janen Gopon Kommoti&rdquo; including Ritabhari Chakraborty and Soham Majumdar for taking part in the rally.</p>
     </div>
     <div class="press-logo-row">
-      <div class="press-logo"><img src="/assets/images/Radio-Bangla-Net.webp" alt="Radio Bangla Net" loading="lazy"></div>
+      <a href="https://www.ahmedabadmirror.com/cable-tv-show-2023-kolkata-gears-up-for-three-day-mega-exhibition/81849869.html" rel="noopener noreferrer" aria-label="Radio Bangla Net" target="_blank"><div class="press-logo"><img src="/assets/images/Radio-Bangla-Net.webp" alt="Radio Bangla Net" loading="lazy"></div></a>
     </div>
   </div>
 </section>
@@ -102,10 +102,10 @@
       <p>We have gained expertise and deep knowledge in web design, e-commerce solutions, social media marketing, mobile applications through our own ventures which gives us a clear advantage over the competition in the market,&rdquo; said Mr Kuntal Chatterjee, CEO, MfunL.</p>
     </div>
     <div class="press-logo-row">
-      <div class="press-logo"><img src="/assets/images/Ahmedabad_mirror_logo.webp" alt="Ahmedabad Mirror" loading="lazy"></div>
-      <div class="press-logo"><img src="/assets/images/mediashine.webp" alt="Media Shine" loading="lazy"></div>
-      <div class="press-logo"><img src="/assets/images/taazasamachar.webp" alt="Taaza Samachar" loading="lazy"></div>
-      <div class="press-logo"><img src="/assets/images/financialsamachar.webp" alt="Financial Samachar" loading="lazy"></div>
+      <button type="button" class="press-logo" data-open-lightbox="/assets/images/AhmedabadMirrorNw.webp" aria-label="View Ahmedabad Mirror coverage"><img src="/assets/images/Ahmedabad_mirror_logo.webp" alt="Ahmedabad Mirror" loading="lazy"></button>
+      <button type="button" class="press-logo" data-open-lightbox="/assets/images/AhmedabadMirrorNw.webp" aria-label="View Media Shine coverage"><img src="/assets/images/mediashine.webp" alt="Media Shine" loading="lazy"></button>
+      <button type="button" class="press-logo" data-open-lightbox="/assets/images/TazaSamachar.webp" aria-label="View Taaza Samachar coverage"><img src="/assets/images/taazasamachar.webp" alt="Taaza Samachar" loading="lazy"></button>
+      <button type="button" class="press-logo" data-open-lightbox="/assets/images/fSamachar.webp" aria-label="View Financial Samachar coverage"><img src="/assets/images/financialsamachar.webp" alt="Financial Samachar" loading="lazy"></button>
     </div>
   </div>
 </section>
