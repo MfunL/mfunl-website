@@ -323,7 +323,8 @@ button { font-family: inherit; cursor: pointer; }
 .page-healthcare-case-studies .page-hero__overlay,
 .page-contact .page-hero__overlay,
 .page-e-papers .page-hero__overlay,
-.page-tv-channels .page-hero__overlay {
+.page-tv-channels .page-hero__overlay,
+.page-news-papers .page-hero__overlay {
   background: linear-gradient(180deg, rgba(62, 96, 150, .78) 0%, rgba(45, 75, 125, .5) 45%, rgba(25, 50, 90, .85) 100%);
 }
 
