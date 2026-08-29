@@ -42,3 +42,25 @@
     </div>
   </div>
 </section>
+
+<section class="section-gap-both">
+  <div class="wrap section-width">
+    <h2 class="h-2 text-center">MfunL Recognised Among India&rsquo;s Top 10 Healthcare Marketing Consultants 2025-2026</h2>
+    <div class="article-row" style="margin-top:24px;">
+      <div class="article-row__media-pair">
+        <button type="button" class="awards__item" data-open-lightbox="/assets/images/Healthcare-Marketing-2025-img-01.webp" aria-label="View India Pharma Outlook Top 10 Healthcare Marketing Consultants certificate">
+          <img src="/assets/images/Healthcare-Marketing-2025-img-01.webp" alt="India Pharma Outlook Top 10 Healthcare Marketing Consultants certificate" loading="lazy">
+        </button>
+        <button type="button" class="awards__item" data-open-lightbox="/assets/images/Healthcare-Marketing-2026-img-02.webp" aria-label="View MfunL CEO Kuntal Chatterjee receiving the certification">
+          <img src="/assets/images/Healthcare-Marketing-2026-img-02.webp" alt="MfunL CEO Kuntal Chatterjee receiving the certification" loading="lazy">
+        </button>
+      </div>
+      <div class="article-row__content">
+        <div class="article-prose">
+          <p>MfunL has been honoured by India Pharma Outlook as one of the Top 10 Pharmaceutical &amp; Healthcare Marketing Consultants 2025, acknowledging its excellence in driving digital transformation across India&rsquo;s healthcare sector. The certification was proudly received by Mr. Kuntal Chatterjee, CEO of MfunL, who continues to lead the agency&rsquo;s mission of empowering hospitals, doctors, and clinics through innovative, data-driven marketing strategies that deliver measurable growth.</p>
+          <p>Magazine Link: <a href="https://www.indiapharmaoutlook.com/digital-magazine/warehousing-and-inventory-management-companies-february-2026/#page=23" target="_blank" rel="noopener">View the feature</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

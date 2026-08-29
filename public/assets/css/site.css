@@ -6578,6 +6578,25 @@ section>.wrap>h2,
   text-align: left;
 }
 
+/* Two-image variant of .article-row__media — side-by-side thumbnails
+   instead of one background-image panel. */
+.article-row__media-pair {
+  flex: 0 0 40%;
+  display: flex;
+  gap: 12px;
+}
+
+.article-row__media-pair .awards__item {
+  flex: 1;
+  min-width: 0;
+}
+
+.article-row__media-pair .awards__item img {
+  height: 100%;
+  min-height: 300px;
+  aspect-ratio: auto;
+}
+
 .article-row__content .content-tabs__list a {
   color: var(--color-accent-dark);
   text-decoration: underline;
@@ -6589,8 +6608,13 @@ section>.wrap>h2,
     flex-direction: column !important;
   }
 
-  .article-row__media {
+  .article-row__media,
+  .article-row__media-pair {
     flex-basis: auto;
+    min-height: 400px;
+  }
+
+  .article-row__media-pair .awards__item img {
     min-height: 400px;
   }
 }
