@@ -159,3 +159,19 @@
   </div>
 </section>
 
+<section class="section-gap-both bg-tint">
+  <div class="wrap section-width epaper-feature">
+    <h2 class="h-2">MfunL is honoured to be the digital partner of 25th Cable TV Show 2024 in Kolkata</h2>
+    <div class="article-prose">
+      <p>MfunL is proud to serve as the digital partner for the largest exhibition in the SAARC Region dedicated to the CATV sector.</p>
+    </div>
+    <div class="awards__grid">
+      <?php for ($i = 1; $i <= 5; $i++): ?>
+        <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Cable-TV-Show-2024-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" aria-label="View 25th Cable TV Show 2024 photo <?= $i ?>">
+          <img src="/assets/images/events/Cable-TV-Show-2024-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="25th Cable TV Show 2024, photo <?= $i ?>" loading="lazy">
+        </button>
+      <?php endfor; ?>
+    </div>
+  </div>
+</section>
+
