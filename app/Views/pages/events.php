@@ -239,3 +239,19 @@
   </div>
 </section>
 
+<section class="section-gap-both">
+  <div class="wrap section-width epaper-feature">
+    <h2 class="h-2">Silent Rally</h2>
+    <div class="article-prose">
+      <p>A silent rally, organized against the age-old myth of women being impure during the menstrual cycle, along with the casting crew of the Bengali movie &ldquo;Brahma Janen Gopon Kommoti.</p>
+    </div>
+    <div class="awards__grid">
+      <?php for ($i = 1; $i <= 5; $i++): ?>
+        <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Silent-Rally<?= $i ?>-img.webp" aria-label="View Silent Rally photo <?= $i ?>">
+          <img src="/assets/images/events/Silent-Rally<?= $i ?>-img.webp" alt="Silent Rally, photo <?= $i ?>" loading="lazy">
+        </button>
+      <?php endfor; ?>
+    </div>
+  </div>
+</section>
+
