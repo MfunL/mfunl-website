@@ -207,3 +207,19 @@
   </div>
 </section>
 
+<section class="section-gap-both">
+  <div class="wrap section-width epaper-feature">
+    <h2 class="h-2">Promotional Event for Kolkatar Harry</h2>
+    <div class="article-prose">
+      <p>MFunL is proud to have been a social partner of Kolkatar Harry's promotional event. Kolkatar Harry is a Bengali language comedy film for children starring Soham Chakraborty, Priyanka Sarkar, Laboni Sarkar, Arindam Ganguly, Dipankar Dey, Prosenjit Chatterjee, and Oishika Guhathakurta in the lead role.</p>
+    </div>
+    <div class="awards__grid">
+      <?php for ($i = 1; $i <= 10; $i++): ?>
+        <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Kolkatar-Harry<?= $i ?>-img.webp" aria-label="View Kolkatar Harry promotional event photo <?= $i ?>">
+          <img src="/assets/images/events/Kolkatar-Harry<?= $i ?>-img.webp" alt="Kolkatar Harry promotional event, photo <?= $i ?>" loading="lazy">
+        </button>
+      <?php endfor; ?>
+    </div>
+  </div>
+</section>
+
