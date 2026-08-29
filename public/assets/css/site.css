@@ -6811,6 +6811,11 @@ section>.wrap>h2,
   color: #fff;
 }
 
+.pricing-service-cta--left {
+  justify-content: flex-start;
+  margin-top: 16px;
+}
+
 .steps-list {
   list-style: none;
   margin: 24px 0 0;

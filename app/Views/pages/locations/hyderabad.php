@@ -47,7 +47,7 @@ $hydFaqs = [
 ];
 ?>
 <section class="page-hero">
-  <img class="page-hero__bg" src="/assets/images/our-locations-banner.webp" alt="" width="1920" height="800" loading="eager" fetchpriority="high">
+  <img class="page-hero__bg" src="/assets/images/location/Hyderabad-Banner.webp" alt="" width="1920" height="800" loading="eager" fetchpriority="high">
   <div class="page-hero__overlay" aria-hidden="true"></div>
 
   <div class="wrap page-hero__inner">
@@ -99,11 +99,11 @@ $hydFaqs = [
 
     <div class="location-cta" style="background: rgb(0 166 216 / 45%);">
       <p>In Hyderabad, healthcare digital marketing succeeds when it prioritises medical credibility and clear communication over aggressive promotion.</p>
-      <p class="pricing-service-cta">
-        <a class="btn btn--accent" href="tel:8336920676"><i class="fa-solid fa-phone" aria-hidden="true"></i> 8336920676</a>
-        <a class="btn btn--outline" href="https://wa.me/917439775869" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
-      </p>
     </div>
+    <p class="pricing-service-cta pricing-service-cta--left">
+      <a class="btn btn--accent" href="tel:8336920676"><i class="fa-solid fa-phone" aria-hidden="true"></i> 8336920676</a>
+      <a class="btn btn--outline" href="https://wa.me/917439775869" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
+    </p>
   </div>
 </section>
 
@@ -156,11 +156,11 @@ $hydFaqs = [
         </ol>
         <div class="location-cta location-cta--on-dark" style="background: linear-gradient(135deg, #008dd3, #005f8f);">
           <p>Our process works because it&rsquo;s built for healthcare professionals, not generic businesses.</p>
-          <p class="pricing-service-cta">
-            <a class="btn btn--accent" href="tel:8336920676"><i class="fa-solid fa-phone" aria-hidden="true"></i> 8336920676</a>
-            <a class="btn btn--outline" href="https://wa.me/917439775869" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
-          </p>
         </div>
+        <p class="pricing-service-cta pricing-service-cta--left">
+          <a class="btn btn--accent" href="tel:8336920676"><i class="fa-solid fa-phone" aria-hidden="true"></i> 8336920676</a>
+          <a class="btn btn--outline" href="https://wa.me/917439775869" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
+        </p>
       </div>
     </div>
   </div>
@@ -193,7 +193,7 @@ $hydFaqs = [
 <section class="section-gap-both">
   <div class="wrap section-width">
     <h2 class="h-2 text-center">FAQs &mdash; Healthcare Digital Marketing in Hyderabad</h2>
-    <div class="faq__accordion" style="margin-top:32px;">
+    <div class="faq__accordion faq__accordion--centered" style="margin-top:32px;">
       <?php foreach ($hydFaqs as $i => $faq): ?>
         <div class="faq-item">
           <h4>
