@@ -109,7 +109,7 @@ $hydFaqs = [
 
 <?php include dirname(__DIR__, 2) . '/home/sections/09-dactarbabu.php'; ?>
 
-<section class="section-gap-both">
+<section class="section-gap">
   <div class="wrap section-width">
     <h2 class="h-2 h-2--dark text-center">Healthcare Digital Marketing Services &mdash; Built for <span class="accent">Hyderabad</span> Healthcare Brands</h2>
     <div class="price-table-wrap mt-lg">
@@ -168,7 +168,7 @@ $hydFaqs = [
 
 <?php include dirname(__DIR__, 2) . '/home/sections/13-testimonials.php'; ?>
 
-<section class="section-gap-both">
+<section class="section-gap">
   <div class="wrap section-width">
     <h2 class="h-2 text-center">Trust, Ethics &amp; Compliance</h2>
     <div class="article-quote">
