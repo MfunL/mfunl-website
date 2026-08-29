@@ -175,3 +175,19 @@
   </div>
 </section>
 
+<section class="section-gap-both">
+  <div class="wrap section-width epaper-feature">
+    <h2 class="h-2">MfunL is honoured to be the digital partner of 24th Cable TV Show 2023 in Kolkata</h2>
+    <div class="article-prose">
+      <p>MfunL is proud to be a part of India&rsquo;s largest trade shows on digital cable television, broadband, and OTT &ndash; the 24th Cable TV Show held on January 11 2023, at Science City, Kolkata.</p>
+    </div>
+    <div class="awards__grid">
+      <?php for ($i = 1; $i <= 3; $i++): ?>
+        <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/ctma_show_event<?= $i ?>-img.webp" aria-label="View 24th Cable TV Show 2023 photo <?= $i ?>">
+          <img src="/assets/images/events/ctma_show_event<?= $i ?>-img.webp" alt="24th Cable TV Show 2023, photo <?= $i ?>" loading="lazy">
+        </button>
+      <?php endfor; ?>
+    </div>
+  </div>
+</section>
+
