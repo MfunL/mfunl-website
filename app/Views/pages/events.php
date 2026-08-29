@@ -287,3 +287,19 @@
   </div>
 </section>
 
+<section class="section-gap-both bg-tint">
+  <div class="wrap section-width epaper-feature">
+    <h2 class="h-2">Doctor's Day</h2>
+    <div class="article-prose">
+      <p>We organized a haavan and puja&rdquo; (rituals) for the well being and prosperity of the doctors in 2019. This was our bit of step ahead in marking the importance of the healthcare providers in our lives.</p>
+    </div>
+    <div class="awards__grid">
+      <?php for ($i = 1; $i <= 4; $i++): ?>
+        <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Doctors-Day<?= $i ?>-img.webp" aria-label="View Doctor's Day photo <?= $i ?>">
+          <img src="/assets/images/events/Doctors-Day<?= $i ?>-img.webp" alt="Doctor's Day, photo <?= $i ?>" loading="lazy">
+        </button>
+      <?php endfor; ?>
+    </div>
+  </div>
+</section>
+
