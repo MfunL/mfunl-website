@@ -143,3 +143,19 @@
   </div>
 </section>
 
+<section class="section-gap-both">
+  <div class="wrap section-width epaper-feature">
+    <h2 class="h-2">MediCall</h2>
+    <div class="article-prose">
+      <p>MfunL is honoured to be a part of Medicall Expo 2025, transforming healthcare with digital solutions.</p>
+    </div>
+    <div class="awards__grid">
+      <?php for ($i = 1; $i <= 9; $i++): ?>
+        <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/MediCall-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" aria-label="View MediCall Expo 2025 photo <?= $i ?>">
+          <img src="/assets/images/events/MediCall-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="MediCall Expo 2025, photo <?= $i ?>" loading="lazy">
+        </button>
+      <?php endfor; ?>
+    </div>
+  </div>
+</section>
+
