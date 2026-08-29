@@ -255,3 +255,19 @@
   </div>
 </section>
 
+<section class="section-gap-both bg-tint">
+  <div class="wrap section-width epaper-feature">
+    <h2 class="h-2">Christmas Celebration</h2>
+    <div class="article-prose">
+      <p>Work is never complete without some fun! We work hard but we party harder! Christmas Celebration 2019 at our corporate office.</p>
+    </div>
+    <div class="awards__grid">
+      <?php for ($i = 1; $i <= 4; $i++): ?>
+        <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Christmas-Celebration<?= $i ?>-img.webp" aria-label="View Christmas Celebration photo <?= $i ?>">
+          <img src="/assets/images/events/Christmas-Celebration<?= $i ?>-img.webp" alt="Christmas Celebration, photo <?= $i ?>" loading="lazy">
+        </button>
+      <?php endfor; ?>
+    </div>
+  </div>
+</section>
+
