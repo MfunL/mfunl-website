@@ -3524,6 +3524,26 @@ section>.wrap>h2,
   margin-right: auto;
 }
 
+/* Same as .awards__grid but without the bottom margin — used on the
+   Events page, where section padding already provides the gap. */
+.event__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 40px 0 0;
+}
+
+.event__grid--3col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.event__grid--2col {
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .event-single-photo {
   max-width: 420px;
   margin: 40px auto 0;
@@ -3969,7 +3989,8 @@ section>.wrap>h2,
     grid-template-columns: 1fr;
   }
 
-  .awards__grid {
+  .awards__grid,
+  .event__grid {
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -4002,7 +4023,8 @@ section>.wrap>h2,
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .awards__grid {
+  .awards__grid,
+  .event__grid {
     grid-template-columns: repeat(2, 1fr);
   }
 

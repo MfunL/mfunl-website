@@ -18,7 +18,7 @@
     <div class="article-prose">
       <p>On 30th May, MfunL marked another year of milestone, celebrating the achievements and dedication of its talented team. Special guest Trina Saha graced the ceremony and presented the awards, making the day even more memorable. The event radiated energy, collaboration, and a shared vision, leaving everyone inspired and motivated for the year ahead.</p>
     </div>
-    <div class="awards__grid">
+    <div class="event__grid">
       <?php for ($i = 1; $i <= 26; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/aw-2026-imgA<?= $i ?>.webp" aria-label="View Award Ceremony 2026 photo <?= $i ?>">
           <img src="/assets/images/events/aw-2026-imgA<?= $i ?>.webp" alt="MfunL Award Ceremony 2026, photo <?= $i ?>" loading="lazy">
@@ -34,7 +34,7 @@
     <div class="article-prose">
       <p>MfunL marked its presence at Medicall, engaging with healthcare leaders and showcasing the power of strategic digital marketing in modern healthcare growth.</p>
     </div>
-    <div class="awards__grid awards__grid--3col">
+    <div class="event__grid event__grid--3col">
       <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/MfunLs-Participation-in-Medicall-2026-img.webp" aria-label="View MfunL at Medicall 2026, photo 1">
         <img src="/assets/images/events/MfunLs-Participation-in-Medicall-2026-img.webp" alt="MfunL at Medicall 2026, photo 1" loading="lazy">
       </button>
@@ -84,7 +84,7 @@
     <div class="article-prose">
       <p>CEO of MfunL, Mr. Kuntal Chatterjee, was a part of the Odisha Pharma Summit&mdash;where conversations around healthcare innovation and pharma growth took centre stage. Experiences like these sharpen MfunL&rsquo;s vision to keep building impactful healthcare brands through insight-led digital marketing.</p>
     </div>
-    <div class="awards__grid">
+    <div class="event__grid">
       <?php for ($i = 1; $i <= 8; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Odisha-Pharma-SummitG<?= $i ?>-img.webp" aria-label="View Odisha Pharma Summit 2025 photo <?= $i ?>">
           <img src="/assets/images/events/Odisha-Pharma-SummitG<?= $i ?>-img.webp" alt="Odisha Pharma Summit 2025, photo <?= $i ?>" loading="lazy">
@@ -100,7 +100,7 @@
     <div class="article-prose">
       <p>Our CEO, Mr. Kuntal Chatterjee was invited to speak at the MADX Awards 2025 in Mumbai, sharing insights on 'Tech, Tools, and Talent.' MfunL was awarded with the 'Best Healthcare and Wellness Marketing Campaign' award, a testament to the dedication, creativity, and passion of our amazing team. This achievement marks a significant milestone for us.</p>
     </div>
-    <div class="awards__grid">
+    <div class="event__grid">
       <?php foreach ([1, 2, 3, 4, 5, 7] as $i): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/MADX-Awards-2025<?= $i ?>-img.webp" aria-label="View MADX Awards 2025 photo <?= $i ?>">
           <img src="/assets/images/events/MADX-Awards-2025<?= $i ?>-img.webp" alt="MADX Awards 2025, photo <?= $i ?>" loading="lazy">
@@ -117,7 +117,7 @@
       <p>The spirit of excellence and teamwork was on full display at the MfunL Award Ceremony 2025, held at Hotel Hindustan International. From recognising outstanding performers to celebrating collective milestones, the event was filled with energy, gratitude, and inspiration. Adding a special touch to the evening, celebrity guests joined us and personally handed out the awards, making the celebration even more memorable.</p>
       <p>Here's a glimpse into the moments that made the evening truly unforgettable.</p>
     </div>
-    <div class="awards__grid">
+    <div class="event__grid">
       <?php for ($i = 1; $i <= 9; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/2025-award-ceremony-img<?= $i ?>.webp" aria-label="View MfunL Award Ceremony 2025 photo <?= $i ?>">
           <img src="/assets/images/events/2025-award-ceremony-img<?= $i ?>.webp" alt="MfunL Award Ceremony 2025, photo <?= $i ?>" loading="lazy">
@@ -133,7 +133,7 @@
     <div class="article-prose">
       <p>MfunL is proud to lead the way in healthcare digital marketing at MedExpo 2025 in Bolpur.</p>
     </div>
-    <div class="awards__grid">
+    <div class="event__grid">
       <?php for ($i = 1; $i <= 11; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/MedExpo-2025-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" aria-label="View MedExpo 2025 photo <?= $i ?>">
           <img src="/assets/images/events/MedExpo-2025-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="MedExpo 2025, photo <?= $i ?>" loading="lazy">
@@ -149,7 +149,7 @@
     <div class="article-prose">
       <p>MfunL is honoured to be a part of Medicall Expo 2025, transforming healthcare with digital solutions.</p>
     </div>
-    <div class="awards__grid">
+    <div class="event__grid">
       <?php for ($i = 1; $i <= 9; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/MediCall-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" aria-label="View MediCall Expo 2025 photo <?= $i ?>">
           <img src="/assets/images/events/MediCall-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="MediCall Expo 2025, photo <?= $i ?>" loading="lazy">
@@ -165,7 +165,7 @@
     <div class="article-prose">
       <p>MfunL is proud to serve as the digital partner for the largest exhibition in the SAARC Region dedicated to the CATV sector.</p>
     </div>
-    <div class="awards__grid">
+    <div class="event__grid">
       <?php for ($i = 1; $i <= 5; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Cable-TV-Show-2024-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" aria-label="View 25th Cable TV Show 2024 photo <?= $i ?>">
           <img src="/assets/images/events/Cable-TV-Show-2024-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="25th Cable TV Show 2024, photo <?= $i ?>" loading="lazy">
@@ -181,7 +181,7 @@
     <div class="article-prose">
       <p>MfunL is proud to be a part of India&rsquo;s largest trade shows on digital cable television, broadband, and OTT &ndash; the 24th Cable TV Show held on January 11 2023, at Science City, Kolkata.</p>
     </div>
-    <div class="awards__grid">
+    <div class="event__grid">
       <?php for ($i = 1; $i <= 3; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/ctma_show_event<?= $i ?>-img.webp" aria-label="View 24th Cable TV Show 2023 photo <?= $i ?>">
           <img src="/assets/images/events/ctma_show_event<?= $i ?>-img.webp" alt="24th Cable TV Show 2023, photo <?= $i ?>" loading="lazy">
@@ -197,7 +197,7 @@
     <div class="article-prose">
       <p>MfunL CEO Mr.Kuntal Chatterjee participated in the CII Grand Conclave on Brand Management held on 21st December 2022 at JW Marriott Kolkata.</p>
     </div>
-    <div class="awards__grid awards__grid--2col">
+    <div class="event__grid event__grid--2col">
       <?php for ($i = 1; $i <= 2; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Grand-Conclave-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" aria-label="View CII Grand Conclave on Brand Management photo <?= $i ?>">
           <img src="/assets/images/events/Grand-Conclave-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="CII Grand Conclave on Brand Management, photo <?= $i ?>" loading="lazy">
@@ -213,7 +213,7 @@
     <div class="article-prose">
       <p>MFunL is proud to have been a social partner of Kolkatar Harry's promotional event. Kolkatar Harry is a Bengali language comedy film for children starring Soham Chakraborty, Priyanka Sarkar, Laboni Sarkar, Arindam Ganguly, Dipankar Dey, Prosenjit Chatterjee, and Oishika Guhathakurta in the lead role.</p>
     </div>
-    <div class="awards__grid">
+    <div class="event__grid">
       <?php for ($i = 1; $i <= 10; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Kolkatar-Harry<?= $i ?>-img.webp" aria-label="View Kolkatar Harry promotional event photo <?= $i ?>">
           <img src="/assets/images/events/Kolkatar-Harry<?= $i ?>-img.webp" alt="Kolkatar Harry promotional event, photo <?= $i ?>" loading="lazy">
@@ -229,7 +229,7 @@
     <div class="article-prose">
       <p>MfunL is delighted to have been a part of a successful event to bless our very own Alia Bhatt and Ranbir Kapoor's first steps towards a happy married life full of love and sweetness.</p>
     </div>
-    <div class="awards__grid">
+    <div class="event__grid">
       <?php for ($i = 1; $i <= 14; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/r_a_<?= $i ?>.webp" aria-label="View Ranbir & Alia Fairy Tale Wedding photo <?= $i ?>">
           <img src="/assets/images/events/r_a_<?= $i ?>.webp" alt="Ranbir & Alia Fairy Tale Wedding, photo <?= $i ?>" loading="lazy">
@@ -245,7 +245,7 @@
     <div class="article-prose">
       <p>A silent rally, organized against the age-old myth of women being impure during the menstrual cycle, along with the casting crew of the Bengali movie &ldquo;Brahma Janen Gopon Kommoti.</p>
     </div>
-    <div class="awards__grid">
+    <div class="event__grid">
       <?php for ($i = 1; $i <= 5; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Silent-Rally<?= $i ?>-img.webp" aria-label="View Silent Rally photo <?= $i ?>">
           <img src="/assets/images/events/Silent-Rally<?= $i ?>-img.webp" alt="Silent Rally, photo <?= $i ?>" loading="lazy">
@@ -261,7 +261,7 @@
     <div class="article-prose">
       <p>Work is never complete without some fun! We work hard but we party harder! Christmas Celebration 2019 at our corporate office.</p>
     </div>
-    <div class="awards__grid">
+    <div class="event__grid">
       <?php for ($i = 1; $i <= 4; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Christmas-Celebration<?= $i ?>-img.webp" aria-label="View Christmas Celebration photo <?= $i ?>">
           <img src="/assets/images/events/Christmas-Celebration<?= $i ?>-img.webp" alt="Christmas Celebration, photo <?= $i ?>" loading="lazy">
@@ -277,7 +277,7 @@
     <div class="article-prose">
       <p>Our team is our true asset and we never skip a single chance to inspire them constantly. A motivational workshop organized for our in-house team.</p>
     </div>
-    <div class="awards__grid">
+    <div class="event__grid">
       <?php foreach (['Motivational-Workshop1-img.webp', 'Motivational-Workshop2-img.webp', 'Motivational-Workshop3-img.webp', 'Motivational-Workshop4-iimg.webp'] as $i => $file): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/<?= $file ?>" aria-label="View Motivational Workshop photo <?= $i + 1 ?>">
           <img src="/assets/images/events/<?= $file ?>" alt="Motivational Workshop, photo <?= $i + 1 ?>" loading="lazy">
@@ -293,7 +293,7 @@
     <div class="article-prose">
       <p>We organized a haavan and puja&rdquo; (rituals) for the well being and prosperity of the doctors in 2019. This was our bit of step ahead in marking the importance of the healthcare providers in our lives.</p>
     </div>
-    <div class="awards__grid">
+    <div class="event__grid">
       <?php for ($i = 1; $i <= 4; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Doctors-Day<?= $i ?>-img.webp" aria-label="View Doctor's Day photo <?= $i ?>">
           <img src="/assets/images/events/Doctors-Day<?= $i ?>-img.webp" alt="Doctor's Day, photo <?= $i ?>" loading="lazy">
@@ -309,7 +309,7 @@
     <div class="article-prose">
       <p>An interactive session on Cyber Crime, happened in August 2019. We were honored to have Kamaleswar Mukherjee (Film Director) and the entire cast and crew of the Bengali film ' Password '.</p>
     </div>
-    <div class="awards__grid">
+    <div class="event__grid">
       <?php for ($i = 1; $i <= 6; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/MfunL-Password<?= $i ?>-img.webp" aria-label="View MfunL &amp; Password photo <?= $i ?>">
           <img src="/assets/images/events/MfunL-Password<?= $i ?>-img.webp" alt="MfunL &amp; Password, photo <?= $i ?>" loading="lazy">
@@ -325,7 +325,7 @@
     <div class="article-prose">
       <p>We love our work and we get to promote big banner movies! We organized a street dance challenge with the cast and crew of the Bengali film &ldquo;Gotro, a story of faith, love, racism and belief in 2019.</p>
     </div>
-    <div class="awards__grid">
+    <div class="event__grid">
       <?php for ($i = 1; $i <= 4; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Associated-with-the-Movie-_Gotro_<?= $i ?>-img.webp" aria-label="View Associated with the Movie Gotro photo <?= $i ?>">
           <img src="/assets/images/events/Associated-with-the-Movie-_Gotro_<?= $i ?>-img.webp" alt="Associated with the Movie Gotro, photo <?= $i ?>" loading="lazy">
@@ -341,7 +341,7 @@
     <div class="article-prose">
       <p>A creative event, organized to spread awareness on the importance of election procedures, got covered by leading Bengali TV Channels like APB Ananda, Zee 24 Ghanta and many more.</p>
     </div>
-    <div class="awards__grid">
+    <div class="event__grid">
       <?php for ($i = 1; $i <= 5; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/MfunL-Launch-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" aria-label="View MfunL Launch Eyes Social Media Market photo <?= $i ?>">
           <img src="/assets/images/events/MfunL-Launch-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="MfunL Launch Eyes Social Media Market, photo <?= $i ?>" loading="lazy">
