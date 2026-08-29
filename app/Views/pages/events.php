@@ -223,3 +223,19 @@
   </div>
 </section>
 
+<section class="section-gap-both bg-tint">
+  <div class="wrap section-width epaper-feature">
+    <h2 class="h-2">Proud to Be Associated with Ranbir (as a doll) &amp; Alia's (as a doll) Fairy Tale Wedding</h2>
+    <div class="article-prose">
+      <p>MfunL is delighted to have been a part of a successful event to bless our very own Alia Bhatt and Ranbir Kapoor's first steps towards a happy married life full of love and sweetness.</p>
+    </div>
+    <div class="awards__grid">
+      <?php for ($i = 1; $i <= 14; $i++): ?>
+        <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/r_a_<?= $i ?>.webp" aria-label="View Ranbir & Alia Fairy Tale Wedding photo <?= $i ?>">
+          <img src="/assets/images/events/r_a_<?= $i ?>.webp" alt="Ranbir & Alia Fairy Tale Wedding, photo <?= $i ?>" loading="lazy">
+        </button>
+      <?php endfor; ?>
+    </div>
+  </div>
+</section>
+
