@@ -58,9 +58,23 @@
       <div class="article-row__content">
         <div class="article-prose">
           <p>MfunL has been honoured by India Pharma Outlook as one of the Top 10 Pharmaceutical &amp; Healthcare Marketing Consultants 2025, acknowledging its excellence in driving digital transformation across India&rsquo;s healthcare sector. The certification was proudly received by Mr. Kuntal Chatterjee, CEO of MfunL, who continues to lead the agency&rsquo;s mission of empowering hospitals, doctors, and clinics through innovative, data-driven marketing strategies that deliver measurable growth.</p>
-          <p>Magazine Link: <a href="https://www.indiapharmaoutlook.com/digital-magazine/warehousing-and-inventory-management-companies-february-2026/#page=23" target="_blank" rel="noopener">View the feature</a></p>
+          <p><strong>Magazine Link</strong>: <a href="https://www.indiapharmaoutlook.com/digital-magazine/warehousing-and-inventory-management-companies-february-2026/#page=23" target="_blank" rel="noopener"><u>View the feature</u></a></p>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-gap-both bg-tint">
+  <div class="wrap section-width">
+    <h2 class="h-2 text-center">Mr. Kuntal Chatterjee Recognised as Certified AI Generalist by ET</h2>
+    <div class="article-row" style="margin-top:24px;">
+      <div class="article-row__content">
+        <div class="article-prose">
+          <p>Our CEO, Mr. Kuntal Chatterjee of MfunL, a leading healthcare digital marketing agency, has been honoured with the Certified AI Generalist title by The Economic Times for successfully completing the AI for Business Professionals Masterclass held on April 5&ndash;6, 2025. This certification highlights his deep understanding of cross-functional AI expertise and commitment to leveraging advanced technologies to drive innovation, efficiency, and strategic growth in healthcare digital marketing.</p>
+        </div>
+      </div>
+      <div class="article-row__media" style="background-image:url('/assets/images/Ai-Times-Award-img.webp');" role="img" aria-label="Mr. Kuntal Chatterjee's Certified AI Generalist recognition by The Economic Times"></div>
     </div>
   </div>
 </section>
