@@ -319,3 +319,19 @@
   </div>
 </section>
 
+<section class="section-gap-both bg-tint">
+  <div class="wrap section-width epaper-feature">
+    <h2 class="h-2">Associated with the Movie "Gotro"</h2>
+    <div class="article-prose">
+      <p>We love our work and we get to promote big banner movies! We organized a street dance challenge with the cast and crew of the Bengali film &ldquo;Gotro, a story of faith, love, racism and belief in 2019.</p>
+    </div>
+    <div class="awards__grid">
+      <?php for ($i = 1; $i <= 4; $i++): ?>
+        <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Associated-with-the-Movie-_Gotro_<?= $i ?>-img.webp" aria-label="View Associated with the Movie Gotro photo <?= $i ?>">
+          <img src="/assets/images/events/Associated-with-the-Movie-_Gotro_<?= $i ?>-img.webp" alt="Associated with the Movie Gotro, photo <?= $i ?>" loading="lazy">
+        </button>
+      <?php endfor; ?>
+    </div>
+  </div>
+</section>
+
