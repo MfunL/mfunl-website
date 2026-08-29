@@ -271,3 +271,19 @@
   </div>
 </section>
 
+<section class="section-gap-both">
+  <div class="wrap section-width epaper-feature">
+    <h2 class="h-2">Motivational Workshop</h2>
+    <div class="article-prose">
+      <p>Our team is our true asset and we never skip a single chance to inspire them constantly. A motivational workshop organized for our in-house team.</p>
+    </div>
+    <div class="awards__grid">
+      <?php foreach (['Motivational-Workshop1-img.webp', 'Motivational-Workshop2-img.webp', 'Motivational-Workshop3-img.webp', 'Motivational-Workshop4-iimg.webp'] as $i => $file): ?>
+        <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/<?= $file ?>" aria-label="View Motivational Workshop photo <?= $i + 1 ?>">
+          <img src="/assets/images/events/<?= $file ?>" alt="Motivational Workshop, photo <?= $i + 1 ?>" loading="lazy">
+        </button>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
