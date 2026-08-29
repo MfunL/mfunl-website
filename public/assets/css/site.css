@@ -3525,23 +3525,33 @@ section>.wrap>h2,
 }
 
 /* Same as .awards__grid but without the bottom margin — used on the
-   Events page, where section padding already provides the gap. */
+   Events page, where section padding already provides the gap. Flexbox
+   (not grid) so a trailing incomplete row centers instead of hugging
+   the left edge. */
 .event__grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
   margin: 40px 0 0;
 }
 
-.event__grid--3col {
-  grid-template-columns: repeat(3, 1fr);
+.event__grid > .awards__item {
+  flex: 0 1 calc(25% - 15px);
+}
+
+.event__grid--3col > .awards__item {
+  flex-basis: calc(33.333% - 13.333px);
 }
 
 .event__grid--2col {
-  grid-template-columns: repeat(2, 1fr);
   max-width: 620px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.event__grid--2col > .awards__item {
+  flex-basis: calc(50% - 10px);
 }
 
 .event-single-photo {
@@ -3989,9 +3999,12 @@ section>.wrap>h2,
     grid-template-columns: 1fr;
   }
 
-  .awards__grid,
-  .event__grid {
+  .awards__grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .event__grid > .awards__item {
+    flex-basis: calc(33.333% - 13.333px);
   }
 
   .instagram-feed__grid {
@@ -4023,9 +4036,12 @@ section>.wrap>h2,
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .awards__grid,
-  .event__grid {
+  .awards__grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .event__grid > .awards__item {
+    flex-basis: calc(50% - 10px);
   }
 
   .hero {
