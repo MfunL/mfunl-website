@@ -58,7 +58,7 @@ $tvEvents = [
   </div>
 </section>
 
-<section class="section-gap-both testi-width">
+<section class="section-gap-both section-width-80">
   <?php foreach ($tvEvents as $event): ?>
     <div class="tv-event">
       <h2 class="h-2"><?= $event['heading'] ?></h2>

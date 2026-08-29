@@ -264,7 +264,7 @@ $partnerDeliverables2026 = [
     <p>At MfunL, we don&rsquo;t just do SEO or design. We build end-to-end healthcare digital marketing systems that help surgeons, superspeciality clinics, multi-speciality hospitals, and healthcare laboratories grow with credibility and measurable patient flow.</p>
   </div>
 
-  <h3 class="h-3 section-gap">We partner with healthcare brands to deliver:</h3>
+  <h3 class="h-3">We partner with healthcare brands to deliver:</h3>
 
   <div class="article-icon-row">
     <?php foreach ($partnerDeliverables2026 as $item): ?>

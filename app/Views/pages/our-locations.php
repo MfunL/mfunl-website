@@ -10,6 +10,7 @@ $locations = [
     ['Guwahati.webp', 'Guwahati', '/digital-marketing-agency-guwahati/'],
 ];
 ?>
+
 <section class="page-hero">
   <img class="page-hero__bg" src="/assets/images/our-locations-banner.webp" alt="" width="1920" height="800" loading="eager" fetchpriority="high">
   <div class="page-hero__overlay" aria-hidden="true"></div>

@@ -329,7 +329,8 @@ button { font-family: inherit; cursor: pointer; }
 .page-events .page-hero__overlay,
 .page-awards .page-hero__overlay,
 .page-our-locations .page-hero__overlay,
-.page-location-hyderabad .page-hero__overlay {
+.page-location-hyderabad .page-hero__overlay,
+.page-location-bhubaneswar .page-hero__overlay {
   background: linear-gradient(180deg, rgba(62, 96, 150, .78) 0%, rgba(45, 75, 125, .5) 45%, rgba(25, 50, 90, .85) 100%);
 }
 
@@ -6855,6 +6856,18 @@ section>.wrap>h2,
   background-image: url('/assets/images/location/Trust-Compliance.webp');
 }
 
+.bhu-bg-digital-marketing {
+  background-image: url('/assets/images/location/digital-marketing-2.webp');
+}
+
+.bhu-bg-onboarding {
+  background-image: url('/assets/images/location/Onboarding-Process.webp');
+}
+
+.bhu-bg-trust-compliance {
+  background-image: url('/assets/images/location/Trust-Compliance.webp');
+}
+
 .steps-list {
   list-style: none;
   margin: 24px 0 0;
@@ -6907,7 +6920,11 @@ section>.wrap>h2,
 .page-location-hyderabad .what-we-do-best,
 .page-location-hyderabad .dactarbabu,
 .page-location-hyderabad .testimonials,
-.page-location-hyderabad .instagram-feed {
+.page-location-hyderabad .instagram-feed,
+.page-location-bhubaneswar .what-we-do-best,
+.page-location-bhubaneswar .dactarbabu,
+.page-location-bhubaneswar .testimonials,
+.page-location-bhubaneswar .instagram-feed {
   padding-top: 40px;
   padding-bottom: 40px;
 }
