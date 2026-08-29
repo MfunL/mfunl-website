@@ -335,3 +335,19 @@
   </div>
 </section>
 
+<section class="section-gap-both">
+  <div class="wrap section-width epaper-feature">
+    <h2 class="h-2">MfunL Launch Eyes Social Media Market</h2>
+    <div class="article-prose">
+      <p>A creative event, organized to spread awareness on the importance of election procedures, got covered by leading Bengali TV Channels like APB Ananda, Zee 24 Ghanta and many more.</p>
+    </div>
+    <div class="awards__grid">
+      <?php for ($i = 1; $i <= 5; $i++): ?>
+        <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/MfunL-Launch-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" aria-label="View MfunL Launch Eyes Social Media Market photo <?= $i ?>">
+          <img src="/assets/images/events/MfunL-Launch-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="MfunL Launch Eyes Social Media Market, photo <?= $i ?>" loading="lazy">
+        </button>
+      <?php endfor; ?>
+    </div>
+  </div>
+</section>
+
