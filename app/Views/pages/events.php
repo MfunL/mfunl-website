@@ -303,3 +303,19 @@
   </div>
 </section>
 
+<section class="section-gap-both">
+  <div class="wrap section-width epaper-feature">
+    <h2 class="h-2">MfunL &amp; 'Password'</h2>
+    <div class="article-prose">
+      <p>An interactive session on Cyber Crime, happened in August 2019. We were honored to have Kamaleswar Mukherjee (Film Director) and the entire cast and crew of the Bengali film ' Password '.</p>
+    </div>
+    <div class="awards__grid">
+      <?php for ($i = 1; $i <= 6; $i++): ?>
+        <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/MfunL-Password<?= $i ?>-img.webp" aria-label="View MfunL &amp; Password photo <?= $i ?>">
+          <img src="/assets/images/events/MfunL-Password<?= $i ?>-img.webp" alt="MfunL &amp; Password, photo <?= $i ?>" loading="lazy">
+        </button>
+      <?php endfor; ?>
+    </div>
+  </div>
+</section>
+
