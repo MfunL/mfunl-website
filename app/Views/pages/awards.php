@@ -16,9 +16,9 @@
   <div class="wrap section-width">
     <div class="article-row">
       <div class="article-row__media" style="background-image:url('/assets/images/Brainware_univers.webp');" role="img" aria-label="Digital Innovation Conclave 2026 at Brainware University"></div>
-      <div class="article-row__content">
+      <div class="article-row__content" style="text-align:center;">
         <h2 class="h-2">Digital Innovation Conclave 2026 (Brainware University)</h2>
-        <div class="article-prose">
+        <div class="article-prose" style="text-align:center;">
           <p>It was a pleasure to be invited to attend the Media, Multimedia, and Digital Innovation Conclave 2026 organised by Brainware_university_kolkata . Events like these remind us that the future of digital communication is shaped not just by tools and platforms, but by ideas, collaboration, and the people driving them forward. Grateful to have been part of such an insightful and engaging evening.</p>
           <p>A sincere note to Phalguni Mookhopadhayay Soumojit Kaviraj Sudipta Chakraborty for the invitation and making me a part of this wonderful event.</p>
         </div>
@@ -55,8 +55,8 @@
           <img src="/assets/images/Healthcare-Marketing-2026-img-02.webp" alt="MfunL CEO Kuntal Chatterjee receiving the certification" loading="lazy">
         </button>
       </div>
-      <div class="article-row__content">
-        <div class="article-prose">
+      <div class="article-row__content" style="text-align:center;">
+        <div class="article-prose" style="text-align:center;">
           <p>MfunL has been honoured by India Pharma Outlook as one of the Top 10 Pharmaceutical &amp; Healthcare Marketing Consultants 2025, acknowledging its excellence in driving digital transformation across India&rsquo;s healthcare sector. The certification was proudly received by Mr. Kuntal Chatterjee, CEO of MfunL, who continues to lead the agency&rsquo;s mission of empowering hospitals, doctors, and clinics through innovative, data-driven marketing strategies that deliver measurable growth.</p>
           <p><strong>Magazine Link</strong>: <a href="https://www.indiapharmaoutlook.com/digital-magazine/warehousing-and-inventory-management-companies-february-2026/#page=23" target="_blank" rel="noopener"><u>View the feature</u></a></p>
         </div>
@@ -69,8 +69,8 @@
   <div class="wrap section-width">
     <h2 class="h-2 text-center">Mr. Kuntal Chatterjee Recognised as Certified AI Generalist by ET</h2>
     <div class="article-row" style="margin-top:24px;">
-      <div class="article-row__content">
-        <div class="article-prose">
+      <div class="article-row__content" style="text-align:center;">
+        <div class="article-prose" style="text-align:center;">
           <p>Our CEO, Mr. Kuntal Chatterjee of MfunL, a leading healthcare digital marketing agency, has been honoured with the Certified AI Generalist title by The Economic Times for successfully completing the AI for Business Professionals Masterclass held on April 5&ndash;6, 2025. This certification highlights his deep understanding of cross-functional AI expertise and commitment to leveraging advanced technologies to drive innovation, efficiency, and strategic growth in healthcare digital marketing.</p>
         </div>
       </div>
