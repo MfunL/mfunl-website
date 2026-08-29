@@ -6809,11 +6809,44 @@ section>.wrap>h2,
 
 .location-cta--on-dark {
   color: #fff;
+  background: linear-gradient(135deg, #008dd3, #005f8f);
+}
+
+.location-cta--info {
+  background: rgb(0 166 216 / 45%);
 }
 
 .pricing-service-cta--left {
   justify-content: flex-start;
   margin-top: 16px;
+}
+
+.article-prose--center {
+  text-align: center;
+}
+
+.mt-md {
+  margin-top: 24px;
+}
+
+.mt-lg {
+  margin-top: 32px;
+}
+
+.mt-xl {
+  margin-top: 48px;
+}
+
+.hyd-bg-digital-marketing {
+  background-image: url('/assets/images/location/Digital-Marketing.webp');
+}
+
+.hyd-bg-onboarding {
+  background-image: url('/assets/images/location/Onboarding-Process.webp');
+}
+
+.hyd-bg-trust-compliance {
+  background-image: url('/assets/images/location/Trust-Compliance.webp');
 }
 
 .steps-list {

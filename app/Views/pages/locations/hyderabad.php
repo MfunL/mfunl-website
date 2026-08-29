@@ -58,7 +58,7 @@ $hydFaqs = [
 
 <section class="section-gap-both">
   <div class="wrap section-width">
-    <div class="article-prose" style="text-align:center;">
+    <div class="article-prose article-prose--center">
       <p>Hyderabad has evolved into one of South India&rsquo;s most competitive healthcare hubs. From large corporate hospitals across Hitech City and Gachibowli to specialised clinics in Banjara Hills, Jubilee Hills, Kukatpally, and Secunderabad, patients today face an abundance of choices. Our healthcare digital marketing campaigns are structured to support how Hyderabad patients move from online search to offline consultation.</p>
     </div>
     <div class="article-quote">
@@ -72,7 +72,7 @@ $hydFaqs = [
 <section class="section-gap-both">
   <div class="wrap section-width">
     <div class="article-row">
-      <div class="article-row__media" style="background-image:url('/assets/images/location/Digital-Marketing.webp');" role="img" aria-label="Digital marketing for healthcare brands in Hyderabad"></div>
+      <div class="article-row__media hyd-bg-digital-marketing" role="img" aria-label="Digital marketing for healthcare brands in Hyderabad"></div>
       <div class="article-row__content">
         <h2 class="h-2">Why Healthcare Digital Marketing in Hyderabad Is Different</h2>
         <ul class="content-tabs__list">
@@ -92,12 +92,12 @@ $hydFaqs = [
       </div>
     </div>
 
-    <h2 class="h-2" style="margin-top:48px;">Specialities with consistent demand in Hyderabad include:</h2>
+    <h2 class="h-2 mt-xl">Specialities with consistent demand in Hyderabad include:</h2>
     <div class="article-prose">
       <p>In Hyderabad, patient demand remains steady for services such as fertility and IVF treatment, orthopaedics and joint care, cosmetic and aesthetic procedures, advanced dental treatments, neurology, and chronic disease management. This demand is supported by the city&rsquo;s private-led healthcare system and patients who carefully evaluate expertise, facilities, and treatment pathways.</p>
     </div>
 
-    <div class="location-cta" style="background: rgb(0 166 216 / 45%);">
+    <div class="location-cta location-cta--info">
       <p>In Hyderabad, healthcare digital marketing succeeds when it prioritises medical credibility and clear communication over aggressive promotion.</p>
     </div>
     <p class="pricing-service-cta pricing-service-cta--left">
@@ -112,7 +112,7 @@ $hydFaqs = [
 <section class="section-gap-both">
   <div class="wrap section-width">
     <h2 class="h-2 text-center">Healthcare Digital Marketing Services &mdash; Built for Hyderabad Healthcare Brands</h2>
-    <div class="price-table-wrap" style="margin-top:32px;">
+    <div class="price-table-wrap mt-lg">
       <table class="price-table price-table--prose">
         <thead>
           <tr>
@@ -134,7 +134,7 @@ $hydFaqs = [
       </table>
     </div>
 
-    <div class="location-cta" style="background: rgb(0 166 216 / 45%);">
+    <div class="location-cta location-cta--info">
       <p>Healthcare trust is earned through clarity, and our strategies are built to deliver exactly that.</p>
     </div>
   </div>
@@ -143,7 +143,7 @@ $hydFaqs = [
 <section class="section-gap-both">
   <div class="wrap section-width">
     <div class="article-row">
-      <div class="article-row__media" style="background-image:url('/assets/images/location/Onboarding-Process.webp');" role="img" aria-label="Onboarding process for Hyderabad healthcare clients"></div>
+      <div class="article-row__media hyd-bg-onboarding" role="img" aria-label="Onboarding process for Hyderabad healthcare clients"></div>
       <div class="article-row__content">
         <h2 class="h-2">How Onboarding Works for Hyderabad Healthcare Clients</h2>
         <ol class="steps-list">
@@ -154,7 +154,7 @@ $hydFaqs = [
             </li>
           <?php endforeach; ?>
         </ol>
-        <div class="location-cta location-cta--on-dark" style="background: linear-gradient(135deg, #008dd3, #005f8f);">
+        <div class="location-cta location-cta--on-dark">
           <p>Our process works because it&rsquo;s built for healthcare professionals, not generic businesses.</p>
         </div>
         <p class="pricing-service-cta pricing-service-cta--left">
@@ -174,7 +174,7 @@ $hydFaqs = [
     <div class="article-quote">
       <p>Trust and compliance are non-negotiable in healthcare marketing.</p>
     </div>
-    <div class="article-row" style="margin-top:24px;">
+    <div class="article-row mt-md">
       <div class="article-row__content">
         <div class="article-prose">
           <p>We follow a strict ethical advertising approach, avoiding misleading claims, guaranteed outcomes, and fear-based messaging. All communication is designed to respect patients and medical professionals.</p>
@@ -183,7 +183,7 @@ $hydFaqs = [
           <p>This ensures visibility is built responsibly &mdash; without compromising trust or safety</p>
         </div>
       </div>
-      <div class="article-row__media" style="background-image:url('/assets/images/location/Trust-Compliance.webp');" role="img" aria-label="Trust, ethics and compliance in healthcare marketing"></div>
+      <div class="article-row__media hyd-bg-trust-compliance" role="img" aria-label="Trust, ethics and compliance in healthcare marketing"></div>
     </div>
   </div>
 </section>
@@ -193,7 +193,7 @@ $hydFaqs = [
 <section class="section-gap-both">
   <div class="wrap section-width">
     <h2 class="h-2 text-center">FAQs &mdash; Healthcare Digital Marketing in Hyderabad</h2>
-    <div class="faq__accordion faq__accordion--centered" style="margin-top:32px;">
+    <div class="faq__accordion faq__accordion--centered mt-lg">
       <?php foreach ($hydFaqs as $i => $faq): ?>
         <div class="faq-item">
           <h4>
