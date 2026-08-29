@@ -74,7 +74,7 @@ $hydFaqs = [
     <div class="article-row">
       <div class="article-row__media hyd-bg-digital-marketing" role="img" aria-label="Digital marketing for healthcare brands in Hyderabad"></div>
       <div class="article-row__content">
-        <h2 class="h-2">Why Healthcare Digital Marketing in Hyderabad Is Different</h2>
+        <h2 class="h-2 h-2--dark">Why Healthcare Digital Marketing in <span class="accent">Hyderabad</span> Is Different</h2>
         <ul class="content-tabs__list">
           <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Hyderabad&rsquo;s healthcare market is built around large private hospitals and referral networks.</li>
           <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Patients in Hyderabad tend to evaluate expertise across multiple healthcare brands before committing to treatments.</li>
@@ -92,15 +92,15 @@ $hydFaqs = [
       </div>
     </div>
 
-    <h2 class="h-2 mt-xl">Specialities with consistent demand in Hyderabad include:</h2>
+    <h2 class="h-2 h-2--dark mt-xl text-center">Specialities with consistent demand in <span class="accent">Hyderabad</span> include:</h2>
     <div class="article-prose">
-      <p>In Hyderabad, patient demand remains steady for services such as fertility and IVF treatment, orthopaedics and joint care, cosmetic and aesthetic procedures, advanced dental treatments, neurology, and chronic disease management. This demand is supported by the city&rsquo;s private-led healthcare system and patients who carefully evaluate expertise, facilities, and treatment pathways.</p>
+      <p class="text-center">In Hyderabad, patient demand remains steady for services such as fertility and IVF treatment, orthopaedics and joint care, cosmetic and aesthetic procedures, advanced dental treatments, neurology, and chronic disease management. This demand is supported by the city&rsquo;s private-led healthcare system and patients who carefully evaluate expertise, facilities, and treatment pathways.</p>
     </div>
 
     <div class="location-cta location-cta--info">
       <p>In Hyderabad, healthcare digital marketing succeeds when it prioritises medical credibility and clear communication over aggressive promotion.</p>
     </div>
-    <p class="pricing-service-cta pricing-service-cta--left">
+    <p class="pricing-service-cta pricing-service-cta">
       <a class="btn btn--accent" href="tel:8336920676"><i class="fa-solid fa-phone" aria-hidden="true"></i> 8336920676</a>
       <a class="btn btn--outline" href="https://wa.me/917439775869" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
     </p>
@@ -111,7 +111,7 @@ $hydFaqs = [
 
 <section class="section-gap-both">
   <div class="wrap section-width">
-    <h2 class="h-2 text-center">Healthcare Digital Marketing Services &mdash; Built for Hyderabad Healthcare Brands</h2>
+    <h2 class="h-2 h-2--dark text-center">Healthcare Digital Marketing Services &mdash; Built for <span class="accent">Hyderabad</span> Healthcare Brands</h2>
     <div class="price-table-wrap mt-lg">
       <table class="price-table price-table--prose">
         <thead>
@@ -145,7 +145,7 @@ $hydFaqs = [
     <div class="article-row">
       <div class="article-row__media hyd-bg-onboarding" role="img" aria-label="Onboarding process for Hyderabad healthcare clients"></div>
       <div class="article-row__content">
-        <h2 class="h-2">How Onboarding Works for Hyderabad Healthcare Clients</h2>
+        <h2 class="h-2 h-2--dark">How Onboarding Works for <span class="accent">Hyderabad</span> Healthcare Clients</h2>
         <ol class="steps-list">
           <?php foreach ($hydSteps as $i => $step): ?>
             <li>
@@ -192,7 +192,7 @@ $hydFaqs = [
 
 <section class="section-gap-both">
   <div class="wrap section-width">
-    <h2 class="h-2 text-center">FAQs &mdash; Healthcare Digital Marketing in Hyderabad</h2>
+    <h2 class="h-2 h-2--dark text-center">FAQs &mdash; Healthcare Digital Marketing in <span class="accent">Hyderabad</span></h2>
     <div class="faq__accordion faq__accordion--centered mt-lg">
       <?php foreach ($hydFaqs as $i => $faq): ?>
         <div class="faq-item">

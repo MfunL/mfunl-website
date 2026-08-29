@@ -4129,6 +4129,12 @@ section>.wrap>h2,
   font-weight: 800;
 }
 
+/* For headings where only a focus word/phrase should be colored,
+   not the full line — pair with <span class="accent"> or "mark". */
+.h-2--dark {
+  color: var(--color-dark);
+}
+
 @media(max-width: 768px){
   .h-2{
     font-size: 30px;
@@ -6575,7 +6581,7 @@ section>.wrap>h2,
   font-family: var(--font-heading);
   font-weight: 700;
   font-style: italic;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   color: var(--color-dark);
   margin: 0 0 8px;
 }
