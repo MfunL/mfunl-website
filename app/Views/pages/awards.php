@@ -74,7 +74,8 @@
           <p>Our CEO, Mr. Kuntal Chatterjee of MfunL, a leading healthcare digital marketing agency, has been honoured with the Certified AI Generalist title by The Economic Times for successfully completing the AI for Business Professionals Masterclass held on April 5&ndash;6, 2025. This certification highlights his deep understanding of cross-functional AI expertise and commitment to leveraging advanced technologies to drive innovation, efficiency, and strategic growth in healthcare digital marketing.</p>
         </div>
       </div>
-      <div class="article-row__media" style="background-image:url('/assets/images/Ai-Times-Award-img.webp');" role="img" aria-label="Mr. Kuntal Chatterjee's Certified AI Generalist recognition by The Economic Times"></div>
+      <div class="article-row__media article-row__media--contain" style="background-image:url('/assets/images/Ai-Times-Award-img.webp');" role="img" aria-label="Mr. Kuntal Chatterjee's Certified AI Generalist recognition by The Economic Times"></div>
     </div>
   </div>
 </section>
+

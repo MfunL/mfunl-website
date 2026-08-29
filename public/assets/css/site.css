@@ -6589,12 +6589,15 @@ section>.wrap>h2,
 .article-row__media-pair .awards__item {
   flex: 1;
   min-width: 0;
+  background: #fff;
+  border: 1px solid var(--color-border);
 }
 
 .article-row__media-pair .awards__item img {
   height: 100%;
   min-height: 300px;
   aspect-ratio: auto;
+  object-fit: contain;
 }
 
 .article-row__content .content-tabs__list a {
