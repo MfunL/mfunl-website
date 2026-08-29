@@ -328,7 +328,8 @@ button { font-family: inherit; cursor: pointer; }
 .page-news-papers .page-hero__overlay,
 .page-events .page-hero__overlay,
 .page-awards .page-hero__overlay,
-.page-our-locations .page-hero__overlay {
+.page-our-locations .page-hero__overlay,
+.page-location-hyderabad .page-hero__overlay {
   background: linear-gradient(180deg, rgba(62, 96, 150, .78) 0%, rgba(45, 75, 125, .5) 45%, rgba(25, 50, 90, .85) 100%);
 }
 
@@ -6777,5 +6778,83 @@ section>.wrap>h2,
   padding: 16px 20px;
   font-weight: 600;
   border-radius: var(--radius-md);
+}
+
+/* ================================================================
+   LOCATION PAGES — city landing pages (e.g. /digital-marketing-
+   agency-hyderabad/): CTA callouts, numbered steps, prose tables.
+   ================================================================ */
+.location-cta {
+  margin: 32px auto 0;
+  padding: 24px 28px;
+  border-radius: var(--radius-lg);
+  text-align: center;
+  max-width: 760px;
+  color: var(--color-dark);
+}
+
+.location-cta p {
+  margin: 0 0 16px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.location-cta p:last-child {
+  margin-bottom: 0;
+}
+
+.location-cta .pricing-service-cta {
+  margin-top: 16px;
+}
+
+.location-cta--on-dark {
+  color: #fff;
+}
+
+.steps-list {
+  list-style: none;
+  margin: 24px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.steps-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.steps-list__num {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: var(--color-dark);
+  font-weight: 800;
+  font-family: var(--font-heading);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.steps-list__text {
+  padding-top: 5px;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+.price-table--prose th,
+.price-table--prose td {
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.6;
+}
+
+.price-table--prose td:first-child {
+  font-weight: 700;
+  color: var(--color-dark);
 }
 /*End*/
