@@ -191,3 +191,19 @@
   </div>
 </section>
 
+<section class="section-gap-both bg-tint">
+  <div class="wrap section-width epaper-feature">
+    <h2 class="h-2">CII Grand Conclave on Brand Management</h2>
+    <div class="article-prose">
+      <p>MfunL CEO Mr.Kuntal Chatterjee participated in the CII Grand Conclave on Brand Management held on 21st December 2022 at JW Marriott Kolkata.</p>
+    </div>
+    <div class="awards__grid awards__grid--2col">
+      <?php for ($i = 1; $i <= 2; $i++): ?>
+        <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Grand-Conclave-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" aria-label="View CII Grand Conclave on Brand Management photo <?= $i ?>">
+          <img src="/assets/images/events/Grand-Conclave-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="CII Grand Conclave on Brand Management, photo <?= $i ?>" loading="lazy">
+        </button>
+      <?php endfor; ?>
+    </div>
+  </div>
+</section>
+
