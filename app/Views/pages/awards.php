@@ -14,7 +14,7 @@
 
 <section class="section-gap-both">
   <div class="wrap section-width">
-    <div class="article-row">
+    <div class="article-row article-row--align-center">
       <div class="article-row__media" style="background-image:url('/assets/images/Brainware_univers.webp');" role="img" aria-label="Digital Innovation Conclave 2026 at Brainware University"></div>
       <div class="article-row__content" style="text-align:center;">
         <h2 class="h-2">Digital Innovation Conclave 2026 (Brainware University)</h2>
@@ -46,7 +46,7 @@
 <section class="section-gap-both">
   <div class="wrap section-width">
     <h2 class="h-2 text-center">MfunL Recognised Among India&rsquo;s Top 10 Healthcare Marketing Consultants 2025-2026</h2>
-    <div class="article-row" style="margin-top:24px;">
+    <div class="article-row article-row--align-center" style="margin-top:24px;">
       <div class="article-row__media-pair">
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/Healthcare-Marketing-2025-img-01.webp" aria-label="View India Pharma Outlook Top 10 Healthcare Marketing Consultants certificate">
           <img src="/assets/images/Healthcare-Marketing-2025-img-01.webp" alt="India Pharma Outlook Top 10 Healthcare Marketing Consultants certificate" loading="lazy">
@@ -68,7 +68,7 @@
 <section class="section-gap-both bg-tint">
   <div class="wrap section-width">
     <h2 class="h-2 text-center">Mr. Kuntal Chatterjee Recognised as Certified AI Generalist by ET</h2>
-    <div class="article-row" style="margin-top:24px;">
+    <div class="article-row article-row--align-center" style="margin-top:24px;">
       <div class="article-row__content" style="text-align:center;">
         <div class="article-prose" style="text-align:center;">
           <p>Our CEO, Mr. Kuntal Chatterjee of MfunL, a leading healthcare digital marketing agency, has been honoured with the Certified AI Generalist title by The Economic Times for successfully completing the AI for Business Professionals Masterclass held on April 5&ndash;6, 2025. This certification highlights his deep understanding of cross-functional AI expertise and commitment to leveraging advanced technologies to drive innovation, efficiency, and strategic growth in healthcare digital marketing.</p>
