@@ -196,12 +196,12 @@ $hydFaqs = [
     <div class="faq__accordion faq__accordion--centered mt-lg">
       <?php foreach ($hydFaqs as $i => $faq): ?>
         <div class="faq-item">
-          <h4>
+          <h3>
             <button type="button" class="faq-item__question" aria-expanded="<?= $i === 0 ? 'true' : 'false' ?>" aria-controls="hyd-faq-answer-<?= $i ?>">
               <?= htmlspecialchars($faq['question'], ENT_QUOTES, 'UTF-8') ?>
               <span class="faq-item__icon" aria-hidden="true"></span>
             </button>
-          </h4>
+          </h3>
           <div class="faq-item__answer" id="hyd-faq-answer-<?= $i ?>" <?= $i === 0 ? '' : 'hidden' ?>>
             <p><?= $faq['answer'] ?></p>
           </div>
