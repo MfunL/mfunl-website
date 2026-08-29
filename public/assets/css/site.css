@@ -6901,4 +6901,14 @@ section>.wrap>h2,
   font-weight: 700;
   color: var(--color-dark);
 }
+
+/* Keep a consistent 40px section-to-section gap on this page — the
+   reused home sections normally carry their own 75px padding. */
+.page-location-hyderabad .what-we-do-best,
+.page-location-hyderabad .dactarbabu,
+.page-location-hyderabad .testimonials,
+.page-location-hyderabad .instagram-feed {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 /*End*/
