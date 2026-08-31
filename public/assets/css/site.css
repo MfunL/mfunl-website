@@ -332,7 +332,8 @@ button { font-family: inherit; cursor: pointer; }
 .page-location-hyderabad .page-hero__overlay,
 .page-location-bhubaneswar .page-hero__overlay,
 .page-location-ahmedabad .page-hero__overlay,
-.page-location-noida .page-hero__overlay {
+.page-location-noida .page-hero__overlay,
+.page-location-guwahati .page-hero__overlay {
   background: linear-gradient(180deg, rgba(62, 96, 150, .78) 0%, rgba(45, 75, 125, .5) 45%, rgba(25, 50, 90, .85) 100%);
 }
 
@@ -6894,6 +6895,18 @@ section>.wrap>h2,
   background-image: url('/assets/images/location/Trust-Compliance.webp');
 }
 
+.guw-bg-digital-marketing {
+  background-image: url('/assets/images/location/digital-marketing-guwahati.webp');
+}
+
+.guw-bg-onboarding {
+  background-image: url('/assets/images/location/Onboarding-Process.webp');
+}
+
+.guw-bg-trust-compliance {
+  background-image: url('/assets/images/location/Trust-Compliance.webp');
+}
+
 .steps-list {
   list-style: none;
   margin: 24px 0 0;
@@ -6958,7 +6971,11 @@ section>.wrap>h2,
 .page-location-noida .what-we-do-best,
 .page-location-noida .dactarbabu,
 .page-location-noida .testimonials,
-.page-location-noida .instagram-feed {
+.page-location-noida .instagram-feed,
+.page-location-guwahati .what-we-do-best,
+.page-location-guwahati .dactarbabu,
+.page-location-guwahati .testimonials,
+.page-location-guwahati .instagram-feed {
   padding-top: 40px;
   padding-bottom: 40px;
 }
