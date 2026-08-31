@@ -116,8 +116,8 @@
   const otherServicesEl = document.querySelector('.other-services-slider__swiper');
   if (otherServicesEl) {
     new Swiper(otherServicesEl, {
-      slidesPerView: 1.3,
-      spaceBetween: 24,
+      slidesPerView: 1,
+      spaceBetween: 20,
       loop: true,
       grabCursor: true,
       autoplay: {
