@@ -5840,6 +5840,13 @@ section>.wrap>h2,
   margin: 32px 0 0;
 }
 
+@media (max-width: 768px) {
+  .pricing-service-cta {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
 .pricing-service-cta p {
   max-width: 60ch;
   margin: 0;
