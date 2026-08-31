@@ -7695,7 +7695,7 @@ section>.wrap>h2,
 
 @media (max-width: 1100px) {
   .other-services-slider__swiper {
-    padding: 0 45px 55px !important;
+    padding: 0 0 55px !important;
   }
 }
 /*End*/
