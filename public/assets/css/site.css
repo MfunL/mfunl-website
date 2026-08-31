@@ -858,6 +858,7 @@ button { font-family: inherit; cursor: pointer; }
   position: relative;
   padding-bottom: 12px;
 }
+
 .site-footer__links h3::after {
   content: '';
   position: absolute;
@@ -867,7 +868,14 @@ button { font-family: inherit; cursor: pointer; }
   height: 2px;
   background: #03c9fd;
 }
-.site-footer__links h3 + h3 { margin-top: 40px; }
+
+/* Each heading after the first sits right after the previous group's
+   <nav>, not after another <h3> — so `h3:last-child` and `h3 + h3`
+   never matched anything. `:not(:first-child)` is what actually
+   targets "Who We Serve" (and any later heading groups). */
+.site-footer__links h3:not(:first-child) {
+  margin-top: 40px;
+}
 
 .footer-link-row {
   display: flex;
@@ -7643,7 +7651,7 @@ section>.wrap>h2,
   align-items: center;
   justify-content: center;
   background: var(--color-accent);
-  opacity: .5;
+  opacity: .9;
   border-radius: 50%;
   color: #fff;
   box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
