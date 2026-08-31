@@ -333,7 +333,9 @@ button { font-family: inherit; cursor: pointer; }
 .page-location-bhubaneswar .page-hero__overlay,
 .page-location-ahmedabad .page-hero__overlay,
 .page-location-noida .page-hero__overlay,
-.page-location-guwahati .page-hero__overlay {
+.page-location-guwahati .page-hero__overlay,
+.page-who-we-serve .page-hero__overlay,
+.page-audience-hospitals .page-hero__overlay {
   background: linear-gradient(180deg, rgba(62, 96, 150, .78) 0%, rgba(45, 75, 125, .5) 45%, rgba(25, 50, 90, .85) 100%);
 }
 
@@ -3614,6 +3616,81 @@ section>.wrap>h2,
 @media (max-width: 560px) {
   .location-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.who-serve-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.who-serve-card {
+  display: block;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.who-serve-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-md);
+}
+
+.who-serve-card__img {
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.who-serve-card__name {
+  display: block;
+  padding: 14px 10px;
+  text-align: center;
+  font-weight: 700;
+  color: var(--color-dark);
+}
+
+@media (max-width: 900px) {
+  .who-serve-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .who-serve-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Flexible variant of the who-serve-card grid for audience sub-type
+   listings whose item count doesn't divide evenly into columns —
+   flex-wrap centers a trailing incomplete row instead of leaving it
+   left-aligned like a grid track would. */
+.audience-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.audience-grid .who-serve-card {
+  flex: 0 1 calc(25% - 18px);
+}
+
+@media (max-width: 900px) {
+  .audience-grid .who-serve-card {
+    flex-basis: calc(50% - 12px);
+  }
+}
+
+@media (max-width: 480px) {
+  .audience-grid .who-serve-card {
+    flex-basis: 100%;
   }
 }
 
