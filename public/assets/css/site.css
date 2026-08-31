@@ -7890,7 +7890,7 @@ section>.wrap>h2,
 
 @media (max-width: 1100px) {
   .testimonial-inner__swiper-wrap {
-    padding: 0 45px;
+    padding: 0;
   }
 }
 
