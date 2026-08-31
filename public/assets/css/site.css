@@ -271,7 +271,7 @@ button { font-family: inherit; cursor: pointer; }
 
 /* ---- Floating buttons ---- */
 .floating-buttons { position: fixed; right: 20px; bottom: 20px; display: flex; flex-direction: column; gap: 10px; z-index: 900; }
-.floating-buttons a, .floating-buttons button { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-md); border: none; font-size: 1.3rem; }
+.floating-buttons a, .floating-buttons button { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-md); border: 2px solid #fff; font-size: 1.3rem; }
 .floating-buttons__call { background: var(--color-accent); color: var(--color-dark); }
 .floating-buttons__whatsapp { background: #25d366; color: #fff; }
 .floating-buttons__top { background: var(--color-dark); color: #fff; font-size: 1.2rem; cursor: pointer; }
@@ -810,7 +810,7 @@ button { font-family: inherit; cursor: pointer; }
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 56px;
-  padding: 64px 24px 56px;
+  padding: 40px 24px 40px;
 }
 
 .site-footer__brand img {
@@ -874,7 +874,6 @@ button { font-family: inherit; cursor: pointer; }
   flex-wrap: wrap;
   gap: 10px 24px;
   font-size: .9rem;
-  margin-bottom: 24px;
   color: #c0cdd8;
 }
 .footer-link-row a {
@@ -899,9 +898,10 @@ button { font-family: inherit; cursor: pointer; }
 }
 .site-footer__bottom a { color: #a0b8cc; transition: color .2s ease; text-decoration: none; }
 .site-footer__bottom a:hover { color: #03c9fd; }
+.site-footer__bottom p{ margin-bottom: 0; }
 
 @media (max-width: 768px) {
-  .site-footer__top { grid-template-columns: 1fr; gap: 40px; padding: 48px 24px; }
+  .site-footer__top { grid-template-columns: 1fr; gap: 40px; padding: 40px 24px; }
   .site-footer__brand p { max-width: 100%; }
 }
 
@@ -1172,10 +1172,95 @@ section>.wrap>h2,
 }
 
 /* ================================================================
+   Trust Slide — reusable partner-logo auto-carousel with a dashed
+   heading. Global component: drop `View::partial('trust-slide')`
+   into any page-hero or section. Defaults to white heading text on
+   a dark background (its first use sits inside a page-hero).
+   ================================================================ */
+.trust-slide {
+  width: 100%;
+  padding: 24px 0 4px;
+  margin-bottom: 24px;
+}
+
+.trust-slide__heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin: 0 0 24px;
+}
+
+.trust-slide__heading::before,
+.trust-slide__heading::after {
+  content: '';
+  width: 46px;
+  height: 3px;
+  border-radius: 2px;
+  background: #30ff29;
+}
+
+.trust-slide__viewport {
+  width: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+
+.trust-slide__track {
+  display: flex;
+  gap: 26px;
+  width: max-content;
+  align-items: center;
+  animation: marquee 26s linear infinite;
+}
+
+.trust-slide:hover .trust-slide__track {
+  animation-play-state: paused;
+}
+
+.trust-slide__track img {
+  height: 75px;
+  width: auto;
+  max-width: 110px;
+  object-fit: contain;
+  flex-shrink: 0;
+  background: #fff;
+  border-radius: 10px;
+  padding: 8px 14px;
+}
+
+@media (max-width: 900px) {
+  .trust-slide__viewport {
+    width: 80%;
+  }
+}
+
+@media (max-width: 560px) {
+  .trust-slide__viewport {
+    width: 100%;
+  }
+
+  .trust-slide__heading {
+    font-size: 1.15rem;
+    gap: 12px;
+  }
+
+  .trust-slide__heading::before,
+  .trust-slide__heading::after {
+    width: 26px;
+  }
+}
+
+/* ================================================================
    03 — SERVICES FOR
    ================================================================ */
 .services-for {
-  padding: 90px 0;
+  padding: 40px 0;
   background: #fff;
 }
 
@@ -1441,7 +1526,7 @@ section>.wrap>h2,
    04 — WELCOME
    ================================================================ */
 .welcome {
-  padding: 75px 0;
+  padding: 40px 0;
   background: linear-gradient(135deg, #e8eff8 0%, #ffffff 100%);
   overflow: hidden;
 }
@@ -1678,7 +1763,7 @@ section>.wrap>h2,
 }
 
 .what-we-do-best {
-  padding: 75px 24px;
+  padding: 40px 24px;
   background: var(--what-we-do-background);
   text-align: center;
 }
@@ -2076,7 +2161,7 @@ section>.wrap>h2,
    07 — COMPARISON
    ================================================================ */
 .comparison {
-  padding: 75px 0;
+  padding: 40px 0;
   background: var(--color-surface);
 }
 
@@ -2214,7 +2299,7 @@ section>.wrap>h2,
    ================================================================ */
 .growth-system {
 
-  padding: 75px 0;
+  padding: 40px 0;
 
   background: #f7fbfe;
 
@@ -2536,7 +2621,7 @@ section>.wrap>h2,
 }
 
 .dactarbabu {
-  padding: 75px 0;
+  padding: 40px 0;
   background: var(--dactarbabu-background);
   overflow-x: hidden;
 }
@@ -2706,7 +2791,7 @@ section>.wrap>h2,
    10 — JOURNEY / COUNTERS
    ================================================================ */
 .journey {
-  padding: 75px 0;
+  padding: 40px 0;
   background: #eaf6ff url('/assets/images/journey-bg.webp') center / cover no-repeat;
   color: var(--color-dark);
   text-align: center;
@@ -2799,7 +2884,7 @@ section>.wrap>h2,
    11 — PROJECTS
    ================================================================ */
 .projects {
-  padding: 75px 0;
+  padding: 40px 0;
   text-align: center;
   background: #fff;
 }
@@ -2936,7 +3021,7 @@ section>.wrap>h2,
    12 — CEO VIDEO
    ================================================================ */
 .ceo-video {
-  padding: 75px 0;
+  padding: 40px 0;
   background: var(--color-surface);
 }
 
@@ -3042,7 +3127,7 @@ section>.wrap>h2,
 
 .testimonials {
 
-  padding: 75px 0;
+  padding: 40px 0;
 
   text-align: center;
 
@@ -3504,7 +3589,7 @@ section>.wrap>h2,
    14 — AWARDS
    ================================================================ */
 .awards {
-  padding: 75px 0;
+  padding: 40px 0;
   text-align: center;
   background: #e2f4ff;
 }
@@ -3748,7 +3833,7 @@ section>.wrap>h2,
    15 — INSTAGRAM FEED
    ================================================================ */
 .instagram-feed {
-  padding: 75px 0;
+  padding: 40px 0;
   text-align: center;
   background: #fff;
 }
@@ -3818,7 +3903,7 @@ section>.wrap>h2,
    16 — FAQ
    ================================================================ */
 .faq {
-  padding: 75px 0;
+  padding: 40px 0;
   background: var(--color-surface);
 }
 
@@ -3911,7 +3996,7 @@ section>.wrap>h2,
    17 — MAP
    ================================================================ */
 .map-section {
-  padding: 75px 0;
+  padding: 40px 0;
   text-align: center;
   background: #fff;
 }
@@ -3946,7 +4031,7 @@ section>.wrap>h2,
    18 — CONTACT FORM
    ================================================================ */
 .contact-form-section {
-  padding: 75px 0;
+  padding: 40px 0;
   background: var(--color-surface);
 }
 
@@ -6454,6 +6539,284 @@ section>.wrap>h2,
 /*End*/
 
 /* ================================================================
+   TREND GRID — global, reusable 5-up glassmorphism card grid.
+   Same frosted-glass recipe as .page-hero__title--glass (rgba white,
+   blur, translucent border) so both stay visually in sync.
+   ================================================================ */
+.trend-grid {
+  padding: 40px 0;
+  text-align: center;
+  background: linear-gradient(135deg, var(--color-dark) 0%, var(--color-accent-dark) 100%);
+}
+
+.trend-grid h2 {
+  color: #fff;
+}
+
+.trend-grid h3 {
+  margin: 8px 0 0;
+  font-weight: 500;
+  color: rgba(255, 255, 255, .82);
+}
+
+.trend-grid__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.trend-grid__card {
+  flex: 0 1 calc(33.333% - 16px);
+  padding: 32px 20px;
+  background: rgba(255, 255, 255, .12);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, .28);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, .18);
+  transition: transform .3s ease, background .3s ease;
+}
+
+.trend-grid__card:hover {
+  transform: translateY(-6px);
+  background: rgba(255, 255, 255, .2);
+}
+
+.trend-grid__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .15);
+  color: var(--color-accent);
+  font-size: 1.4rem;
+}
+
+.trend-grid__card p {
+  margin: 0;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.trend-grid__contact {
+  margin: 40px 0 0;
+  color: rgba(255, 255, 255, .85);
+}
+
+.trend-grid__contact a {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+@media (max-width: 640px) {
+  .trend-grid__card {
+    flex-basis: calc(50% - 12px);
+  }
+}
+
+@media (max-width: 420px) {
+  .trend-grid__card {
+    flex-basis: 100%;
+  }
+}
+/*End*/
+
+/* ================================================================
+   GROWTH TIMELINE — global, reusable centered-line timeline with
+   alternating left/right content and an animated SVG pulse node at
+   each point.
+   ================================================================ */
+.growth-timeline h3 {
+  margin: 8px 0 0;
+  text-align: center;
+}
+
+.growth-timeline__line {
+  position: relative;
+  margin-top: 56px;
+  padding: 8px 0;
+}
+
+.growth-timeline__line::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background: linear-gradient(180deg, var(--color-accent), var(--color-accent-dark));
+  transform: translateX(-50%);
+}
+
+.growth-timeline__item {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: calc(50% + 32px);
+  margin-bottom: 36px;
+}
+
+.growth-timeline__item:last-child {
+  margin-bottom: 0;
+}
+
+.growth-timeline__item--right {
+  justify-content: flex-start;
+  padding-right: 0;
+  padding-left: calc(50% + 32px);
+}
+
+.growth-timeline__content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 180px;
+  max-width: 420px;
+  background: linear-gradient(160deg, #fff 0%, var(--color-surface) 100%);
+  border: 1px solid var(--color-border);
+  border-radius: 18px;
+  padding: 28px 30px 28px 28px;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, .9) inset,
+    0 14px 32px rgba(11, 18, 32, .08),
+    0 2px 6px rgba(11, 18, 32, .04);
+  overflow: hidden;
+  isolation: isolate;
+  transition: transform .35s ease, box-shadow .35s ease, border-color .35s ease;
+}
+
+.growth-timeline__content::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: linear-gradient(180deg, var(--color-accent), var(--color-accent-dark));
+  opacity: .55;
+  transition: opacity .35s ease, width .35s ease;
+}
+
+.growth-timeline__content::after {
+  content: '';
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(3, 201, 253, .16), transparent 70%);
+  z-index: -1;
+  transition: opacity .35s ease;
+}
+
+.growth-timeline__item:hover .growth-timeline__content {
+  transform: translateY(-6px) scale(1.015);
+  border-color: rgba(3, 201, 253, .35);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, .9) inset,
+    0 26px 50px rgba(11, 18, 32, .15),
+    0 4px 10px rgba(11, 18, 32, .06);
+}
+
+.growth-timeline__item:hover .growth-timeline__content::before {
+  opacity: 1;
+  width: 5px;
+}
+
+.growth-timeline__number {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  z-index: -1;
+  font-family: var(--font-heading);
+  font-size: 3.4rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -.03em;
+  color: rgba(3, 201, 253, .34);
+  -webkit-text-stroke: 1px rgba(2, 150, 194, .3);
+  transition: color .3s ease, -webkit-text-stroke-color .3s ease, transform .3s ease;
+}
+
+.growth-timeline__item:hover .growth-timeline__number {
+  color: rgba(3, 201, 253, .22);
+  -webkit-text-stroke-color: rgba(2, 150, 194, .45);
+  transform: translateY(-2px) scale(1.04);
+}
+
+.growth-timeline__content p {
+  position: relative;
+  margin: 0;
+  padding: 0 56px 0 10px;
+  color: var(--color-text);
+  font-size: 1rem;
+  line-height: 1.7;
+  letter-spacing: -.005em;
+}
+
+.growth-timeline__node {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+}
+
+.growth-timeline__pulse-ring {
+  fill: none;
+  stroke: var(--color-accent);
+  stroke-width: 2;
+  opacity: .7;
+  transform-origin: 20px 20px;
+  animation: growth-timeline-pulse 2.4s ease-out infinite;
+}
+
+.growth-timeline__pulse-dot {
+  fill: var(--color-accent-dark);
+}
+
+@keyframes growth-timeline-pulse {
+  0% {
+    transform: scale(.6);
+    opacity: .8;
+  }
+
+  100% {
+    transform: scale(1.9);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 760px) {
+  .growth-timeline__line::before {
+    left: 20px;
+  }
+
+  .growth-timeline__item,
+  .growth-timeline__item--right {
+    justify-content: flex-start;
+    padding-left: 56px;
+    padding-right: 0;
+  }
+
+  .growth-timeline__content {
+    max-width: none;
+  }
+
+  .growth-timeline__node {
+    left: 20px;
+  }
+}
+/*End*/
+
+/* ================================================================
    ARTICLE PROSE — long-form content pages (e.g. Digital Marketing
    2026): readable column width, spaced sections.
    ================================================================ */
@@ -6470,6 +6833,68 @@ section>.wrap>h2,
 
 .article-prose .content-tabs__list {
   margin: 0 0 20px;
+}
+
+/* ================================================================
+   HOVER LIST — global, reusable "designed" list. Each item slides
+   right and fills with the accent colour on hover; the icon badge
+   inverts to match. Drop into any content column.
+   ================================================================ */
+.hover-list {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hover-list__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 16px 18px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background: #fff;
+  transition: background .25s ease, transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+
+.hover-list__icon {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--color-surface);
+  color: var(--color-accent-dark);
+  transition: background .25s ease, color .25s ease, transform .25s ease;
+}
+
+.hover-list__item p {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--color-text);
+  transition: color .25s ease;
+}
+
+.hover-list__item:hover {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  transform: translateX(8px);
+  box-shadow: var(--shadow-md);
+}
+
+.hover-list__item:hover .hover-list__icon {
+  background: #fff;
+  color: var(--color-accent-dark);
+  transform: scale(1.1);
+}
+
+.hover-list__item:hover p {
+  color: var(--color-dark);
 }
 
 /* ================================================================
@@ -6750,6 +7175,94 @@ section>.wrap>h2,
   font-weight: 600;
 }
 
+/* Plain-photo variant of .article-row__media — a single <img> (not a
+   background-image panel) with CTA buttons stacked underneath it. */
+.article-row__media-photo {
+  flex: 0 0 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.article-row__media-photo img {
+  display: block;
+  width: 100%;
+  border-radius: var(--radius-lg);
+  object-fit: cover;
+  box-shadow: var(--shadow-sm);
+}
+
+/* Sticky only once the row is side-by-side (desktop) — below the
+   760px stack breakpoint it scrolls normally with the content. */
+@media (min-width: 761px) {
+  .article-row__media-photo {
+    position: sticky;
+    top: calc(var(--header-height) + 75px);
+    align-self: flex-start;
+    scroll-margin-top: calc(var(--header-height) + 24px);
+  }
+}
+
+/* Decorative variant of .article-row__media — a rotating badge over
+   a shape, stacked above a framed photo, instead of one background
+   image panel. */
+.article-row__visual {
+  flex: 0 0 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.article-row__visual-top {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 170px;
+}
+
+.article-row__shape {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+.article-row__rotation-wrap {
+  display: block;
+  flex-shrink: 0;
+  width: 160px;
+  aspect-ratio: 1 / 1;
+}
+
+.article-row__rotation {
+  display: block;
+  width: 100%;
+  height: 100%;
+  animation: welcome-spin 12s linear infinite;
+}
+
+.article-row__photo-frame {
+  position: relative;
+  padding: 10px;
+}
+
+.article-row__photo-frame::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 2px solid #fff;
+  border-radius: 18px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, .15);
+  pointer-events: none;
+}
+
+.article-row__photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
 @media (max-width: 760px) {
   .article-row {
     flex-direction: column !important;
@@ -6763,6 +7276,20 @@ section>.wrap>h2,
 
   .article-row__media-pair .awards__item img {
     min-height: 400px;
+  }
+
+  .article-row__visual {
+    flex-basis: auto;
+    width: 100%;
+  }
+
+  .article-row__visual-top {
+    justify-content: center;
+  }
+
+  .article-row__media-photo {
+    flex-basis: auto;
+    width: 100%;
   }
 }
 
@@ -6908,6 +7435,258 @@ section>.wrap>h2,
   margin-top: 16px;
 }
 
+/* ================================================================
+   What We Do Slider — reusable "centered slide pops" carousel.
+   Swiper's centeredSlides option (see slider.js) puts the focused
+   card in the middle; the scale/opacity contrast below is what
+   makes it visually "pop" against its dimmed, shrunk neighbours.
+   ================================================================ */
+.what-we-do-slider {
+  padding: 40px 0;
+  text-align: center;
+  background: var(--color-dark);
+}
+
+.what-we-do-slider h2 {
+  color: #fff;
+}
+
+.what-we-do-slider__swiper {
+  position: relative;
+  padding: 24px 0 55px !important;
+  margin-top: 35px;
+  overflow: hidden;
+}
+
+.what-we-do-slider .swiper-wrapper {
+  align-items: stretch;
+}
+
+.what-we-do-slider .swiper-slide {
+  height: auto;
+  display: flex;
+  opacity: .5;
+  transform: scale(.82);
+  transition: transform .4s ease, opacity .4s ease;
+}
+
+.what-we-do-slider .swiper-slide-active {
+  opacity: 1;
+  transform: scale(1.08);
+  z-index: 2;
+}
+
+.what-we-do-slider__card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  padding: 40px 28px;
+  text-align: center;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, .06);
+  transition: box-shadow .35s ease, border-color .35s ease;
+}
+
+.what-we-do-slider .swiper-slide-active .what-we-do-slider__card {
+  border-color: var(--color-accent);
+  box-shadow: 0 24px 50px rgba(0, 0, 0, .14);
+}
+
+.what-we-do-slider__card img {
+  margin-bottom: 6px;
+}
+
+.what-we-do-slider__card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--color-dark);
+}
+
+.what-we-do-slider__card p {
+  margin: 0;
+  font-size: .92rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+.what-we-do-slider__swiper .swiper-button-prev,
+.what-we-do-slider__swiper .swiper-button-next {
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(-50%);
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-accent);
+  opacity: .8;
+  border-radius: 50%;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
+  transition: .3s ease;
+  z-index: 10;
+}
+
+.what-we-do-slider__swiper .swiper-button-prev { left: 15px; }
+.what-we-do-slider__swiper .swiper-button-next { right: 15px; }
+
+.what-we-do-slider__swiper .swiper-button-prev:hover,
+.what-we-do-slider__swiper .swiper-button-next:hover {
+  opacity: 1;
+}
+
+.what-we-do-slider__swiper .swiper-button-prev::after,
+.what-we-do-slider__swiper .swiper-button-next::after {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.what-we-do-slider__swiper .swiper-pagination {
+  bottom: 10px;
+}
+
+.what-we-do-slider__swiper .swiper-pagination-bullet {
+  box-sizing: content-box;
+  width: 8px;
+  height: 8px;
+  padding: 8px;
+  background: #cbd8e3;
+  background-clip: content-box;
+  opacity: 1;
+  transition: .3s ease;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  --swiper-pagination-bullet-horizontal-gap: -4px;
+}
+
+.what-we-do-slider__swiper .swiper-pagination-bullet-active {
+  width: 24px;
+  height: 8px;
+  padding: 8px 0;
+  border-radius: 20px;
+  background: var(--color-accent);
+  background-clip: content-box;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+}
+
+@media (max-width: 1100px) {
+  .what-we-do-slider__swiper {
+    padding: 24px 45px 55px !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .what-we-do-slider .swiper-slide {
+    transform: scale(.9);
+  }
+
+  .what-we-do-slider .swiper-slide-active {
+    transform: scale(1.04);
+  }
+
+  .what-we-do-slider__card {
+    padding: 28px 20px;
+  }
+}
+
+/* ================================================================
+   OTHER SERVICES SLIDER — plain multi-up carousel of who-serve-card
+   items (reuses that card's photo + name styling). No centered-pop
+   effect, unlike .what-we-do-slider.
+   ================================================================ */
+.other-services-slider h3 {
+  margin: 8px 0 0;
+  text-align: center;
+}
+
+.other-services-slider__swiper {
+  position: relative;
+  padding: 0 0 55px !important;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.other-services-slider .swiper-slide {
+  height: auto;
+}
+
+.other-services-slider .who-serve-card {
+  height: 100%;
+}
+
+.other-services-slider__swiper .swiper-button-prev,
+.other-services-slider__swiper .swiper-button-next {
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(-50%);
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-accent);
+  opacity: .5;
+  border-radius: 50%;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
+  transition: .3s ease;
+  z-index: 10;
+}
+
+.other-services-slider__swiper .swiper-button-prev { left: 15px; }
+.other-services-slider__swiper .swiper-button-next { right: 15px; }
+
+.other-services-slider__swiper .swiper-button-prev:hover,
+.other-services-slider__swiper .swiper-button-next:hover {
+  opacity: 1;
+}
+
+.other-services-slider__swiper .swiper-button-prev::after,
+.other-services-slider__swiper .swiper-button-next::after {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.other-services-slider__swiper .swiper-pagination {
+  bottom: 10px;
+}
+
+.other-services-slider__swiper .swiper-pagination-bullet {
+  box-sizing: content-box;
+  width: 8px;
+  height: 8px;
+  padding: 8px;
+  background: #cbd8e3;
+  background-clip: content-box;
+  opacity: 1;
+  transition: .3s ease;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  --swiper-pagination-bullet-horizontal-gap: -4px;
+}
+
+.other-services-slider__swiper .swiper-pagination-bullet-active {
+  width: 24px;
+  height: 8px;
+  padding: 8px 0;
+  border-radius: 20px;
+  background: var(--color-accent);
+  background-clip: content-box;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+}
+
+@media (max-width: 1100px) {
+  .other-services-slider__swiper {
+    padding: 0 45px 55px !important;
+  }
+}
+/*End*/
+
 .article-prose--center {
   text-align: center;
 }
@@ -6923,6 +7702,195 @@ section>.wrap>h2,
 .mt-xl {
   margin-top: 48px;
 }
+
+/* ================================================================
+   TESTIMONIAL — INNER PAGE — global, reusable review slider
+   (Views/partials/Testimonial_innerpage.php). Deliberately distinct
+   from the homepage's light 3-up card grid (.testimonials): a dark
+   gradient backdrop behind glass cards instead of a flat light bg.
+   ================================================================ */
+.testimonial-inner {
+  padding: 40px 0;
+  background: linear-gradient(135deg, var(--color-dark) 0%, var(--color-accent-dark) 100%);
+  text-align: center;
+}
+
+.testimonial-inner h2 {
+  margin: 0 0 48px;
+  color: #fff;
+}
+
+/* Padding lives on the wrap (for arrow gutters), not on the .swiper
+   itself — overflow:hidden clips at the padding-box edge, so padding
+   on the clipping element would let the next slide peek through. */
+.testimonial-inner__swiper-wrap {
+  position: relative;
+  padding: 0 60px;
+}
+
+.testimonial-inner__swiper {
+  margin: 0 auto;
+  padding: 0 0 50px !important;
+  overflow: hidden;
+}
+
+.testimonial-inner .swiper-slide {
+  height: auto;
+  display: flex;
+}
+
+.testimonial-inner__card {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, .08);
+  border: 1px solid rgba(255, 255, 255, .16);
+  border-radius: var(--radius-lg);
+  padding: 40px 28px 28px;
+  text-align: left;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  overflow: hidden;
+  transition: transform .3s ease, background .3s ease;
+}
+
+.testimonial-inner__card:hover {
+  transform: translateY(-6px);
+  background: rgba(255, 255, 255, .12);
+}
+
+.testimonial-inner__mark {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 3.6rem;
+  line-height: 1;
+  color: rgba(3, 201, 253, .25);
+  z-index: 0;
+}
+
+.testimonial-inner__stars {
+  position: relative;
+  color: #ffb84d;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
+}
+
+.testimonial-inner__quote {
+  position: relative;
+  flex-grow: 1;
+  margin: 0 0 24px;
+  color: rgba(255, 255, 255, .88);
+  font-size: .95rem;
+  line-height: 1.7;
+}
+
+.testimonial-inner__author {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, .14);
+}
+
+.testimonial-inner__avatar {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-dark));
+  color: var(--color-dark);
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: .9rem;
+}
+
+.testimonial-inner__meta {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.testimonial-inner__name {
+  color: #fff;
+  font-weight: 700;
+}
+
+.testimonial-inner__role {
+  margin-top: 2px;
+  color: rgba(255, 255, 255, .6);
+  font-size: .85rem;
+}
+
+.testimonial-inner__swiper-wrap .swiper-button-prev,
+.testimonial-inner__swiper-wrap .swiper-button-next {
+  top: 45%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, .08);
+  border: 1px solid rgba(255, 255, 255, .22);
+  border-radius: 50%;
+  color: #fff;
+  transition: .3s ease;
+  z-index: 10;
+}
+
+.testimonial-inner__swiper-wrap .swiper-button-prev { left: 0; }
+.testimonial-inner__swiper-wrap .swiper-button-next { right: 0; }
+
+.testimonial-inner__swiper-wrap .swiper-button-prev:hover,
+.testimonial-inner__swiper-wrap .swiper-button-next:hover {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-dark);
+}
+
+.testimonial-inner__swiper-wrap .swiper-button-prev::after,
+.testimonial-inner__swiper-wrap .swiper-button-next::after {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.testimonial-inner__swiper .swiper-pagination {
+  bottom: 12px;
+}
+
+.testimonial-inner__swiper .swiper-pagination-bullet {
+  background: rgba(255, 255, 255, .3);
+  opacity: 1;
+  transition: .3s ease;
+}
+
+.testimonial-inner__swiper .swiper-pagination-bullet-active {
+  background: var(--color-accent);
+}
+
+@media (max-width: 1100px) {
+  .testimonial-inner__swiper-wrap {
+    padding: 0 45px;
+  }
+}
+
+@media (max-width: 560px) {
+  .testimonial-inner__card {
+    padding: 40px 22px 24px;
+  }
+
+  .testimonial-inner__mark {
+    font-size: 3rem;
+  }
+}
+/*End*/
 
 .hyd-bg-digital-marketing {
   background-image: url('/assets/images/location/Digital-Marketing.webp');
@@ -7031,8 +7999,9 @@ section>.wrap>h2,
   color: var(--color-dark);
 }
 
-/* Keep a consistent 40px section-to-section gap on this page — the
-   reused home sections normally carry their own 75px padding. */
+/* Keep a consistent 40px section-to-section gap on this page.
+   (Reused home sections now default to 40px padding site-wide, but
+   this override is kept in case that default ever changes again.) */
 .page-location-hyderabad .what-we-do-best,
 .page-location-hyderabad .dactarbabu,
 .page-location-hyderabad .testimonials,
@@ -7052,7 +8021,8 @@ section>.wrap>h2,
 .page-location-guwahati .what-we-do-best,
 .page-location-guwahati .dactarbabu,
 .page-location-guwahati .testimonials,
-.page-location-guwahati .instagram-feed {
+.page-location-guwahati .instagram-feed,
+.page-audience-general-hospitals .testimonial-inner {
   padding-top: 40px;
   padding-bottom: 40px;
 }
