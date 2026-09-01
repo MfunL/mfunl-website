@@ -8048,7 +8048,8 @@ section>.wrap>h2,
 .page-location-guwahati .dactarbabu,
 .page-location-guwahati .testimonials,
 .page-location-guwahati .instagram-feed,
-.page-audience-general-hospitals .testimonial-inner {
+.page-audience-general-hospitals .testimonial-inner,
+.page-audience-multispecialty-hospitals .testimonial-inner {
   padding-top: 40px;
   padding-bottom: 40px;
 }
