@@ -224,7 +224,7 @@ $nursingHomeFaqs = [
     ['question' => 'Does MfunL only set up campaigns, or do we offer ongoing support?', 'answer' => 'We partner long-term. From regular strategy updates to reputation management and patient retention, we ensure your nursing home continues to grow sustainably.'],
 ];
 ?>
-<section class="section-gap-both">
+<section>
   <div class="wrap section-width">
     <h2 class="h-2 h-2--dark text-center">You May Want to Know</h2>
     <h3 class="h-3 text-center">Everything you need to know, right here.</h3>
