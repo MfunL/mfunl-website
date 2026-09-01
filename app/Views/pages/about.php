@@ -389,9 +389,10 @@
   <!-- Director 3 -->
   <div class="director-card">
     <div class="director-image">
-      <img 
+      <img
         src="/assets/images/Kuntal-Chatterjee-bw.webp"
         alt="Kuntal Chatterjee"
+        title="Kuntal Chatterjee"
         class="director-img default-img"
       >
 
@@ -437,7 +438,7 @@
             <a href="tel:8336920676" class="btn btn--accent"><i class="fa-solid fa-phone" aria-hidden="true"></i> 8336920676</a>
         </div>
         <div class="value-col">
-          <img src="/assets/images/Our-Values.webp" alt="Our Values" width="100%" height="auto" loading="lazy">
+          <img src="/assets/images/Our-Values.webp" alt="Our Values" title="Our Values" width="100%" height="auto" loading="lazy">
         </div>
     </div>
 </section>

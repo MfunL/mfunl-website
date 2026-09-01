@@ -47,7 +47,7 @@ $hydFaqs = [
 ];
 ?>
 <section class="page-hero">
-  <img class="page-hero__bg" src="/assets/images/location/Hyderabad-Banner.webp" alt="" width="1920" height="800" loading="eager" fetchpriority="high">
+  <img class="page-hero__bg" src="/assets/images/location/Hyderabad-Banner.webp" alt="Healthcare Digital Marketing Agency in Hyderabad" title="Healthcare Digital Marketing Agency in Hyderabad" width="1920" height="800" loading="eager" fetchpriority="high">
   <div class="page-hero__overlay" aria-hidden="true"></div>
 
   <div class="wrap page-hero__inner">

@@ -5,7 +5,7 @@
 <section class="page-hero">
   <picture>
     <source media="(max-width: 640px)" srcset="/assets/images/Healthcare%20Social%20Media%20Marketing%20mobile.webp">
-    <img class="page-hero__bg" src="/assets/images/Healthcare Social Media Marketing Banner.webp" alt="" width="1920" height="800" loading="eager" fetchpriority="high">
+    <img class="page-hero__bg" src="/assets/images/Healthcare Social Media Marketing Banner.webp" alt="Healthcare Social Media Marketing" title="Healthcare Social Media Marketing" width="1920" height="800" loading="eager" fetchpriority="high">
   </picture>
   <div class="page-hero__overlay" aria-hidden="true"></div>
 
@@ -32,7 +32,7 @@
         <p>Social media isn&rsquo;t just a place to post updates anymore &mdash; it&rsquo;s your hospital or clinic&rsquo;s digital introduction.</p>
         <p>Whether you're a clinic, hospital, or specialist doctor, your digital presence as a healthcare professional plays a significant role in how patients perceive and trust you.</p>
         <p>At MfunL, we help you use healthcare social media marketing not just to stay visible, but to build credibility on social platforms and attract the right patients and engage with them.</p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Mfunl-Healthcare-Branding-Through-Social-Media-img.webp" alt="MfunL - Healthcare Branding Through Social Media" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Mfunl-Healthcare-Branding-Through-Social-Media-img.webp" alt="MfunL - Healthcare Branding Through Social Media" title="MfunL - Healthcare Branding Through Social Media" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="hsmm-tab-what">
@@ -41,7 +41,7 @@
         <p>Healthcare Social Media Marketing is the strategic use of social media platforms, such as Facebook, Instagram, and YouTube, to promote healthcare services, engage with patients, and establish trust.</p>
         <p>It involves creating and distributing personalized content, such as informative blogs, patient testimonials, videos, live sessions, or ads, that resonate with your target audience.</p>
         <p>At MfunL, we utilise strategic social media content to establish trust, enhance visibility, and reinforce your healthcare brand, enabling you to connect with the ideal audience and drive real engagement.</p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Healthcare-Social-Media-Marketing-img.webp" alt="What is Healthcare Social Media Marketing?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Healthcare-Social-Media-Marketing-img.webp" alt="What is Healthcare Social Media Marketing?" title="What is Healthcare Social Media Marketing?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="hsmm-tab-why-necessary">
@@ -58,7 +58,7 @@
           <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Positions you as a trusted healthcare brand name in your speciality</li>
         </ul>
         <p><strong>Build a powerful social media presence with MfunL, where strategy meets patient connection.</strong></p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/No-Online-Presence-img.webp" alt="Build a powerful social media presence with MfunL" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/No-Online-Presence-img.webp" alt="Build a powerful social media presence with MfunL" title="Build a powerful social media presence with MfunL" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="hsmm-tab-offer">
@@ -69,23 +69,23 @@
 
         <div class="content-tabs__grid">
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Analyse your target.webp" alt="Analyse your target audience and their concerns" class="b-rad" loading="lazy">
+            <img src="/assets/images/Analyse your target.webp" alt="Analyse your target audience and their concerns" title="Analyse your target audience and their concerns" class="b-rad" loading="lazy">
             <p>Analyse your target audience and their concerns.</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Create videos.webp" alt="Create videos and visuals that address real questions" class="b-rad" loading="lazy">
+            <img src="/assets/images/Create videos.webp" alt="Create videos and visuals that address real questions" title="Create videos and visuals that address real questions" class="b-rad" loading="lazy">
             <p>Create videos and visuals that address real questions.</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Select the right platforms.webp" alt="Select the right platforms for maximum impact" class="b-rad" loading="lazy">
+            <img src="/assets/images/Select the right platforms.webp" alt="Select the right platforms for maximum impact" title="Select the right platforms for maximum impact" class="b-rad" loading="lazy">
             <p>Select the right platforms for maximum impact.</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Manage engagement.webp" alt="Manage engagement to build community trust" class="b-rad" loading="lazy">
+            <img src="/assets/images/Manage engagement.webp" alt="Manage engagement to build community trust" title="Manage engagement to build community trust" class="b-rad" loading="lazy">
             <p>Manage engagement to build community trust.</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Run targeted.webp" alt="Run targeted ads to reach the right patient" class="b-rad" loading="lazy">
+            <img src="/assets/images/Run targeted.webp" alt="Run targeted ads to reach the right patient" title="Run targeted ads to reach the right patient" class="b-rad" loading="lazy">
             <p>Run targeted ads to reach the right patient.</p>
           </div>
         </div>
@@ -103,7 +103,7 @@
           <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Convert social media followers into loyal patients</li>
         </ul>
         <p>Choose MfunL to transform your healthcare brand into a trusted, engaging, and patient-focused online presence.</p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner.webp" alt="Why Should You Choose MfunL for Healthcare Social Media Marketing?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner.webp" alt="Why Should You Choose MfunL for Healthcare Social Media Marketing?" title="Why Should You Choose MfunL for Healthcare Social Media Marketing?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="hsmm-tab-faq">
@@ -132,7 +132,7 @@
             </div>
           <?php endforeach; ?>
         </div>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/faqs-image.webp" alt="You May Want to Know" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/faqs-image.webp" alt="You May Want to Know" title="You May Want to Know" loading="lazy">
       </div>
 
     </div>

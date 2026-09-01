@@ -3,7 +3,7 @@
 /** @var array<int,array{label:string,url:string}> $crumbs */
 ?>
 <section class="page-hero">
-  <img class="page-hero__bg" src="/assets/images/MfunL-ORM-Banner.webp" alt="" width="1920" height="800" loading="eager" fetchpriority="high">
+  <img class="page-hero__bg" src="/assets/images/MfunL-ORM-Banner.webp" alt="Online Reputation Management" title="Online Reputation Management" width="1920" height="800" loading="eager" fetchpriority="high">
   <div class="page-hero__overlay" aria-hidden="true"></div>
 
   <div class="wrap page-hero__inner">
@@ -28,7 +28,7 @@
         <h3 class="h-3">Build trust and credibility with a strong, positive online presence.</h3>
         <p>As a healthcare business, your reputation and goodwill are everything. One negative review can impact your clinic&rsquo;s growth, but with the right ORM strategy for doctors and clinics, you can take control.</p>
         <p>At MfunL, we specialise in review generation systems for hospitals, reputation repair for clinics, and enhancing digital trust for healthcare brands. Let us help you turn your online presence into a trusted asset that attracts patients and boosts bookings.</p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Master-ORM.webp" alt="Master Online Reputation Management for Your Healthcare Brand" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Master-ORM.webp" alt="Master Online Reputation Management for Your Healthcare Brand" title="Master Online Reputation Management for Your Healthcare Brand" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="orm-tab-what-is">
@@ -37,7 +37,7 @@
         <p>Online Reputation Management (ORM) involves actively managing your clinic&rsquo;s online presence, focusing on improving Google reviews for clinics, responding to negative feedback, and ensuring your practice is seen in a positive light across platforms.</p>
         <p>Whether it&rsquo;s responding to negative reviews in healthcare or implementing a review generation system for hospitals, ORM helps build and maintain trust with your patients. A strong online reputation helps you stand out and drive more patient appointments.</p>
         <p><strong>Protect your reputation today. Contact MfunL to start building a stronger online presence &mdash; Call <a href="tel:8336920676">8336920676</a></strong></p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/What-is-Online-Reputation-Management.webp" alt="What is Online Reputation Management?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/What-is-Online-Reputation-Management.webp" alt="What is Online Reputation Management?" title="What is Online Reputation Management?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="orm-tab-why">
@@ -50,7 +50,7 @@
           <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Responding to negative reviews in healthcare demonstrates to patients that you care about their concerns and are committed to providing high-quality care.</li>
         </ul>
         <p><strong>Let&rsquo;s enhance your reputation and attract more patients! Get in touch with MfunL today.</strong></p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-is-Online-Reputation-Management-Necessary.webp" alt="Why is Online Reputation Management Necessary?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-is-Online-Reputation-Management-Necessary.webp" alt="Why is Online Reputation Management Necessary?" title="Why is Online Reputation Management Necessary?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="orm-tab-offer">
@@ -60,19 +60,19 @@
 
         <div class="content-tabs__grid content-tabs__grid--2col">
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Google-Reviews-Management.webp" alt="Google Reviews Management" class="b-rad" loading="lazy">
+            <img src="/assets/images/Google-Reviews-Management.webp" alt="Google Reviews Management" title="Google Reviews Management" class="b-rad" loading="lazy">
             <p>Google Reviews Management to enhance your Google reviews for clinics and ensure your practice is highly rated and visible.</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/We-help-you-respond-to-negative-reviews.webp" alt="We help you respond to negative reviews" class="b-rad" loading="lazy">
+            <img src="/assets/images/We-help-you-respond-to-negative-reviews.webp" alt="We help you respond to negative reviews" title="We help you respond to negative reviews" class="b-rad" loading="lazy">
             <p>We help you respond to negative reviews in healthcare, minimising damage and restoring trust.</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/We-monitor-all-platforms.webp" alt="We monitor all platforms" class="b-rad" loading="lazy">
+            <img src="/assets/images/We-monitor-all-platforms.webp" alt="We monitor all platforms" title="We monitor all platforms" class="b-rad" loading="lazy">
             <p>We monitor all platforms for new reviews, providing real-time alerts to manage your reputation proactively.</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Custom-ORM-strategy.webp" alt="Custom ORM strategy" class="b-rad" loading="lazy">
+            <img src="/assets/images/Custom-ORM-strategy.webp" alt="Custom ORM strategy" title="Custom ORM strategy" class="b-rad" loading="lazy">
             <p>Custom ORM strategy personalized to align with your clinic&rsquo;s goals and patient engagement.</p>
           </div>
         </div>
@@ -90,7 +90,7 @@
           <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> We offer a comprehensive range of services, from review generation to reputation management, providing everything you need to maintain a positive online presence.</li>
         </ul>
         <p><strong>Let MfunL protect and grow your clinic&rsquo;s reputation. Contact us today to get started.</strong></p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner.webp" alt="Why Partner with MfunL for Online Reputation Management" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner.webp" alt="Why Partner with MfunL for Online Reputation Management" title="Why Partner with MfunL for Online Reputation Management" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="orm-tab-faq">
@@ -119,7 +119,7 @@
             </div>
           <?php endforeach; ?>
         </div>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/faqs-image.webp" alt="You May Want to Know" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/faqs-image.webp" alt="You May Want to Know" title="You May Want to Know" loading="lazy">
       </div>
 
     </div>

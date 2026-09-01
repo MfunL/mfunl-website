@@ -44,7 +44,7 @@
           </span>
         </div>
         <div class="article-row__photo-frame">
-          <img class="article-row__photo" src="/assets/images/Making-Your-Daycare-Hospital-the-Go-To-for-Fast-Hassle-Free-Care-img.webp" alt="Making your daycare hospital the go-to for fast, hassle-free care" loading="lazy">
+          <img class="article-row__photo" src="/assets/images/Making-Your-Daycare-Hospital-the-Go-To-for-Fast-Hassle-Free-Care-img.webp" alt="Making your daycare hospital the go-to for fast, hassle-free care" title="Making your daycare hospital the go-to for fast, hassle-free care" loading="lazy">
         </div>
       </div>
     </div>
@@ -72,7 +72,7 @@ $whatWeDoSlides = [
         <?php foreach ($whatWeDoSlides as [$icon, $label, $description, $url]): ?>
           <div class="swiper-slide">
             <a class="what-we-do-slider__card" href="<?= htmlspecialchars($url, ENT_QUOTES, 'UTF-8') ?>">
-              <img src="/assets/images/<?= $icon ?>" alt="<?= htmlspecialchars($label, ENT_QUOTES, 'UTF-8') ?>" width="48" height="48" loading="lazy">
+              <img src="/assets/images/<?= $icon ?>" alt="<?= htmlspecialchars($label, ENT_QUOTES, 'UTF-8') ?>" title="<?= htmlspecialchars($label, ENT_QUOTES, 'UTF-8') ?>" width="48" height="48" loading="lazy">
               <h3><?= htmlspecialchars($label, ENT_QUOTES, 'UTF-8') ?></h3>
               <p><?= htmlspecialchars($description, ENT_QUOTES, 'UTF-8') ?></p>
             </a>
@@ -90,7 +90,7 @@ $whatWeDoSlides = [
   <div class="wrap section-width">
     <div class="article-row">
       <div class="article-row__media-photo">
-        <img src="/assets/images/Why-Do-Daycare-Hospitals-Need-Digital-Marketing-MfunL-img.webp" alt="Why do daycare hospitals need digital marketing" loading="lazy">
+        <img src="/assets/images/Why-Do-Daycare-Hospitals-Need-Digital-Marketing-MfunL-img.webp" alt="Why do daycare hospitals need digital marketing" title="Why do daycare hospitals need digital marketing" loading="lazy">
         <p class="pricing-service-cta pricing-service-cta--left">
           <a class="btn btn--accent" href="tel:8336920676"><i class="fa-solid fa-phone" aria-hidden="true"></i> 8336920676</a>
           <a class="btn btn--outline" href="https://wa.me/917439775869" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>

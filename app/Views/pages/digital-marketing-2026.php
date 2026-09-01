@@ -110,7 +110,7 @@ $partnerDeliverables2026 = [
 ];
 ?>
 <section class="page-hero">
-  <img class="page-hero__bg" src="/assets/images/Digital-Marketing-in-2026-banner.webp" alt="" width="1920" height="800" loading="eager" fetchpriority="high">
+  <img class="page-hero__bg" src="/assets/images/Digital-Marketing-in-2026-banner.webp" alt="Healthcare Digital Marketing in 2026" title="Healthcare Digital Marketing in 2026" width="1920" height="800" loading="eager" fetchpriority="high">
   <div class="page-hero__overlay" aria-hidden="true"></div>
 
   <div class="wrap page-hero__inner">
@@ -270,7 +270,7 @@ $partnerDeliverables2026 = [
     <?php foreach ($partnerDeliverables2026 as $item): ?>
       <div class="article-icon-row__item">
         <div class="article-icon-row__icon-wrap">
-          <img src="/assets/images/<?= $item['icon'] ?>" alt="" loading="lazy">
+          <img src="/assets/images/<?= $item['icon'] ?>" alt="<?= htmlspecialchars($item['text'], ENT_QUOTES, 'UTF-8') ?>" title="<?= htmlspecialchars($item['text'], ENT_QUOTES, 'UTF-8') ?>" loading="lazy">
         </div>
         <p><?= $item['text'] ?></p>
       </div>

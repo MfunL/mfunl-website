@@ -3,7 +3,7 @@
 /** @var array<int,array{label:string,url:string}> $crumbs */
 ?>
 <section class="page-hero">
-  <img class="page-hero__bg" src="/assets/images/build-your-brand.webp" alt="" width="1920" height="800" loading="eager" fetchpriority="high">
+  <img class="page-hero__bg" src="/assets/images/build-your-brand.webp" alt="Build Your Brand" title="Build Your Brand" width="1920" height="800" loading="eager" fetchpriority="high">
   <div class="page-hero__overlay" aria-hidden="true"></div>
 
   <div class="wrap page-hero__inner">

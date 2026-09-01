@@ -338,7 +338,8 @@ button { font-family: inherit; cursor: pointer; }
 .page-audience-hospitals .page-hero__overlay,
 .page-audience-superspecialty-hospitals .page-hero__overlay,
 .page-audience-daycare-hospitals .page-hero__overlay,
-.page-audience-eye-hospitals .page-hero__overlay {
+.page-audience-eye-hospitals .page-hero__overlay,
+.page-audience-cancer-hospitals .page-hero__overlay {
   background: linear-gradient(180deg, rgba(62, 96, 150, .78) 0%, rgba(45, 75, 125, .5) 45%, rgba(25, 50, 90, .85) 100%);
 }
 
@@ -8055,7 +8056,8 @@ section>.wrap>h2,
 .page-audience-multispecialty-hospitals .testimonial-inner,
 .page-audience-superspecialty-hospitals .testimonial-inner,
 .page-audience-daycare-hospitals .testimonial-inner,
-.page-audience-eye-hospitals .testimonial-inner {
+.page-audience-eye-hospitals .testimonial-inner,
+.page-audience-cancer-hospitals .testimonial-inner {
   padding-top: 40px;
   padding-bottom: 40px;
 }

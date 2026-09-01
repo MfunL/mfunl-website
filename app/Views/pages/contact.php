@@ -3,7 +3,7 @@
 /** @var array<int,array{label:string,url:string}> $crumbs */
 ?>
 <section class="page-hero">
-  <img class="page-hero__bg" src="/assets/images/contact-banner.webp" alt="" width="1920" height="800" loading="eager" fetchpriority="high">
+  <img class="page-hero__bg" src="/assets/images/contact-banner.webp" alt="Contact Us" title="Contact Us" width="1920" height="800" loading="eager" fetchpriority="high">
   <div class="page-hero__overlay" aria-hidden="true"></div>
 
   <div class="wrap page-hero__inner">
@@ -44,7 +44,7 @@
     </div>
 
     <div class="contact-map">
-      <img src="/assets/images/MfunL-Map.webp" alt="MfunL office location map" loading="lazy">
+      <img src="/assets/images/MfunL-Map.webp" alt="MfunL office location map" title="MfunL office location map" loading="lazy">
       <a class="contact-map__btn btn btn--accent" href="https://maps.app.goo.gl/VZxRqxcFZsdwQ5Sa8" target="_blank" rel="noopener">
         <i class="fa-solid fa-location-dot" aria-hidden="true"></i> See Location
       </a>

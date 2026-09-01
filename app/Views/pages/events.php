@@ -21,7 +21,7 @@
     <div class="event__grid">
       <?php for ($i = 1; $i <= 26; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/aw-2026-imgA<?= $i ?>.webp" aria-label="View Award Ceremony 2026 photo <?= $i ?>">
-          <img src="/assets/images/events/aw-2026-imgA<?= $i ?>.webp" alt="MfunL Award Ceremony 2026, photo <?= $i ?>" loading="lazy">
+          <img src="/assets/images/events/aw-2026-imgA<?= $i ?>.webp" alt="MfunL Award Ceremony 2026, photo <?= $i ?>" title="MfunL Award Ceremony 2026, photo <?= $i ?>" loading="lazy">
         </button>
       <?php endfor; ?>
     </div>
@@ -36,13 +36,13 @@
     </div>
     <div class="event__grid event__grid--3col">
       <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/MfunLs-Participation-in-Medicall-2026-img.webp" aria-label="View MfunL at Medicall 2026, photo 1">
-        <img src="/assets/images/events/MfunLs-Participation-in-Medicall-2026-img.webp" alt="MfunL at Medicall 2026, photo 1" loading="lazy">
+        <img src="/assets/images/events/MfunLs-Participation-in-Medicall-2026-img.webp" alt="MfunL at Medicall 2026, photo 1" title="MfunL at Medicall 2026, photo 1" loading="lazy">
       </button>
       <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/MfunLs-Participation-in-Medicall-20261-img.webp" aria-label="View MfunL at Medicall 2026, photo 2">
-        <img src="/assets/images/events/MfunLs-Participation-in-Medicall-20261-img.webp" alt="MfunL at Medicall 2026, photo 2" loading="lazy">
+        <img src="/assets/images/events/MfunLs-Participation-in-Medicall-20261-img.webp" alt="MfunL at Medicall 2026, photo 2" title="MfunL at Medicall 2026, photo 2" loading="lazy">
       </button>
       <button type="button" class="awards__item awards__item--video" data-open-video="/assets/images/events/MfunLs-Participation-in-Medicall-2026.mp4" aria-label="Play MfunL at Medicall 2026 video">
-        <img src="/assets/images/events/MfunLs-Participation-in-Medicall-2026-img.webp" alt="MfunL at Medicall 2026 video" loading="lazy">
+        <img src="/assets/images/events/MfunLs-Participation-in-Medicall-2026-img.webp" alt="MfunL at Medicall 2026 video" title="MfunL at Medicall 2026 video" loading="lazy">
         <img class="awards__item-play" src="/assets/images/play-icon.png" alt="" loading="lazy">
       </button>
     </div>
@@ -57,7 +57,7 @@
     </div>
     <div class="event-single-photo">
       <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/SMC-MedExpo-2.0-Agartala-Tripura.webp" aria-label="View SMC MedExpo 2.0 Agartala, Tripura photo">
-        <img src="/assets/images/events/SMC-MedExpo-2.0-Agartala-Tripura.webp" alt="SMC MedExpo 2.0 Agartala, Tripura" loading="lazy">
+        <img src="/assets/images/events/SMC-MedExpo-2.0-Agartala-Tripura.webp" alt="SMC MedExpo 2.0 Agartala, Tripura" title="SMC MedExpo 2.0 Agartala, Tripura" loading="lazy">
       </button>
     </div>
   </div>
@@ -87,7 +87,7 @@
     <div class="event__grid">
       <?php for ($i = 1; $i <= 8; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Odisha-Pharma-SummitG<?= $i ?>-img.webp" aria-label="View Odisha Pharma Summit 2025 photo <?= $i ?>">
-          <img src="/assets/images/events/Odisha-Pharma-SummitG<?= $i ?>-img.webp" alt="Odisha Pharma Summit 2025, photo <?= $i ?>" loading="lazy">
+          <img src="/assets/images/events/Odisha-Pharma-SummitG<?= $i ?>-img.webp" alt="Odisha Pharma Summit 2025, photo <?= $i ?>" title="Odisha Pharma Summit 2025, photo <?= $i ?>" loading="lazy">
         </button>
       <?php endfor; ?>
     </div>
@@ -103,7 +103,7 @@
     <div class="event__grid">
       <?php foreach ([1, 2, 3, 4, 5, 7] as $i): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/MADX-Awards-2025<?= $i ?>-img.webp" aria-label="View MADX Awards 2025 photo <?= $i ?>">
-          <img src="/assets/images/events/MADX-Awards-2025<?= $i ?>-img.webp" alt="MADX Awards 2025, photo <?= $i ?>" loading="lazy">
+          <img src="/assets/images/events/MADX-Awards-2025<?= $i ?>-img.webp" alt="MADX Awards 2025, photo <?= $i ?>" title="MADX Awards 2025, photo <?= $i ?>" loading="lazy">
         </button>
       <?php endforeach; ?>
     </div>
@@ -120,7 +120,7 @@
     <div class="event__grid">
       <?php for ($i = 1; $i <= 9; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/2025-award-ceremony-img<?= $i ?>.webp" aria-label="View MfunL Award Ceremony 2025 photo <?= $i ?>">
-          <img src="/assets/images/events/2025-award-ceremony-img<?= $i ?>.webp" alt="MfunL Award Ceremony 2025, photo <?= $i ?>" loading="lazy">
+          <img src="/assets/images/events/2025-award-ceremony-img<?= $i ?>.webp" alt="MfunL Award Ceremony 2025, photo <?= $i ?>" title="MfunL Award Ceremony 2025, photo <?= $i ?>" loading="lazy">
         </button>
       <?php endfor; ?>
     </div>
@@ -136,7 +136,7 @@
     <div class="event__grid">
       <?php for ($i = 1; $i <= 11; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/MedExpo-2025-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" aria-label="View MedExpo 2025 photo <?= $i ?>">
-          <img src="/assets/images/events/MedExpo-2025-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="MedExpo 2025, photo <?= $i ?>" loading="lazy">
+          <img src="/assets/images/events/MedExpo-2025-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="MedExpo 2025, photo <?= $i ?>" title="MedExpo 2025, photo <?= $i ?>" loading="lazy">
         </button>
       <?php endfor; ?>
     </div>
@@ -152,7 +152,7 @@
     <div class="event__grid">
       <?php for ($i = 1; $i <= 9; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/MediCall-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" aria-label="View MediCall Expo 2025 photo <?= $i ?>">
-          <img src="/assets/images/events/MediCall-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="MediCall Expo 2025, photo <?= $i ?>" loading="lazy">
+          <img src="/assets/images/events/MediCall-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="MediCall Expo 2025, photo <?= $i ?>" title="MediCall Expo 2025, photo <?= $i ?>" loading="lazy">
         </button>
       <?php endfor; ?>
     </div>
@@ -168,7 +168,7 @@
     <div class="event__grid">
       <?php for ($i = 1; $i <= 5; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Cable-TV-Show-2024-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" aria-label="View 25th Cable TV Show 2024 photo <?= $i ?>">
-          <img src="/assets/images/events/Cable-TV-Show-2024-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="25th Cable TV Show 2024, photo <?= $i ?>" loading="lazy">
+          <img src="/assets/images/events/Cable-TV-Show-2024-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="25th Cable TV Show 2024, photo <?= $i ?>" title="25th Cable TV Show 2024, photo <?= $i ?>" loading="lazy">
         </button>
       <?php endfor; ?>
     </div>
@@ -184,7 +184,7 @@
     <div class="event__grid">
       <?php for ($i = 1; $i <= 3; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/ctma_show_event<?= $i ?>-img.webp" aria-label="View 24th Cable TV Show 2023 photo <?= $i ?>">
-          <img src="/assets/images/events/ctma_show_event<?= $i ?>-img.webp" alt="24th Cable TV Show 2023, photo <?= $i ?>" loading="lazy">
+          <img src="/assets/images/events/ctma_show_event<?= $i ?>-img.webp" alt="24th Cable TV Show 2023, photo <?= $i ?>" title="24th Cable TV Show 2023, photo <?= $i ?>" loading="lazy">
         </button>
       <?php endfor; ?>
     </div>
@@ -200,7 +200,7 @@
     <div class="event__grid event__grid--2col">
       <?php for ($i = 1; $i <= 2; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Grand-Conclave-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" aria-label="View CII Grand Conclave on Brand Management photo <?= $i ?>">
-          <img src="/assets/images/events/Grand-Conclave-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="CII Grand Conclave on Brand Management, photo <?= $i ?>" loading="lazy">
+          <img src="/assets/images/events/Grand-Conclave-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="CII Grand Conclave on Brand Management, photo <?= $i ?>" title="CII Grand Conclave on Brand Management, photo <?= $i ?>" loading="lazy">
         </button>
       <?php endfor; ?>
     </div>
@@ -216,7 +216,7 @@
     <div class="event__grid">
       <?php for ($i = 1; $i <= 10; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Kolkatar-Harry<?= $i ?>-img.webp" aria-label="View Kolkatar Harry promotional event photo <?= $i ?>">
-          <img src="/assets/images/events/Kolkatar-Harry<?= $i ?>-img.webp" alt="Kolkatar Harry promotional event, photo <?= $i ?>" loading="lazy">
+          <img src="/assets/images/events/Kolkatar-Harry<?= $i ?>-img.webp" alt="Kolkatar Harry promotional event, photo <?= $i ?>" title="Kolkatar Harry promotional event, photo <?= $i ?>" loading="lazy">
         </button>
       <?php endfor; ?>
     </div>
@@ -232,7 +232,7 @@
     <div class="event__grid">
       <?php for ($i = 1; $i <= 14; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/r_a_<?= $i ?>.webp" aria-label="View Ranbir & Alia Fairy Tale Wedding photo <?= $i ?>">
-          <img src="/assets/images/events/r_a_<?= $i ?>.webp" alt="Ranbir & Alia Fairy Tale Wedding, photo <?= $i ?>" loading="lazy">
+          <img src="/assets/images/events/r_a_<?= $i ?>.webp" alt="Ranbir & Alia Fairy Tale Wedding, photo <?= $i ?>" title="Ranbir & Alia Fairy Tale Wedding, photo <?= $i ?>" loading="lazy">
         </button>
       <?php endfor; ?>
     </div>
@@ -248,7 +248,7 @@
     <div class="event__grid">
       <?php for ($i = 1; $i <= 5; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Silent-Rally<?= $i ?>-img.webp" aria-label="View Silent Rally photo <?= $i ?>">
-          <img src="/assets/images/events/Silent-Rally<?= $i ?>-img.webp" alt="Silent Rally, photo <?= $i ?>" loading="lazy">
+          <img src="/assets/images/events/Silent-Rally<?= $i ?>-img.webp" alt="Silent Rally, photo <?= $i ?>" title="Silent Rally, photo <?= $i ?>" loading="lazy">
         </button>
       <?php endfor; ?>
     </div>
@@ -264,7 +264,7 @@
     <div class="event__grid">
       <?php for ($i = 1; $i <= 4; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Christmas-Celebration<?= $i ?>-img.webp" aria-label="View Christmas Celebration photo <?= $i ?>">
-          <img src="/assets/images/events/Christmas-Celebration<?= $i ?>-img.webp" alt="Christmas Celebration, photo <?= $i ?>" loading="lazy">
+          <img src="/assets/images/events/Christmas-Celebration<?= $i ?>-img.webp" alt="Christmas Celebration, photo <?= $i ?>" title="Christmas Celebration, photo <?= $i ?>" loading="lazy">
         </button>
       <?php endfor; ?>
     </div>
@@ -280,7 +280,7 @@
     <div class="event__grid">
       <?php foreach (['Motivational-Workshop1-img.webp', 'Motivational-Workshop2-img.webp', 'Motivational-Workshop3-img.webp', 'Motivational-Workshop4-iimg.webp'] as $i => $file): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/<?= $file ?>" aria-label="View Motivational Workshop photo <?= $i + 1 ?>">
-          <img src="/assets/images/events/<?= $file ?>" alt="Motivational Workshop, photo <?= $i + 1 ?>" loading="lazy">
+          <img src="/assets/images/events/<?= $file ?>" alt="Motivational Workshop, photo <?= $i + 1 ?>" title="Motivational Workshop, photo <?= $i + 1 ?>" loading="lazy">
         </button>
       <?php endforeach; ?>
     </div>
@@ -296,7 +296,7 @@
     <div class="event__grid">
       <?php for ($i = 1; $i <= 4; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Doctors-Day<?= $i ?>-img.webp" aria-label="View Doctor's Day photo <?= $i ?>">
-          <img src="/assets/images/events/Doctors-Day<?= $i ?>-img.webp" alt="Doctor's Day, photo <?= $i ?>" loading="lazy">
+          <img src="/assets/images/events/Doctors-Day<?= $i ?>-img.webp" alt="Doctor's Day, photo <?= $i ?>" title="Doctor's Day, photo <?= $i ?>" loading="lazy">
         </button>
       <?php endfor; ?>
     </div>
@@ -312,7 +312,7 @@
     <div class="event__grid">
       <?php for ($i = 1; $i <= 6; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/MfunL-Password<?= $i ?>-img.webp" aria-label="View MfunL &amp; Password photo <?= $i ?>">
-          <img src="/assets/images/events/MfunL-Password<?= $i ?>-img.webp" alt="MfunL &amp; Password, photo <?= $i ?>" loading="lazy">
+          <img src="/assets/images/events/MfunL-Password<?= $i ?>-img.webp" alt="MfunL &amp; Password, photo <?= $i ?>" title="MfunL &amp; Password, photo <?= $i ?>" loading="lazy">
         </button>
       <?php endfor; ?>
     </div>
@@ -328,7 +328,7 @@
     <div class="event__grid">
       <?php for ($i = 1; $i <= 4; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/Associated-with-the-Movie-_Gotro_<?= $i ?>-img.webp" aria-label="View Associated with the Movie Gotro photo <?= $i ?>">
-          <img src="/assets/images/events/Associated-with-the-Movie-_Gotro_<?= $i ?>-img.webp" alt="Associated with the Movie Gotro, photo <?= $i ?>" loading="lazy">
+          <img src="/assets/images/events/Associated-with-the-Movie-_Gotro_<?= $i ?>-img.webp" alt="Associated with the Movie Gotro, photo <?= $i ?>" title="Associated with the Movie Gotro, photo <?= $i ?>" loading="lazy">
         </button>
       <?php endfor; ?>
     </div>
@@ -344,7 +344,7 @@
     <div class="event__grid">
       <?php for ($i = 1; $i <= 5; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/events/MfunL-Launch-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" aria-label="View MfunL Launch Eyes Social Media Market photo <?= $i ?>">
-          <img src="/assets/images/events/MfunL-Launch-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="MfunL Launch Eyes Social Media Market, photo <?= $i ?>" loading="lazy">
+          <img src="/assets/images/events/MfunL-Launch-<?= str_pad((string) $i, 2, '0', STR_PAD_LEFT) ?>.webp" alt="MfunL Launch Eyes Social Media Market, photo <?= $i ?>" title="MfunL Launch Eyes Social Media Market, photo <?= $i ?>" loading="lazy">
         </button>
       <?php endfor; ?>
     </div>

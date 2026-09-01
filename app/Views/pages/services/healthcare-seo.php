@@ -3,7 +3,7 @@
 /** @var array<int,array{label:string,url:string}> $crumbs */
 ?>
 <section class="page-hero">
-  <img class="page-hero__bg" src="/assets/images/MfunL-SEO-Banner.webp" alt="" width="1920" height="800" loading="eager" fetchpriority="high">
+  <img class="page-hero__bg" src="/assets/images/MfunL-SEO-Banner.webp" alt="Healthcare SEO/AEO/GEO" title="Healthcare SEO/AEO/GEO" width="1920" height="800" loading="eager" fetchpriority="high">
   <div class="page-hero__overlay" aria-hidden="true"></div>
 
   <div class="wrap page-hero__inner">
@@ -29,7 +29,7 @@
         <p>Your website can hold the top organic position and still lose the patient. Here&rsquo;s what changed.</p>
         <p>When someone searches a symptom, a procedure or a specialist near them, most healthcare queries now return an AI-generated summary before a single blue link appears. The patient reads the answer. They act on it. They never scroll.</p>
         <p>And a growing share of patients skip the search box entirely &mdash; asking ChatGPT, Gemini, Perplexity or an on-device assistant which hospital to go to, whether their symptom is serious, or what a procedure costs. If your practice isn&rsquo;t inside those answers, you are not in the running. Not ranked lower &mdash; absent.</p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Showing-Up-on-Google.webp" alt="Ranking #1 Is No Longer the Same as Being Found" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Showing-Up-on-Google.webp" alt="Ranking #1 Is No Longer the Same as Being Found" title="Ranking #1 Is No Longer the Same as Being Found" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="seo-tab-difference">
@@ -97,7 +97,7 @@
 
         <h4>Why You Can&rsquo;t Skip Any of Them</h4>
         <p>AI systems still crawl the open web to build their answers &mdash; so weak SEO means weak GEO. But the sources AI engines cite increasingly diverge from the sites that rank highest organically. Ranking well is now necessary but no longer sufficient.</p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/What-is-Healthcare-SEO.webp" alt="SEO, AEO &amp; GEO: What&rsquo;s the Difference?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/What-is-Healthcare-SEO.webp" alt="SEO, AEO &amp; GEO: What&rsquo;s the Difference?" title="SEO, AEO &amp; GEO: What&rsquo;s the Difference?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="seo-tab-different">
@@ -111,7 +111,7 @@
           <li><strong>Accuracy and currency.</strong> Health guidance changes. Pages with genuine, dated updates are favoured over pages that haven&rsquo;t moved in two years.</li>
           <li><strong>Compliance.</strong> Indian medical practitioners operate under professional conduct and advertising codes that restrict how care can be promoted and what claims can be made. Generalist agencies routinely write copy that puts a doctor&rsquo;s registration at risk. We don&rsquo;t.</li>
         </ol>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-is-Healthcare-SEO-Necessary.webp" alt="Why Healthcare Is Different" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-is-Healthcare-SEO-Necessary.webp" alt="Why Healthcare Is Different" title="Why Healthcare Is Different" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="seo-tab-what-we-do">
@@ -227,27 +227,27 @@
 
         <div class="content-tabs__grid">
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Keyword-research.webp" alt="Keyword research and content planning" class="b-rad" loading="lazy">
+            <img src="/assets/images/Keyword-research.webp" alt="Keyword research and content planning" title="Keyword research and content planning" class="b-rad" loading="lazy">
             <p>Keyword research and content planning</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/SEO-optimised.webp" alt="SEO-optimised treatment pages and blogs" class="b-rad" loading="lazy">
+            <img src="/assets/images/SEO-optimised.webp" alt="SEO-optimised treatment pages and blogs" title="SEO-optimised treatment pages and blogs" class="b-rad" loading="lazy">
             <p>SEO-optimised treatment pages and blogs</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Technical-audits.webp" alt="Technical audits and hospital website optimisation" class="b-rad" loading="lazy">
+            <img src="/assets/images/Technical-audits.webp" alt="Technical audits and hospital website optimisation" title="Technical audits and hospital website optimisation" class="b-rad" loading="lazy">
             <p>Technical audits and hospital website optimisation</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Local-SEO.webp" alt="Local SEO for doctors and clinics" class="b-rad" loading="lazy">
+            <img src="/assets/images/Local-SEO.webp" alt="Local SEO for doctors and clinics" title="Local SEO for doctors and clinics" class="b-rad" loading="lazy">
             <p>Local SEO for doctors and clinics</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Google-My-Business.webp" alt="Google My Business setup and posts" class="b-rad" loading="lazy">
+            <img src="/assets/images/Google-My-Business.webp" alt="Google My Business setup and posts" title="Google My Business setup and posts" class="b-rad" loading="lazy">
             <p>Google My Business setup and posts</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Monthly-SEO-performance.webp" alt="Monthly SEO performance reports" class="b-rad" loading="lazy">
+            <img src="/assets/images/Monthly-SEO-performance.webp" alt="Monthly SEO performance reports" title="Monthly SEO performance reports" class="b-rad" loading="lazy">
             <p>Monthly SEO performance reports</p>
           </div>
         </div>
@@ -267,7 +267,7 @@
           <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> GMB Posts, Ad Copy, and Video Scripts optimised to improve local rankings and drive patient appointments.</li>
         </ul>
         <p>Let MfunL turn your expertise into content that educates, connects, and converts.</p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner.webp" alt="How MfunL Makes SEO Work for You?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner.webp" alt="How MfunL Makes SEO Work for You?" title="How MfunL Makes SEO Work for You?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="seo-tab-faq">
@@ -302,7 +302,7 @@
             </div>
           <?php endforeach; ?>
         </div>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/faqs-image.webp" alt="Questions Hospital and Clinic Owners Ask Us" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/faqs-image.webp" alt="Questions Hospital and Clinic Owners Ask Us" title="Questions Hospital and Clinic Owners Ask Us" loading="lazy">
       </div>
 
     </div>

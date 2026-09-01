@@ -3,7 +3,7 @@
 /** @var array<int,array{label:string,url:string}> $crumbs */
 ?>
 <section class="page-hero">
-  <img class="page-hero__bg" src="/assets/images/MfunL-PPC-Banner.webp" alt="" width="1920" height="800" loading="eager" fetchpriority="high">
+  <img class="page-hero__bg" src="/assets/images/MfunL-PPC-Banner.webp" alt="Healthcare PPC" title="Healthcare PPC" width="1920" height="800" loading="eager" fetchpriority="high">
   <div class="page-hero__overlay" aria-hidden="true"></div>
 
   <div class="wrap page-hero__inner">
@@ -28,7 +28,7 @@
         <h3 class="h-3">Patients are currently searching for treatments online. Are you showing up?</h3>
         <p>At MfunL, we specialise in creating PPC campaigns for doctors, hospitals, and clinics to ensure your services are visible when patients need them most.</p>
         <p>Our Google paid ads are designed to drive conversions, connect with the right audience, and ultimately increase patient bookings.</p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Targeted-Ads.webp" alt="Targeted Ads That Drive Patient Engagement" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Targeted-Ads.webp" alt="Targeted Ads That Drive Patient Engagement" title="Targeted Ads That Drive Patient Engagement" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="ppc-tab-what-is">
@@ -36,7 +36,7 @@
         <h3 class="h-3">To boost visibility and patient conversions with powerful digital ads.</h3>
         <p>Healthcare PPC (Pay-Per-Click) is a powerful digital advertising strategy where you only pay when someone clicks on your ad, making it ideal for hospitals, clinics, diagnostic centres, and doctors seeking immediate visibility.</p>
         <p>At MfunL, we create customised healthcare ad campaigns that target what patients are really looking for, ensuring your ads reach the right people.</p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/What-is-Healthcare-PPC.webp" alt="What is Healthcare PPC?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/What-is-Healthcare-PPC.webp" alt="What is Healthcare PPC?" title="What is Healthcare PPC?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="ppc-tab-why">
@@ -51,7 +51,7 @@
           <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Real-time measurable results.</li>
         </ul>
         <p><strong>Ready to put your clinic or hospital on the map with PPC? Start with MfunL today.</strong></p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/A-stethoscope.webp" alt="Why Healthcare PPC Campaigns are Necessary?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/A-stethoscope.webp" alt="Why Healthcare PPC Campaigns are Necessary?" title="Why Healthcare PPC Campaigns are Necessary?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="ppc-tab-how-we-run">
@@ -65,7 +65,7 @@
           <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Use search queries like &ldquo;IVF success rate in Kolkata&rdquo; or &ldquo;piles laser treatment near me&rdquo; to obtain more measurable results.</li>
         </ul>
         <p><strong>Let MfunL boost your ROI with targeted PPC campaigns that drive patients to your clinic.</strong></p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/How-We-Run.webp" alt="How We Run PPC Campaigns that Actually Attract Patients" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/How-We-Run.webp" alt="How We Run PPC Campaigns that Actually Attract Patients" title="How We Run PPC Campaigns that Actually Attract Patients" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="ppc-tab-offer">
@@ -75,35 +75,35 @@
 
         <div class="content-tabs__grid content-tabs__grid--4col">
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Google-Ads-Setup.webp" alt="Google Ads Setup (Search + Display + YouTube)" class="b-rad" loading="lazy">
+            <img src="/assets/images/Google-Ads-Setup.webp" alt="Google Ads Setup (Search + Display + YouTube)" title="Google Ads Setup (Search + Display + YouTube)" class="b-rad" loading="lazy">
             <p>Google Ads Setup (Search + Display + YouTube)</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Campaign-Strategy.webp" alt="Campaign Strategy &amp; Monthly Planning" class="b-rad" loading="lazy">
+            <img src="/assets/images/Campaign-Strategy.webp" alt="Campaign Strategy &amp; Monthly Planning" title="Campaign Strategy &amp; Monthly Planning" class="b-rad" loading="lazy">
             <p>Campaign Strategy &amp; Monthly Planning</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Targeted-Keyword.webp" alt="Targeted Keyword Research" class="b-rad" loading="lazy">
+            <img src="/assets/images/Targeted-Keyword.webp" alt="Targeted Keyword Research" title="Targeted Keyword Research" class="b-rad" loading="lazy">
             <p>Targeted Keyword Research</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Ad-Copywriting.webp" alt="Ad Copywriting &amp; Creative Design" class="b-rad" loading="lazy">
+            <img src="/assets/images/Ad-Copywriting.webp" alt="Ad Copywriting &amp; Creative Design" title="Ad Copywriting &amp; Creative Design" class="b-rad" loading="lazy">
             <p>Ad Copywriting &amp; Creative Design</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Landing-Page-Design.webp" alt="Landing Page Design &amp; Optimisation" class="b-rad" loading="lazy">
+            <img src="/assets/images/Landing-Page-Design.webp" alt="Landing Page Design &amp; Optimisation" title="Landing Page Design &amp; Optimisation" class="b-rad" loading="lazy">
             <p>Landing Page Design &amp; Optimisation</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Daily-Campaign.webp" alt="Daily Campaign Monitoring &amp; Adjustments" class="b-rad" loading="lazy">
+            <img src="/assets/images/Daily-Campaign.webp" alt="Daily Campaign Monitoring &amp; Adjustments" title="Daily Campaign Monitoring &amp; Adjustments" class="b-rad" loading="lazy">
             <p>Daily Campaign Monitoring &amp; Adjustments</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Lead-Conversion.webp" alt="Lead Conversion Tracking" class="b-rad" loading="lazy">
+            <img src="/assets/images/Lead-Conversion.webp" alt="Lead Conversion Tracking" title="Lead Conversion Tracking" class="b-rad" loading="lazy">
             <p>Lead Conversion Tracking</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Detailed-Monthly-Report.webp" alt="Detailed Monthly Report &amp; ROI Insights" class="b-rad" loading="lazy">
+            <img src="/assets/images/Detailed-Monthly-Report.webp" alt="Detailed Monthly Report &amp; ROI Insights" title="Detailed Monthly Report &amp; ROI Insights" class="b-rad" loading="lazy">
             <p>Detailed Monthly Report &amp; ROI Insights</p>
           </div>
         </div>
@@ -122,7 +122,7 @@
           <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Healthcare digital ads that drive foot traffic and increase visibility.</li>
         </ul>
         <p><strong>Choose MfunL for effective healthcare Google ad campaigns that get you noticed, booked, and trusted.</strong></p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner.webp" alt="Why Choose MfunL for Healthcare PPC Campaigns?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner.webp" alt="Why Choose MfunL for Healthcare PPC Campaigns?" title="Why Choose MfunL for Healthcare PPC Campaigns?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="ppc-tab-faq">
@@ -151,7 +151,7 @@
             </div>
           <?php endforeach; ?>
         </div>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/faqs-image.webp" alt="You May Want to Know" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/faqs-image.webp" alt="You May Want to Know" title="You May Want to Know" loading="lazy">
       </div>
 
     </div>

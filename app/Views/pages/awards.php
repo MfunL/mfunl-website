@@ -36,7 +36,7 @@
     <div class="event__grid">
       <?php for ($i = 1; $i <= 7; $i++): ?>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/awards/MADX-Awards-2025<?= $i ?>-img.webp" aria-label="View MADX Awards 2025 photo <?= $i ?>">
-          <img src="/assets/images/awards/MADX-Awards-2025<?= $i ?>-img-400x284.webp" alt="MADX Awards 2025, photo <?= $i ?>" loading="lazy">
+          <img src="/assets/images/awards/MADX-Awards-2025<?= $i ?>-img-400x284.webp" alt="MADX Awards 2025, photo <?= $i ?>" title="MADX Awards 2025, photo <?= $i ?>" loading="lazy">
         </button>
       <?php endfor; ?>
     </div>
@@ -49,10 +49,10 @@
     <div class="article-row article-row--align-center" style="margin-top:24px;">
       <div class="article-row__media-pair">
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/Healthcare-Marketing-2025-img-01.webp" aria-label="View India Pharma Outlook Top 10 Healthcare Marketing Consultants certificate">
-          <img src="/assets/images/Healthcare-Marketing-2025-img-01.webp" alt="India Pharma Outlook Top 10 Healthcare Marketing Consultants certificate" loading="lazy">
+          <img src="/assets/images/Healthcare-Marketing-2025-img-01.webp" alt="India Pharma Outlook Top 10 Healthcare Marketing Consultants certificate" title="India Pharma Outlook Top 10 Healthcare Marketing Consultants certificate" loading="lazy">
         </button>
         <button type="button" class="awards__item" data-open-lightbox="/assets/images/Healthcare-Marketing-2026-img-02.webp" aria-label="View MfunL CEO Kuntal Chatterjee receiving the certification">
-          <img src="/assets/images/Healthcare-Marketing-2026-img-02.webp" alt="MfunL CEO Kuntal Chatterjee receiving the certification" loading="lazy">
+          <img src="/assets/images/Healthcare-Marketing-2026-img-02.webp" alt="MfunL CEO Kuntal Chatterjee receiving the certification" title="MfunL CEO Kuntal Chatterjee receiving the certification" loading="lazy">
         </button>
       </div>
       <div class="article-row__content">

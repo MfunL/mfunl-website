@@ -3,7 +3,7 @@
 /** @var array<int,array{label:string,url:string}> $crumbs */
 ?>
 <section class="page-hero">
-  <img class="page-hero__bg" src="/assets/images/MfunL-Website-Banner.webp" alt="" width="1920" height="800" loading="eager" fetchpriority="high">
+  <img class="page-hero__bg" src="/assets/images/MfunL-Website-Banner.webp" alt="Healthcare Website Design" title="Healthcare Website Design" width="1920" height="800" loading="eager" fetchpriority="high">
   <div class="page-hero__overlay" aria-hidden="true"></div>
 
   <div class="wrap page-hero__inner">
@@ -28,7 +28,7 @@
         <h3 class="h-3">Is your website working to its full potential?</h3>
         <p>Your website is often the first impression patients have of your practice. Is it driving results or just a static online brochure?</p>
         <p>At MfunL, we specialise in custom healthcare website design that not only attracts visitors but also converts them into loyal patients. From patient appointment booking systems to SEO-friendly medical websites, we ensure your digital presence for doctors reflects your practice&rsquo;s values while driving real results.</p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Arent-Patients.webp" alt="Why Aren&rsquo;t Patients Clicking &lsquo;Book Now&rsquo; Even After Visiting Your Website?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Arent-Patients.webp" alt="Why Aren&rsquo;t Patients Clicking &lsquo;Book Now&rsquo; Even After Visiting Your Website?" title="Why Aren&rsquo;t Patients Clicking &lsquo;Book Now&rsquo; Even After Visiting Your Website?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="wd-tab-what-is">
@@ -37,7 +37,7 @@
         <p>A good healthcare website design is more than just looks. It&rsquo;s about functionality, accessibility, and patient experience. A well-designed website helps patients easily navigate your services, book appointments, and connect with your practice.</p>
         <p>At MfunL, we focus on creating mobile-friendly websites for hospitals, clinics, doctors and all healthcare professionals and facilities that also match SEO standards to drive conversions, ensuring visitors turn into appointments.</p>
         <p><strong>Ready to build a website that converts visitors into appointments? Let&rsquo;s get started today &mdash; Call <a href="tel:8336920676">8336920676</a></strong></p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/medical-with-ai.webp" alt="What is Healthcare Website Design?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/medical-with-ai.webp" alt="What is Healthcare Website Design?" title="What is Healthcare Website Design?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="wd-tab-why">
@@ -51,7 +51,7 @@
           <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> SEO-friendly medical websites rank higher, making it easier for patients to find you online.</li>
         </ul>
         <p><strong>Get started today and create a website that simplifies bookings and boosts visibility.</strong></p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/web-business.webp" alt="Why is Healthcare Website Design Necessary?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/web-business.webp" alt="Why is Healthcare Website Design Necessary?" title="Why is Healthcare Website Design Necessary?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="wd-tab-offer">
@@ -61,19 +61,19 @@
 
         <div class="content-tabs__grid content-tabs__grid--2col">
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Simplify-appointment-scheduling.webp" alt="Simplify appointment scheduling with a patient appointment booking website that fits your practice&rsquo;s workflow" class="b-rad" loading="lazy">
+            <img src="/assets/images/Simplify-appointment-scheduling.webp" alt="Simplify appointment scheduling with a patient appointment booking website that fits your practice&rsquo;s workflow" title="Simplify appointment scheduling with a patient appointment booking website that fits your practice&rsquo;s workflow" class="b-rad" loading="lazy">
             <p>Simplify appointment scheduling with a patient appointment booking website that fits your practice&rsquo;s workflow.</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Enhance-online-presence.webp" alt="Enhance online presence with SEO-optimised medical websites that rank higher and attract more patients" class="b-rad" loading="lazy">
+            <img src="/assets/images/Enhance-online-presence.webp" alt="Enhance online presence with SEO-optimised medical websites that rank higher and attract more patients" title="Enhance online presence with SEO-optimised medical websites that rank higher and attract more patients" class="b-rad" loading="lazy">
             <p>Enhance online presence with SEO-optimised medical websites that rank higher and attract more patients.</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Transform-your-website.webp" alt="Transform your website into a lead-generating platform for clinics" class="b-rad" loading="lazy">
+            <img src="/assets/images/Transform-your-website.webp" alt="Transform your website into a lead-generating platform for clinics" title="Transform your website into a lead-generating platform for clinics" class="b-rad" loading="lazy">
             <p>Transform your website into a lead-generating platform for clinics, converting visitors into booked appointments.</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/We-provide-ongoing-support.webp" alt="We provide ongoing support and updates" class="b-rad" loading="lazy">
+            <img src="/assets/images/We-provide-ongoing-support.webp" alt="We provide ongoing support and updates" title="We provide ongoing support and updates" class="b-rad" loading="lazy">
             <p>We provide ongoing support and updates to ensure your website remains current and optimised for the best results.</p>
           </div>
         </div>
@@ -90,7 +90,7 @@
           <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> We specialise in understanding the needs of healthcare providers, ensuring your website is designed to drive results.</li>
         </ul>
         <p><strong>Ready to improve your digital presence? Contact MfunL today for a custom website design that generates leads and grows your practice.</strong></p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner.webp" alt="Why Partner with MfunL for Healthcare Website Design?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner.webp" alt="Why Partner with MfunL for Healthcare Website Design?" title="Why Partner with MfunL for Healthcare Website Design?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="wd-tab-faq">
@@ -119,7 +119,7 @@
             </div>
           <?php endforeach; ?>
         </div>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/faqs-image.webp" alt="You May Want to Know" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/faqs-image.webp" alt="You May Want to Know" title="You May Want to Know" loading="lazy">
       </div>
 
     </div>

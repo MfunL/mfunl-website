@@ -239,7 +239,7 @@ $adsMetrics = [
       <?php foreach ($seoCaseStudies as $cs): ?>
         <article class="case-study-card">
           <div class="case-study-card__header">
-            <img class="case-study-card__photo" src="<?= $csImg($cs['photo']) ?>" alt="<?= htmlspecialchars($cs['name'], ENT_QUOTES, 'UTF-8') ?>" loading="lazy">
+            <img class="case-study-card__photo" src="<?= $csImg($cs['photo']) ?>" alt="<?= htmlspecialchars($cs['name'], ENT_QUOTES, 'UTF-8') ?>" title="<?= htmlspecialchars($cs['name'], ENT_QUOTES, 'UTF-8') ?>" loading="lazy">
             <h2><?= htmlspecialchars($cs['name'], ENT_QUOTES, 'UTF-8') ?></h2>
             <p class="case-study-card__specialty"><?= htmlspecialchars($cs['specialty'], ENT_QUOTES, 'UTF-8') ?></p>
             <p class="case-study-card__location"><span>Location:</span> <?= htmlspecialchars($cs['location'], ENT_QUOTES, 'UTF-8') ?></p>
@@ -264,7 +264,7 @@ $adsMetrics = [
       <?php foreach ($socialCaseStudies as $cs): ?>
         <article class="case-study-card">
           <div class="case-study-card__header">
-            <img class="case-study-card__photo" src="<?= $csImg($cs['photo']) ?>" alt="<?= htmlspecialchars($cs['name'], ENT_QUOTES, 'UTF-8') ?>" loading="lazy">
+            <img class="case-study-card__photo" src="<?= $csImg($cs['photo']) ?>" alt="<?= htmlspecialchars($cs['name'], ENT_QUOTES, 'UTF-8') ?>" title="<?= htmlspecialchars($cs['name'], ENT_QUOTES, 'UTF-8') ?>" loading="lazy">
             <h2><?= htmlspecialchars($cs['name'], ENT_QUOTES, 'UTF-8') ?></h2>
             <p class="case-study-card__specialty"><?= htmlspecialchars($cs['specialty'], ENT_QUOTES, 'UTF-8') ?></p>
             <?php if ($cs['location']): ?>
@@ -274,7 +274,7 @@ $adsMetrics = [
           <div class="case-study-gallery">
             <?php foreach ($cs['gallery'] as $img): ?>
               <button type="button" data-open-lightbox="<?= $csImg($img) ?>" aria-label="View <?= htmlspecialchars($cs['name'], ENT_QUOTES, 'UTF-8') ?> result">
-                <img src="<?= $csImg($img) ?>" alt="" loading="lazy">
+                <img src="<?= $csImg($img) ?>" alt="<?= htmlspecialchars($cs['name'], ENT_QUOTES, 'UTF-8') ?> social media marketing results screenshot" title="<?= htmlspecialchars($cs['name'], ENT_QUOTES, 'UTF-8') ?> social media marketing results screenshot" loading="lazy">
               </button>
             <?php endforeach; ?>
           </div>
@@ -287,7 +287,7 @@ $adsMetrics = [
     <div class="case-study-grid">
       <article class="case-study-card">
         <div class="case-study-card__header">
-          <img class="case-study-card__photo" src="<?= $csImg('elation-imgA1.webp') ?>" alt="Elation Hair &amp; Skin Clinic" loading="lazy">
+          <img class="case-study-card__photo" src="<?= $csImg('elation-imgA1.webp') ?>" alt="Elation Hair &amp; Skin Clinic" title="Elation Hair &amp; Skin Clinic" loading="lazy">
           <h2>Elation Hair &amp; Skin Clinic</h2>
           <p class="case-study-card__specialty">Skin &amp; Hair Treatment Clinic</p>
           <p class="case-study-card__location"><span>Location:</span> Ultadanga, Gariahat &amp; Minto Park</p>
@@ -297,13 +297,13 @@ $adsMetrics = [
             <div>
               <p class="case-study-before-after__label">Before</p>
               <button type="button" data-open-lightbox="<?= $csImg('elation-ppc-before.webp') ?>" aria-label="View Before campaign result">
-                <img src="<?= $csImg('elation-ppc-before.webp') ?>" alt="" loading="lazy">
+                <img src="<?= $csImg('elation-ppc-before.webp') ?>" alt="Before PPC campaign — Elation Hair &amp; Skin Clinic" title="Before PPC campaign — Elation Hair &amp; Skin Clinic" loading="lazy">
               </button>
             </div>
             <div>
               <p class="case-study-before-after__label">After</p>
               <button type="button" data-open-lightbox="<?= $csImg('elation-ppc-after.webp') ?>" aria-label="View After campaign result">
-                <img src="<?= $csImg('elation-ppc-after.webp') ?>" alt="" loading="lazy">
+                <img src="<?= $csImg('elation-ppc-after.webp') ?>" alt="After PPC campaign — Elation Hair &amp; Skin Clinic" title="After PPC campaign — Elation Hair &amp; Skin Clinic" loading="lazy">
               </button>
             </div>
           </div>

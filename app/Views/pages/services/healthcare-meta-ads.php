@@ -3,7 +3,7 @@
 /** @var array<int,array{label:string,url:string}> $crumbs */
 ?>
 <section class="page-hero">
-  <img class="page-hero__bg" src="/assets/images/MfunL-Meta-Ads.webp" alt="" width="1920" height="800" loading="eager" fetchpriority="high">
+  <img class="page-hero__bg" src="/assets/images/MfunL-Meta-Ads.webp" alt="Healthcare Meta Ads" title="Healthcare Meta Ads" width="1920" height="800" loading="eager" fetchpriority="high">
   <div class="page-hero__overlay" aria-hidden="true"></div>
 
   <div class="wrap page-hero__inner">
@@ -27,7 +27,7 @@
         <h2 class="h-2">Drive Patient Appointments with Targeted Meta Ads</h2>
         <h3 class="h-3">Turning social media ads into patient appointments.</h3>
         <p>Imagine your healthcare services being discovered by patients in your local area, just when they need them. At MfunL, we build strategic healthcare Meta ads (Facebook, WhatsApp, and Instagram) to help your practice lead with highly targeted patient lead generation campaigns.</p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Drive-Patient-Appointments.webp" alt="Drive Patient Appointments with Targeted Meta Ads" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Drive-Patient-Appointments.webp" alt="Drive Patient Appointments with Targeted Meta Ads" title="Drive Patient Appointments with Targeted Meta Ads" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="meta-tab-what-is">
@@ -35,7 +35,7 @@
         <h3 class="h-3">Turning online clicks into in-clinic visits, one ad at a time.</h3>
         <p>Meta ads help healthcare brands reach the right local patients with precisely targeted content based on location, interest, and intent. Whether it&rsquo;s OPD bookings or diagnostic appointments, healthcare Meta ads are built to drive patient action &mdash; right when it matters.</p>
         <p>At MfunL, we create campaigns that target local patients, boost OPD bookings, and ensure high engagement through hyperlocal strategies. Our goal is to ensure your clinic gets maximum visibility and patient engagement.</p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/What-is-Healthcare-Meta.webp" alt="What is Healthcare Meta Ads?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/What-is-Healthcare-Meta.webp" alt="What is Healthcare Meta Ads?" title="What is Healthcare Meta Ads?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="meta-tab-why">
@@ -49,7 +49,7 @@
           <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Drive health package promotions via Meta for more conversions.</li>
         </ul>
         <p><strong>Let MfunL get your clinic noticed by the right audience and help you book more patients with Meta Ads.</strong></p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-is-Healthcare-Meta-Necessary.webp" alt="Why are Healthcare Meta Ads Necessary?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-is-Healthcare-Meta-Necessary.webp" alt="Why are Healthcare Meta Ads Necessary?" title="Why are Healthcare Meta Ads Necessary?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="meta-tab-offer">
@@ -59,19 +59,19 @@
 
         <div class="content-tabs__grid content-tabs__grid--2col">
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Personalised-healthcare-Meta.webp" alt="Personalised healthcare Meta ads that speak directly to patient needs" class="b-rad" loading="lazy">
+            <img src="/assets/images/Personalised-healthcare-Meta.webp" alt="Personalised healthcare Meta ads that speak directly to patient needs" title="Personalised healthcare Meta ads that speak directly to patient needs" class="b-rad" loading="lazy">
             <p>Personalised healthcare Meta ads that speak directly to patient needs</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Engaging-posts-on-Facebook-and-Instagram.webp" alt="Engaging posts on Facebook and Instagram to maintain visibility" class="b-rad" loading="lazy">
+            <img src="/assets/images/Engaging-posts-on-Facebook-and-Instagram.webp" alt="Engaging posts on Facebook and Instagram to maintain visibility" title="Engaging posts on Facebook and Instagram to maintain visibility" class="b-rad" loading="lazy">
             <p>Engaging posts on Facebook and Instagram to maintain visibility</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Targeted-campaigns-for-doctor.webp" alt="Targeted campaigns for doctor appointment ads, health package promotions, and more" class="b-rad" loading="lazy">
+            <img src="/assets/images/Targeted-campaigns-for-doctor.webp" alt="Targeted campaigns for doctor appointment ads, health package promotions, and more" title="Targeted campaigns for doctor appointment ads, health package promotions, and more" class="b-rad" loading="lazy">
             <p>Targeted campaigns for doctor appointment ads, health package promotions, and more</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Creative-ad-copies.webp" alt="Creative ad copies, banners, and scroll-worthy visuals that encourage action" class="b-rad" loading="lazy">
+            <img src="/assets/images/Creative-ad-copies.webp" alt="Creative ad copies, banners, and scroll-worthy visuals that encourage action" title="Creative ad copies, banners, and scroll-worthy visuals that encourage action" class="b-rad" loading="lazy">
             <p>Creative ad copies, banners, and scroll-worthy visuals that encourage action</p>
           </div>
         </div>
@@ -90,7 +90,7 @@
           <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> We manage, monitor, and tweak campaigns for better ROI.</li>
         </ul>
         <p><strong>Ready to fill your OPD slots and diagnostic schedules faster? Let MfunL help you run smarter Meta Ads that get real patient bookings. Reach out today &mdash; Call <a href="tel:8336920676">8336920676</a></strong></p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner.webp" alt="Why Partner with MfunL for Meta Ads in Healthcare?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner.webp" alt="Why Partner with MfunL for Meta Ads in Healthcare?" title="Why Partner with MfunL for Meta Ads in Healthcare?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="meta-tab-faq">
@@ -119,7 +119,7 @@
             </div>
           <?php endforeach; ?>
         </div>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/faqs-image.webp" alt="You May Want to Know" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/faqs-image.webp" alt="You May Want to Know" title="You May Want to Know" loading="lazy">
       </div>
 
     </div>

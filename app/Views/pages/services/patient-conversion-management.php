@@ -3,7 +3,7 @@
 /** @var array<int,array{label:string,url:string}> $crumbs */
 ?>
 <section class="page-hero">
-  <img class="page-hero__bg" src="/assets/images/MfunL-Patient-Conversion-Banner.webp" alt="" width="1920" height="800" loading="eager" fetchpriority="high">
+  <img class="page-hero__bg" src="/assets/images/MfunL-Patient-Conversion-Banner.webp" alt="Patient Conversion Management" title="Patient Conversion Management" width="1920" height="800" loading="eager" fetchpriority="high">
   <div class="page-hero__overlay" aria-hidden="true"></div>
 
   <div class="wrap page-hero__inner">
@@ -28,7 +28,7 @@
         <h3 class="h-3">Maximise conversions with smart follow-up strategies.</h3>
         <p>Imagine patients showing interest in your healthcare services online. But how do you convert that interest into confirmed appointments?</p>
         <p>At MfunL, we specialise in patient conversion management, helping you nurture online leads and turn them into booked consultations. From optimising your clinic lead follow-up system to using WhatsApp templates for healthcare, we ensure every lead receives personalised attention, driving more patients to your practice.</p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Effortlessly-Convert-Interest-to-Action.webp" alt="Effortlessly Convert Interest to Action" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Effortlessly-Convert-Interest-to-Action.webp" alt="Effortlessly Convert Interest to Action" title="Effortlessly Convert Interest to Action" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="pcm-tab-what-is">
@@ -37,7 +37,7 @@
         <p>Patient conversion management involves utilising targeted strategies to guide leads from their initial point of contact to confirmed bookings. We help you optimise your healthcare website enquiry conversion and ensure timely follow-ups through systems like WhatsApp templates for healthcare.</p>
         <p>By strategically nurturing leads, we ensure that every potential patient receives the attention they need, thereby boosting your practice&rsquo;s OPD bookings and overall conversion rates.</p>
         <p><strong>Ready to start converting more online leads? Let MfunL help you build a winning conversion strategy &mdash; Call <a href="tel:8336920676">8336920676</a></strong></p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/What-is-Patient-Conversion-Management.webp" alt="What is Patient Conversion Management?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/What-is-Patient-Conversion-Management.webp" alt="What is Patient Conversion Management?" title="What is Patient Conversion Management?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="pcm-tab-why">
@@ -51,7 +51,7 @@
           <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> By refining your conversion process, we ensure more leads turn into actual patient visits.</li>
         </ul>
         <p><strong>Don&rsquo;t let potential patients slip away. Contact MfunL today to maximise your conversion rates.</strong></p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-is-Patient-Conversion-Management-Necessary.webp" alt="Why is Patient Conversion Management Necessary?" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-is-Patient-Conversion-Management-Necessary.webp" alt="Why is Patient Conversion Management Necessary?" title="Why is Patient Conversion Management Necessary?" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="pcm-tab-offer">
@@ -61,15 +61,15 @@
 
         <div class="content-tabs__grid">
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Lead-nurturing-through-WhatsApp.webp" alt="Lead nurturing through WhatsApp" class="b-rad" loading="lazy">
+            <img src="/assets/images/Lead-nurturing-through-WhatsApp.webp" alt="Lead nurturing through WhatsApp" title="Lead nurturing through WhatsApp" class="b-rad" loading="lazy">
             <p>Lead nurturing through WhatsApp, personalised follow-ups, keeping patients engaged and guiding them toward booking appointments.</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Engaging-SEO-friendly-content-for-your-website.webp" alt="Engaging, SEO-friendly content for your website" class="b-rad" loading="lazy">
+            <img src="/assets/images/Engaging-SEO-friendly-content-for-your-website.webp" alt="Engaging, SEO-friendly content for your website" title="Engaging, SEO-friendly content for your website" class="b-rad" loading="lazy">
             <p>Engaging, SEO-friendly content for your website, social media, and email campaigns, all focused on driving conversions.</p>
           </div>
           <div class="content-tabs__grid-item">
-            <img src="/assets/images/Data-analysis-and-reports-to-track.webp" alt="Data analysis and reports to track performance" class="b-rad" loading="lazy">
+            <img src="/assets/images/Data-analysis-and-reports-to-track.webp" alt="Data analysis and reports to track performance" title="Data analysis and reports to track performance" class="b-rad" loading="lazy">
             <p>Data analysis and reports to track performance and optimise campaigns for better patient engagement and booking rates.</p>
           </div>
         </div>
@@ -87,7 +87,7 @@
           <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> From clinic lead follow-up systems to WhatsApp templates for healthcare, we offer end-to-end solutions to improve your conversion rates.</li>
         </ul>
         <p><strong>Let MfunL optimise your patient conversion management. Start turning online leads into appointments today.</strong></p>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner.webp" alt="Why Partner with MfunL for Patient Conversion Management" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/Why-Partner.webp" alt="Why Partner with MfunL for Patient Conversion Management" title="Why Partner with MfunL for Patient Conversion Management" loading="lazy">
       </div>
 
       <div class="content-tabs__panel" id="pcm-tab-faq">
@@ -116,7 +116,7 @@
             </div>
           <?php endforeach; ?>
         </div>
-        <img class="content-tabs__panel-image b-rad" src="/assets/images/faqs-image.webp" alt="You May Want to Know" loading="lazy">
+        <img class="content-tabs__panel-image b-rad" src="/assets/images/faqs-image.webp" alt="You May Want to Know" title="You May Want to Know" loading="lazy">
       </div>
 
     </div>
