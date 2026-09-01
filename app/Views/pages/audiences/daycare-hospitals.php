@@ -3,10 +3,10 @@
 /** @var array<int,array{label:string,url:string}> $crumbs */
 ?>
 <section class="page-hero">
-  <img class="page-hero__bg" src="/assets/images/Digital-Marketing-Agency-for-Superspecialty-Hospital-Banner.webp" alt="Digital Marketing Agency for Superspecialty Hospitals" title="Digital Marketing Agency for Superspecialty Hospitals" width="1920" height="800" loading="eager" fetchpriority="high">
+  <img class="page-hero__bg" src="/assets/images/Digital-Marketing-Agency-for-Daycare-Hospital-Banner.webp" alt="Digital Marketing Agency for Daycare Hospitals" title="Digital Marketing Agency for Daycare Hospitals" width="1920" height="800" loading="eager" fetchpriority="high">
 
   <div class="wrap page-hero__inner">
-    <h1>Digital Marketing Agency for Superspecialty Hospitals</h1>
+    <h1>Digital Marketing Agency for Daycare Hospitals</h1>
 
     <?= \App\Core\View::partial('trust-slide') ?>
 
@@ -18,12 +18,19 @@
   <div class="wrap section-width">
     <div class="article-row">
       <div class="article-row__content">
-        <h2 class="h-2 h-2--dark">MfunL: Driving Patient Growth for Superspecialty Hospitals</h2>
-        <h3 class="h-3">When patients seek advanced care, your hospital should lead the way.</h3>
-        <p>Patients looking for complex treatments—like cardiac surgery, oncology, neurosurgery, or organ transplants—don’t take chances. They start online, researching the most trusted superspecialty hospitals with the best outcomes and reputation.</p>
-        <p>So when someone searches for life-saving care, does your hospital appear first—or do others take the spotlight?</p>
-        <p>As a leading healthcare digital marketing agency in Kolkata, MfunL ensures your hospital stands out where it matters most. We combine smart visibility strategies with trust-building content to connect high-intent patients with your team.</p>
-        <p>From lead generation to appointment bookings and long-term retention, we focus on measurable outcomes: More visibility, more patients, and deeper trust in your hospital’s advanced care.</p>
+        <h2 class="h-2 h-2--dark">MfunL: Making Your Daycare Hospital the Go-To for Fast, Hassle-Free Care</h2>
+        <h3 class="h-3">Where today’s busy patients meet your modern medical setup.</h3>
+        
+        <p>Today, most people don’t want hospital stays—they want fast solutions. Same-day procedures. Faster recovery. No long waiting lines. That’s exactly what daycare hospitals offer.</p>
+        
+        <p>But when patients search for quick treatments like LASIK, hernia repair, or piles surgery, does your hospital show up as the first choice? Or are they landing on other centres with a more substantial online presence and better digital experience?</p>
+        
+        <p>MfunL isn’t just another agency—we’re a healthcare digital marketing agency in Kolkata that knows how to position your hospital as the smarter, quicker, more convenient option.</p> 
+
+        <p>As an experienced agency for daycare hospitals, we build targeted campaigns that speak to today’s time-starved patients. We don’t just talk about your services—we market the ease, speed, and comfort that make you different.</p>
+
+        <p>From showing up in the right searches to getting more bookings and faster OPD conversions, our digital marketing strategies are built for the pace of your practice.</p>
+
         <p class="pricing-service-cta pricing-service-cta--left">
           <a class="btn btn--accent" href="tel:8336920676"><i class="fa-solid fa-phone" aria-hidden="true"></i> 8336920676</a>
           <a class="btn btn--outline" href="https://wa.me/917439775869" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
@@ -37,7 +44,7 @@
           </span>
         </div>
         <div class="article-row__photo-frame">
-          <img class="article-row__photo" src="/assets/images/Driving-Patient-Growth-for-Superspecialty-Hospitals-img.webp" alt="Driving patient growth for superspecialty hospitals" loading="lazy">
+          <img class="article-row__photo" src="/assets/images/Making-Your-Daycare-Hospital-the-Go-To-for-Fast-Hassle-Free-Care-img.webp" alt="Making your daycare hospital the go-to for fast, hassle-free care" loading="lazy">
         </div>
       </div>
     </div>
@@ -83,43 +90,42 @@ $whatWeDoSlides = [
   <div class="wrap section-width">
     <div class="article-row">
       <div class="article-row__media-photo">
-        <img src="/assets/images/Why-Do-Superspeciality-Hospitals-Need-Digital-Marketing-img.webp" alt="Why do superspecialty hospitals need digital marketing" loading="lazy">
+        <img src="/assets/images/Why-Do-Daycare-Hospitals-Need-Digital-Marketing-MfunL-img.webp" alt="Why do daycare hospitals need digital marketing" loading="lazy">
         <p class="pricing-service-cta pricing-service-cta--left">
           <a class="btn btn--accent" href="tel:8336920676"><i class="fa-solid fa-phone" aria-hidden="true"></i> 8336920676</a>
           <a class="btn btn--outline" href="https://wa.me/917439775869" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
         </p>
       </div>
       <div class="article-row__content">
-        <h2 class="h-2 h-2--dark">Why Do Superspeciality Hospitals Need Digital Marketing?</h2>
-        <h3 class="h-3">Turn online visibility and queries into patient appointments</h3>
-        <p>Superspeciality hospitals provide advanced healthcare facilities, but even with unmatched expertise, patient acquisition can be challenging at times. High-end treatments are researched thoroughly by patients who compare hospitals online, read reviews, and check success stories.</p>
-        <p>As a healthcare digital marketing company in Kolkata, MfunL ensures your hospital stands out for specialised care. We do more than bring leads — we help convert them into patients.</p>
-        <p>Our approach includes:</p>
+        <h2 class="h-2 h-2--dark">Why Do Daycare Hospitals Need Digital Marketing?</h2>
+        <h3 class="h-3">Turning online searches into patient footfall for same-day procedures</h3>
+        <p>Daycare hospitals are known for providing fast and effective care, but the challenge lies in making sure the right patients find you at the right time. Traditional marketing doesn’t cut it anymore—today, patients are searching online, comparing reviews, and booking appointments digitally.</p>
+        <p>MfunL steps in with custom strategies that not only bring in traffic but also ensure that traffic converts into patient visits.</p> <p>Here’s how we do it:</p>
 
         <ul class="hover-list">
           <li class="hover-list__item">
             <span class="hover-list__icon" aria-hidden="true"><i class="fa-solid fa-chart-line"></i></span>
-            <p>Speciality-specific digital campaigns to attract patients for your core treatments.</p>
+            <p>Customised marketing campaigns focused on same-day procedures like minor surgeries, diagnostics, and outpatient treatments.</p>
           </li>
           <li class="hover-list__item">
             <span class="hover-list__icon" aria-hidden="true"><i class="fa-solid fa-bullseye"></i></span>
-            <p>SEO strategies that make your hospital rank on Google’s first page for advanced procedures.</p>
+            <p>Search Engine Optimisation (SEO) to ensure your daycare hospital appears for targeted procedure-related searches.</p>
           </li>
           <li class="hover-list__item">
             <span class="hover-list__icon" aria-hidden="true"><i class="fa-solid fa-calendar-check"></i></span>
-            <p>Lead nurturing and conversion through trained staff and follow-ups.</p>
+            <p>Lead capture systems to make appointment booking easy and fast.</p>
           </li>
           <li class="hover-list__item">
             <span class="hover-list__icon" aria-hidden="true"><i class="fa-solid fa-handshake"></i></span>
-            <p>Online reputation management to showcase success stories, case studies, and patient testimonials.</p>
+            <p>Patient conversion tactics, including staff training and follow-up systems, that nurture leads and increase bookings.</p>
           </li>
           <li class="hover-list__item">
             <span class="hover-list__icon" aria-hidden="true"><i class="fa-solid fa-heart-pulse"></i></span>
-            <p>Patient retention campaigns that build loyalty and repeat visits for ongoing treatments.</p>
+            <p>Ongoing patient outreach to build trust and encourage patients to return for future care.</p>
           </li>
         </ul>
 
-        <p>With MfunL, every online search for superspeciality care can become a patient walking through your doors.</p>
+        <p>We turn digital searches into appointments. Let MfunL, your healthcare digital marketing agency, help your daycare hospital grow.</p>
       </div>
     </div>
   </div>
@@ -129,20 +135,20 @@ $whatWeDoSlides = [
 
 <?php
 $growthTimeline = [
-    'Specialised in healthcare marketing, so we understand complex-care hospitals inside out.',
-    'Fool-proof strategies for your services—no copy-paste marketing plans.',
-    'Individual campaigns for each department to attract the right patients.',
-    'Top rankings on Google when people search for treatments you offer.',
-    'Staff training focused on converting calls and leads into actual visits.',
-    'Patient trust is built through reviews and digital reputation.',
-    'End-to-end support—from lead generation to follow-ups and beyond.',
-    'Clear communication, simplified processes, and measurable results.',
+    'Expertise in promoting short-stay and daycare surgery models.',
+    'Custom campaigns to highlight specific procedures, such as cataract, piles, hernia, or cosmetic surgery.',
+    'Location-based visibility ensures your hospital shows up for local searches.',
+    'Easy booking journeys that match the quick-care experience you offer.',
+    'Lead handling and staff training to convert enquiries into same-day appointments.',
+    'Build online trust with patient reviews and day-in-the-life content.',
+    'Full support—from awareness to booking, follow-up, and reviews.',
+    'Transparent reporting and clear results for your hospital’s growth.',
 ];
 ?>
 <section class="section-gap-both growth-timeline">
   <div class="wrap section-width">
-    <h2 class="h-2 h-2--dark text-center">Why Choose MfunL for Your Superspeciality Hospital?</h2>
-    <h3 class="h-3 text-center">From online searches to advanced care, we connect patients with expertise.</h3>
+    <h2 class="h-2 h-2--dark text-center">Why Choose MfunL for Your Daycare Hospital?</h2>
+    <h3 class="h-3 text-center">We help you get noticed by patients who want faster, safer care—without long hospital stays.</h3>
 
     <div class="growth-timeline__line">
       <?php foreach ($growthTimeline as $i => $text): ?>
@@ -169,7 +175,7 @@ $growthTimeline = [
 $otherHospitalServices = [
     ['General-Hospital-MfunL.webp', 'General Hospitals', '/digital-marketing-for-general-hospitals/'],
     ['Multispecialty-Hospital-MfunL.webp', 'Multispecialty Hospitals', '/digital-marketing-for-multispecialty-hospitals/'],
-    ['Daycare-Hospital-Mfunl.webp', 'Daycare Hospitals', '/digital-marketing-for-daycare-hospitals/'],
+    ['Superspecialty-Hospital-MfunL.webp', 'Superspecialty Hospitals', '/digital-marketing-for-superspecialty-hospitals/'],
     ['Eye-Hospital-MfunL.webp', 'Eye Hospitals', '/digital-marketing-for-eye-hospitals/'],
     ['Cancer-Hospital-MfunL.webp', 'Cancer Hospitals', '/digital-marketing-for-cancer-hospitals/'],
     ['Nursing-Home-MfunL.webp', 'Nursing Homes', '/digital-marketing-for-nursing-homes/'],
@@ -198,12 +204,12 @@ $otherHospitalServices = [
 </section>
 
 <?php
-$superspecialtyFaqs = [
-    ['question' => 'Can digital campaigns be designed for high-value treatments, such as transplants or neurosurgery?', 'answer' => 'Yes. We create highly targeted campaigns for specific treatments, ensuring families searching for specialised care find your hospital first.'],
-    ['question' => 'How does digital marketing help patients trust a superspeciality hospital online?', 'answer' => 'By showcasing success stories, testimonials, and treatment outcomes, we highlight your hospital&rsquo;s expertise in advanced care and build credibility with patients.'],
-    ['question' => 'Do we help superspecialty hospitals manage online reputation and reviews?', 'answer' => 'Yes. We manage and respond to reviews, helping your hospital maintain a trusted reputation that reassures patients making high-stakes healthcare decisions.'],
-    ['question' => 'Is digital marketing only helpful for new patients, or does it also help retain existing ones?', 'answer' => 'We design retention strategies, follow-up campaigns, and patient engagement systems to keep existing patients connected while attracting new ones.'],
-    ['question' => 'How does MfunL customise strategies for each superspeciality hospital?', 'answer' => 'We align campaigns with your hospital&rsquo;s core departments, goals, and patient demographics to deliver maximum impact and measurable patient growth.'],
+$daycareHospitalFaqs = [
+    ['question' => 'How quickly can you see results with digital marketing for daycare hospitals?', 'answer' => 'Daycare hospitals typically experience an increase in enquiries and bookings within 2&ndash;3 months, depending on the level of competition and the scale of the campaign.'],
+    ['question' => 'What if you already have a website and social media presence?', 'answer' => 'We optimise what you already have by improving SEO, refining social media campaigns, and adding lead capture systems for better conversions.'],
+    ['question' => 'Do we also assist with patient retention, in addition to new bookings?', 'answer' => 'Yes. We create outreach strategies, reminder campaigns, and patient engagement content that encourage repeat visits and referrals.'],
+    ['question' => 'Is our digital marketing affordable for smaller or mid-size daycare hospitals?', 'answer' => 'Yes. Our campaigns are scalable and budget-friendly, ensuring even smaller centres see measurable ROI in patient bookings.'],
+    ['question' => 'How do we ensure compliance in healthcare promotions?', 'answer' => 'We adhere to strict medical communication guidelines and ethical standards, ensuring that your promotions remain professional, transparent, and compliant.'],
 ];
 ?>
 <section>
@@ -211,15 +217,15 @@ $superspecialtyFaqs = [
     <h2 class="h-2 h-2--dark text-center">You May Want to Know</h2>
     <h3 class="h-3 text-center">Everything you need to know, right here.</h3>
     <div class="faq__accordion faq__accordion--centered mt-lg">
-      <?php foreach ($superspecialtyFaqs as $i => $faq): ?>
+      <?php foreach ($daycareHospitalFaqs as $i => $faq): ?>
         <div class="faq-item">
           <h3>
-            <button type="button" class="faq-item__question" aria-expanded="<?= $i === 0 ? 'true' : 'false' ?>" aria-controls="ssh-faq-answer-<?= $i ?>">
+            <button type="button" class="faq-item__question" aria-expanded="<?= $i === 0 ? 'true' : 'false' ?>" aria-controls="dh-faq-answer-<?= $i ?>">
               <?= htmlspecialchars($faq['question'], ENT_QUOTES, 'UTF-8') ?>
               <span class="faq-item__icon" aria-hidden="true"></span>
             </button>
           </h3>
-          <div class="faq-item__answer" id="ssh-faq-answer-<?= $i ?>" <?= $i === 0 ? '' : 'hidden' ?>>
+          <div class="faq-item__answer" id="dh-faq-answer-<?= $i ?>" <?= $i === 0 ? '' : 'hidden' ?>>
             <p><?= $faq['answer'] ?></p>
           </div>
         </div>
