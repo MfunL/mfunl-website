@@ -3,11 +3,10 @@
 /** @var array<int,array{label:string,url:string}> $crumbs */
 ?>
 <section class="page-hero">
-  <img class="page-hero__bg" src="/assets/images/Healthcare-Agency-for-Multispecialty-Hospitals-Banner.webp" alt="Digital Marketing Agency for Multispecialty Hospitals" title="Digital Marketing Agency for Multispecialty Hospitals" width="1920" height="800" loading="eager" fetchpriority="high">
-  <div class="page-hero__overlay" aria-hidden="true"></div>
+  <img class="page-hero__bg" src="/assets/images/Digital-Marketing-Agency-for-Superspecialty-Hospital-Banner.webp" alt="Digital Marketing Agency for Superspecialty Hospitals" title="Digital Marketing Agency for Superspecialty Hospitals" width="1920" height="800" loading="eager" fetchpriority="high">
 
   <div class="wrap page-hero__inner">
-    <h1>Digital Marketing Agency for Multispecialty Hospitals</h1>
+    <h1>Digital Marketing Agency for Superspecialty Hospitals</h1>
 
     <?= \App\Core\View::partial('trust-slide') ?>
 
@@ -19,11 +18,12 @@
   <div class="wrap section-width">
     <div class="article-row">
       <div class="article-row__content">
-        <h2 class="h-2 h-2--dark">MfunL: Helping Multispecialty Hospitals Attract Patients and Build Loyalty.</h2>
-        <h3 class="h-3">Make Your Hospital the First Choice with a Powerful First Impression.</h3>
-        <p>Today’s healthcare decisions begin with a Google search. Whether someone needs cardiology care, orthopaedic surgery, or gynaecology services, they’re Googling first—comparing hospitals, checking reviews, and booking where they find trust and convenience.</p>
-        <p>If your multispecialty hospital in Kolkata isn’t ranking high during these searches, you risk losing visibility, credibility, and patients—to competitors who’ve mastered the digital game.</p>
-        <p>At MfunL, a trusted healthcare digital marketing agency in Kolkata, we specialise in digital marketing for multispecialty hospitals. Our strategies go beyond basic promotion—we build digital ecosystems that increase reach, drive patient enquiries, and turn online interest into booked appointments.</p>
+        <h2 class="h-2 h-2--dark">MfunL: Driving Patient Growth for Superspecialty Hospitals</h2>
+        <h3 class="h-3">When patients seek advanced care, your hospital should lead the way.</h3>
+        <p>Patients looking for complex treatments—like cardiac surgery, oncology, neurosurgery, or organ transplants—don’t take chances. They start online, researching the most trusted superspecialty hospitals with the best outcomes and reputation.</p>
+        <p>So when someone searches for life-saving care, does your hospital appear first—or do others take the spotlight?</p>
+        <p>As a leading healthcare digital marketing agency in Kolkata, MfunL ensures your hospital stands out where it matters most. We combine smart visibility strategies with trust-building content to connect high-intent patients with your team.</p>
+        <p>From lead generation to appointment bookings and long-term retention, we focus on measurable outcomes: More visibility, more patients, and deeper trust in your hospital’s advanced care.</p>
         <p class="pricing-service-cta pricing-service-cta--left">
           <a class="btn btn--accent" href="tel:8336920676"><i class="fa-solid fa-phone" aria-hidden="true"></i> 8336920676</a>
           <a class="btn btn--outline" href="https://wa.me/917439775869" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
@@ -37,7 +37,7 @@
           </span>
         </div>
         <div class="article-row__photo-frame">
-          <img class="article-row__photo" src="/assets/images/Helping-Multispecialty-Hospitals-Attract-and-Retain-Patients.webp" alt="MfunL helping multispecialty hospitals increase patient footfall" loading="lazy">
+          <img class="article-row__photo" src="/assets/images/Driving-Patient-Growth-for-Superspecialty-Hospitals-img.webp" alt="Driving patient growth for superspecialty hospitals" loading="lazy">
         </div>
       </div>
     </div>
@@ -83,39 +83,43 @@ $whatWeDoSlides = [
   <div class="wrap section-width">
     <div class="article-row">
       <div class="article-row__media-photo">
-        <img src="/assets/images/Why-Do-Multispecialty-Hospitals-Need-Digital-Marketing-img.webp" alt="Why do multispecialty hospitals need digital marketing" loading="lazy">
+        <img src="/assets/images/Why-Do-Superspeciality-Hospitals-Need-Digital-Marketing-img.webp" alt="Why do superspecialty hospitals need digital marketing" loading="lazy">
         <p class="pricing-service-cta pricing-service-cta--left">
           <a class="btn btn--accent" href="tel:8336920676"><i class="fa-solid fa-phone" aria-hidden="true"></i> 8336920676</a>
           <a class="btn btn--outline" href="https://wa.me/917439775869" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
         </p>
       </div>
       <div class="article-row__content">
-        <h2 class="h-2 h-2--dark">Why Do Multispecialty Hospitals Need Digital Marketing?</h2>
-        <h3 class="h-3">Transform your online visibility into patient bookings across specialities.</h3>
-        <p>Multispecialty hospitals offer a wide variety of services, but the challenge lies in ensuring that all specialities are equally represented and accessible online. When patients are searching for treatment, whether it’s for diabetes care, surgical procedures, or neurological treatments, how easy is it for them to find your hospital?</p>
-        <p>In the age of Google searches and online reviews, relying solely on traditional marketing isn’t enough. That’s where we come in. We don’t just generate leads — we ensure your leads convert into appointments, and your patients come back for continued care.</p>
-        <p>Here’s how MfunL helps multispecialty hospitals attract patients for every department:</p>
+        <h2 class="h-2 h-2--dark">Why Do Superspeciality Hospitals Need Digital Marketing?</h2>
+        <h3 class="h-3">Turn online visibility and queries into patient appointments</h3>
+        <p>Superspeciality hospitals provide advanced healthcare facilities, but even with unmatched expertise, patient acquisition can be challenging at times. High-end treatments are researched thoroughly by patients who compare hospitals online, read reviews, and check success stories.</p>
+        <p>As a healthcare digital marketing company in Kolkata, MfunL ensures your hospital stands out for specialised care. We do more than bring leads — we help convert them into patients.</p>
+        <p>Our approach includes:</p>
 
         <ul class="hover-list">
           <li class="hover-list__item">
             <span class="hover-list__icon" aria-hidden="true"><i class="fa-solid fa-chart-line"></i></span>
-            <p>Personalised marketing strategies to boost footfall for each speciality within your hospital.</p>
+            <p>Speciality-specific digital campaigns to attract patients for your core treatments.</p>
           </li>
           <li class="hover-list__item">
             <span class="hover-list__icon" aria-hidden="true"><i class="fa-solid fa-bullseye"></i></span>
-            <p>Targeted SEO that ensures your hospital ranks for specialised services.</p>
+            <p>SEO strategies that make your hospital rank on Google’s first page for advanced procedures.</p>
           </li>
           <li class="hover-list__item">
             <span class="hover-list__icon" aria-hidden="true"><i class="fa-solid fa-calendar-check"></i></span>
-            <p>Patient conversion through staff training and follow-up systems that maximise every lead.</p>
+            <p>Lead nurturing and conversion through trained staff and follow-ups.</p>
           </li>
           <li class="hover-list__item">
             <span class="hover-list__icon" aria-hidden="true"><i class="fa-solid fa-handshake"></i></span>
-            <p>Community outreach campaigns that build trust and keep patients coming back.</p>
+            <p>Online reputation management to showcase success stories, case studies, and patient testimonials.</p>
+          </li>
+          <li class="hover-list__item">
+            <span class="hover-list__icon" aria-hidden="true"><i class="fa-solid fa-handshake"></i></span>
+            <p>Patient retention campaigns that build loyalty and repeat visits for ongoing treatments.</p>
           </li>
         </ul>
 
-        <p>Let MfunL help your multispecialty hospital turn online visitors into appointments.</p>
+        <p>With MfunL, every online search for superspeciality care can become a patient walking through your doors.</p>
       </div>
     </div>
   </div>
@@ -125,20 +129,20 @@ $whatWeDoSlides = [
 
 <?php
 $growthTimeline = [
-    'Specialised in healthcare marketing, so we understand hospitals inside out.',
-    'Personalised strategies for your services—no copy-paste marketing plans.',
+    'Specialised in healthcare marketing, so we understand complex-care hospitals inside out.',
+    'Fool-proof strategies for your services—no copy-paste marketing plans.',
     'Individual campaigns for each department to attract the right patients.',
     'Top rankings on Google when people search for treatments you offer.',
     'Staff training focused on converting calls and leads into actual visits.',
-    'Patient trust is built through real reviews and digital reputation.',
+    'Patient trust is built through reviews and digital reputation.',
     'End-to-end support—from lead generation to follow-ups and beyond.',
     'Clear communication, simplified processes, and measurable results.',
 ];
 ?>
 <section class="section-gap-both growth-timeline">
   <div class="wrap section-width">
-    <h2 class="h-2 h-2--dark text-center">Why Choose MfunL for Your Multi-speciality Hospital?</h2>
-    <h3 class="h-3 text-center">Not just another agency—your hospital’s growth partner.</h3>
+    <h2 class="h-2 h-2--dark text-center">Why Choose MfunL for Your Superspeciality Hospital?</h2>
+    <h3 class="h-3 text-center">From online searches to advanced care, we connect patients with expertise.</h3>
 
     <div class="growth-timeline__line">
       <?php foreach ($growthTimeline as $i => $text): ?>
@@ -164,7 +168,7 @@ $growthTimeline = [
 <?php
 $otherHospitalServices = [
     ['General-Hospital-MfunL.webp', 'General Hospitals', '/digital-marketing-for-general-hospitals/'],
-    ['Superspecialty-Hospital-MfunL.webp', 'Superspecialty Hospitals', '/digital-marketing-for-superspecialty-hospitals/'],
+    ['Multispecialty-Hospital-MfunL.webp', 'Multispecialty Hospitals', '/digital-marketing-for-multispecialty-hospitals/'],
     ['Daycare-Hospital-Mfunl.webp', 'Daycare Hospitals', '/digital-marketing-for-daycare-hospitals/'],
     ['Eye-Hospital-MfunL.webp', 'Eye Hospitals', '/digital-marketing-for-eye-hospitals/'],
     ['Cancer-Hospital-MfunL.webp', 'Cancer Hospitals', '/digital-marketing-for-cancer-hospitals/'],
@@ -194,12 +198,12 @@ $otherHospitalServices = [
 </section>
 
 <?php
-$multispecialtyFaqs = [
-    ['question' => 'How can digital marketing effectively highlight different specialities simultaneously?', 'answer' => 'We design speciality-specific campaigns for cardiology, orthopaedics, gynaecology, neurology, and more, ensuring that each department reaches patients actively searching for its services.'],
-    ['question' => 'How does MfunL help hospitals build credibility and trust among patients?', 'answer' => 'By managing online reviews, showcasing authentic patient stories, and maintaining a consistent digital presence, we strengthen your hospital&rsquo;s reputation and make it the go-to choice for care.'],
-    ['question' => 'Is digital marketing a costly investment for your multispecialty hospital?', 'answer' => 'No. Our solutions are scalable and budget-conscious, delivering measurable ROI whether you are a regional facility or a large multispecialty chain.'],
-    ['question' => 'Does MfunL only set up campaigns, or do we also provide ongoing support?', 'answer' => 'We are long-term partners. From continuous strategy updates to online reputation management and patient retention, we ensure your hospital continues to grow across all specialities.'],
-    ['question' => 'Can digital marketing improve patient retention and new bookings?', 'answer' => 'Yes. We implement follow-up systems, engagement campaigns, and loyalty-driven outreach that encourage patients to return for ongoing care and choose your hospital for other treatments.'],
+$superspecialtyFaqs = [
+    ['question' => 'Can digital campaigns be designed for high-value treatments, such as transplants or neurosurgery?', 'answer' => 'Yes. We create highly targeted campaigns for specific treatments, ensuring families searching for specialised care find your hospital first.'],
+    ['question' => 'How does digital marketing help patients trust a superspeciality hospital online?', 'answer' => 'By showcasing success stories, testimonials, and treatment outcomes, we highlight your hospital&rsquo;s expertise in advanced care and build credibility with patients.'],
+    ['question' => 'Do we help superspecialty hospitals manage online reputation and reviews?', 'answer' => 'Yes. We manage and respond to reviews, helping your hospital maintain a trusted reputation that reassures patients making high-stakes healthcare decisions.'],
+    ['question' => 'Is digital marketing only helpful for new patients, or does it also help retain existing ones?', 'answer' => 'We design retention strategies, follow-up campaigns, and patient engagement systems to keep existing patients connected while attracting new ones.'],
+    ['question' => 'How does MfunL customise strategies for each superspeciality hospital?', 'answer' => 'We align campaigns with your hospital&rsquo;s core departments, goals, and patient demographics to deliver maximum impact and measurable patient growth.'],
 ];
 ?>
 <section>
@@ -207,15 +211,15 @@ $multispecialtyFaqs = [
     <h2 class="h-2 h-2--dark text-center">You May Want to Know</h2>
     <h3 class="h-3 text-center">Everything you need to know, right here.</h3>
     <div class="faq__accordion faq__accordion--centered mt-lg">
-      <?php foreach ($multispecialtyFaqs as $i => $faq): ?>
+      <?php foreach ($superspecialtyFaqs as $i => $faq): ?>
         <div class="faq-item">
           <h3>
-            <button type="button" class="faq-item__question" aria-expanded="<?= $i === 0 ? 'true' : 'false' ?>" aria-controls="msh-faq-answer-<?= $i ?>">
+            <button type="button" class="faq-item__question" aria-expanded="<?= $i === 0 ? 'true' : 'false' ?>" aria-controls="ssh-faq-answer-<?= $i ?>">
               <?= htmlspecialchars($faq['question'], ENT_QUOTES, 'UTF-8') ?>
               <span class="faq-item__icon" aria-hidden="true"></span>
             </button>
           </h3>
-          <div class="faq-item__answer" id="msh-faq-answer-<?= $i ?>" <?= $i === 0 ? '' : 'hidden' ?>>
+          <div class="faq-item__answer" id="ssh-faq-answer-<?= $i ?>" <?= $i === 0 ? '' : 'hidden' ?>>
             <p><?= $faq['answer'] ?></p>
           </div>
         </div>

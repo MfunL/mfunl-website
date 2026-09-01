@@ -193,3 +193,34 @@ $otherHospitalServices = [
   </div>
 </section>
 
+<?php
+$generalHospitalFaqs = [
+    ['question' => 'Can we promote multiple services (such as cardiology, orthopaedics, and maternity) simultaneously?', 'answer' => 'Yes. We design department-specific campaigns to give each speciality the visibility it needs, ensuring patients searching for those treatments find your hospital first.'],
+    ['question' => 'What if your hospital already invests in traditional advertising?', 'answer' => 'Digital marketing complements, not replaces, traditional methods. It captures patients who see offline ads and then search online, boosting conversions.'],
+    ['question' => 'How does MfunL help you to compete with larger corporate hospitals?', 'answer' => 'Through hyperlocal SEO, strong reputation building, and community outreach, we make your hospital the trusted choice in your area.'],
+    ['question' => 'Is digital marketing expensive for mid-sized or regional hospitals?', 'answer' => 'No. Our campaigns are scalable and budget-friendly, ensuring measurable ROI whether you&rsquo;re a standalone hospital or a growing chain.'],
+    ['question' => 'Does MfunL provide ongoing support or just campaign setup?', 'answer' => 'We work as long-term partners. From regular strategy updates to patient retention, hospital branding, and marketing, we ensure your hospital continues to grow consistently.'],
+];
+?>
+<section>
+  <div class="wrap section-width">
+    <h2 class="h-2 h-2--dark text-center">You May Want to Know</h2>
+    <h3 class="h-3 text-center">Everything you need to know, right here.</h3>
+    <div class="faq__accordion faq__accordion--centered mt-lg">
+      <?php foreach ($generalHospitalFaqs as $i => $faq): ?>
+        <div class="faq-item">
+          <h3>
+            <button type="button" class="faq-item__question" aria-expanded="<?= $i === 0 ? 'true' : 'false' ?>" aria-controls="gh-faq-answer-<?= $i ?>">
+              <?= htmlspecialchars($faq['question'], ENT_QUOTES, 'UTF-8') ?>
+              <span class="faq-item__icon" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="faq-item__answer" id="gh-faq-answer-<?= $i ?>" <?= $i === 0 ? '' : 'hidden' ?>>
+            <p><?= $faq['answer'] ?></p>
+          </div>
+        </div>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
